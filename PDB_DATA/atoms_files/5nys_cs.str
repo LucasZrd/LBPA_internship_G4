@@ -1,0 +1,258 @@
+data_5nys
+
+save_entry_information
+# 
+_Entry.ID                 5NYS 
+_Entry.Assigned_BMRB_ID   34135 
+# 
+loop_
+_Audit.Revision_ID 
+_Audit.Creation_date 
+_Audit.Update_record 
+_Audit.Creation_method 
+_Audit.Entry_ID 
+1 2017-05-15 'Nomenclature checked and updated' . 5NYS 
+2 2017-05-15 'Preliminary version'              . 5NYS 
+3 2018-04-11 'Initial release'                  . 5NYS 
+stop_
+save_
+save_0
+# 
+_Chem_shift_reference.Sf_category    chem_shift_reference 
+_Chem_shift_reference.Sf_framecode   0 
+_Chem_shift_reference.Entry_ID       5NYS 
+_Chem_shift_reference.ID             1 
+# 
+loop_
+_Chem_shift_ref.Atom_type 
+_Chem_shift_ref.Atom_isotope_number 
+_Chem_shift_ref.Mol_common_name 
+_Chem_shift_ref.Atom_group 
+_Chem_shift_ref.Concentration_val 
+_Chem_shift_ref.Concentration_units 
+_Chem_shift_ref.Solvent 
+_Chem_shift_ref.Rank 
+_Chem_shift_ref.Chem_shift_units 
+_Chem_shift_ref.Chem_shift_val 
+_Chem_shift_ref.Ref_method 
+_Chem_shift_ref.Ref_type 
+_Chem_shift_ref.Indirect_shift_ratio 
+_Chem_shift_ref.Entry_ID 
+_Chem_shift_ref.Chem_shift_reference_ID 
+H 1 DSS protons ? ? ? ? ppm 0 external direct 0 34135 1 
+stop_
+save_
+save_NoCosol.str
+# 
+loop_
+_Atom_chem_shift.ID 
+_Atom_chem_shift.Entity_assembly_ID 
+_Atom_chem_shift.Entity_ID 
+_Atom_chem_shift.Comp_index_ID 
+_Atom_chem_shift.Seq_ID 
+_Atom_chem_shift.Comp_ID 
+_Atom_chem_shift.Atom_ID 
+_Atom_chem_shift.Atom_type 
+_Atom_chem_shift.Atom_isotope_number 
+_Atom_chem_shift.Val 
+_Atom_chem_shift.Val_err 
+_Atom_chem_shift.Assign_fig_of_merit 
+_Atom_chem_shift.Ambiguity_code 
+_Atom_chem_shift.Occupancy 
+_Atom_chem_shift.Resonance_ID 
+_Atom_chem_shift.Auth_entity_assembly_ID 
+_Atom_chem_shift.Auth_asym_ID 
+_Atom_chem_shift.Auth_seq_ID 
+_Atom_chem_shift.Auth_comp_ID 
+_Atom_chem_shift.Auth_atom_ID 
+_Atom_chem_shift.Original_PDB_strand_ID 
+_Atom_chem_shift.Original_PDB_residue_no 
+_Atom_chem_shift.Original_PDB_residue_name 
+_Atom_chem_shift.Original_PDB_atom_name 
+_Atom_chem_shift.Details 
+_Atom_chem_shift.Entry_ID 
+_Atom_chem_shift.Assigned_chem_shift_list_ID 
+1   ? . 1  ? DT "H1'"  H 1 5.839  0.002 ? ? ? ? . A 1  DT "H1'"  A 1  DT "H1'"  . 5NYS ? 
+2   ? . 1  ? DT "H2'"  H 1 1.704  0.003 ? ? ? ? . A 1  DT "H2'"  A 1  DT "H2'"  . 5NYS ? 
+3   ? . 1  ? DT "H2''" H 1 2.155  0.003 ? ? ? ? . A 1  DT "H2''" A 1  DT "H2''" . 5NYS ? 
+4   ? . 1  ? DT "H3'"  H 1 4.506  0.001 ? ? ? ? . A 1  DT "H3'"  A 1  DT "H3'"  . 5NYS ? 
+5   ? . 1  ? DT "H4'"  H 1 3.940  0.001 ? ? ? ? . A 1  DT "H4'"  A 1  DT "H4'"  . 5NYS ? 
+6   ? . 1  ? DT "H5'"  H 1 3.504  0.001 ? ? ? ? . A 1  DT "H5'"  A 1  DT "H5'"  . 5NYS ? 
+7   ? . 1  ? DT "H5''" H 1 3.504  0.001 ? ? ? ? . A 1  DT "H5''" A 1  DT "H5''" . 5NYS ? 
+8   ? . 1  ? DT H6     H 1 7.180  0.000 ? ? ? ? . A 1  DT H6     A 1  DT H6     . 5NYS ? 
+9   ? . 1  ? DT H71    H 1 1.607  0.004 ? ? ? ? . A 1  DT H71    A 1  DT H71    . 5NYS ? 
+10  ? . 1  ? DT H72    H 1 1.607  0.004 ? ? ? ? . A 1  DT H72    A 1  DT H72    . 5NYS ? 
+11  ? . 1  ? DT H73    H 1 1.607  0.004 ? ? ? ? . A 1  DT H73    A 1  DT H73    . 5NYS ? 
+12  ? . 2  ? DA "H1'"  H 1 5.857  0.006 ? ? ? ? . A 2  DA "H1'"  A 2  DA "H1'"  . 5NYS ? 
+13  ? . 2  ? DA H2     H 1 7.885  0.001 ? ? ? ? . A 2  DA H2     A 2  DA H2     . 5NYS ? 
+14  ? . 2  ? DA "H2'"  H 1 2.487  0.002 ? ? ? ? . A 2  DA "H2'"  A 2  DA "H2'"  . 5NYS ? 
+15  ? . 2  ? DA "H2''" H 1 2.672  0.001 ? ? ? ? . A 2  DA "H2''" A 2  DA "H2''" . 5NYS ? 
+16  ? . 2  ? DA "H3'"  H 1 4.900  0.010 ? ? ? ? . A 2  DA "H3'"  A 2  DA "H3'"  . 5NYS ? 
+17  ? . 2  ? DA "H4'"  H 1 4.180  0.001 ? ? ? ? . A 2  DA "H4'"  A 2  DA "H4'"  . 5NYS ? 
+18  ? . 2  ? DA "H5'"  H 1 3.744  0.002 ? ? ? ? . A 2  DA "H5'"  A 2  DA "H5'"  . 5NYS ? 
+19  ? . 2  ? DA "H5''" H 1 3.930  0.004 ? ? ? ? . A 2  DA "H5''" A 2  DA "H5''" . 5NYS ? 
+20  ? . 2  ? DA H8     H 1 8.040  0.001 ? ? ? ? . A 2  DA H8     A 2  DA H8     . 5NYS ? 
+21  ? . 3  ? DG H1     H 1 11.689 0.002 ? ? ? ? . A 3  DG H1     A 3  DG H1     . 5NYS ? 
+22  ? . 3  ? DG "H1'"  H 1 6.133  0.002 ? ? ? ? . A 3  DG "H1'"  A 3  DG "H1'"  . 5NYS ? 
+23  ? . 3  ? DG "H2'"  H 1 2.848  0.002 ? ? ? ? . A 3  DG "H2'"  A 3  DG "H2'"  . 5NYS ? 
+24  ? . 3  ? DG "H2''" H 1 3.056  0.000 ? ? ? ? . A 3  DG "H2''" A 3  DG "H2''" . 5NYS ? 
+25  ? . 3  ? DG "H3'"  H 1 5.054  0.005 ? ? ? ? . A 3  DG "H3'"  A 3  DG "H3'"  . 5NYS ? 
+26  ? . 3  ? DG "H4'"  H 1 4.534  0.001 ? ? ? ? . A 3  DG "H4'"  A 3  DG "H4'"  . 5NYS ? 
+27  ? . 3  ? DG "H5'"  H 1 4.165  0.003 ? ? ? ? . A 3  DG "H5'"  A 3  DG "H5'"  . 5NYS ? 
+28  ? . 3  ? DG "H5''" H 1 4.222  0.002 ? ? ? ? . A 3  DG "H5''" A 3  DG "H5''" . 5NYS ? 
+29  ? . 3  ? DG H8     H 1 8.110  0.001 ? ? ? ? . A 3  DG H8     A 3  DG H8     . 5NYS ? 
+30  ? . 4  ? DG H1     H 1 11.563 0.002 ? ? ? ? . A 4  DG H1     A 4  DG H1     . 5NYS ? 
+31  ? . 4  ? DG "H1'"  H 1 6.127  0.001 ? ? ? ? . A 4  DG "H1'"  A 4  DG "H1'"  . 5NYS ? 
+32  ? . 4  ? DG "H2'"  H 1 2.682  0.003 ? ? ? ? . A 4  DG "H2'"  A 4  DG "H2'"  . 5NYS ? 
+33  ? . 4  ? DG "H2''" H 1 2.790  0.002 ? ? ? ? . A 4  DG "H2''" A 4  DG "H2''" . 5NYS ? 
+34  ? . 4  ? DG "H3'"  H 1 4.988  0.003 ? ? ? ? . A 4  DG "H3'"  A 4  DG "H3'"  . 5NYS ? 
+35  ? . 4  ? DG "H4'"  H 1 4.531  0.001 ? ? ? ? . A 4  DG "H4'"  A 4  DG "H4'"  . 5NYS ? 
+36  ? . 4  ? DG "H5'"  H 1 4.346  0.003 ? ? ? ? . A 4  DG "H5'"  A 4  DG "H5'"  . 5NYS ? 
+37  ? . 4  ? DG "H5''" H 1 4.346  0.003 ? ? ? ? . A 4  DG "H5''" A 4  DG "H5''" . 5NYS ? 
+38  ? . 4  ? DG H8     H 1 7.781  0.002 ? ? ? ? . A 4  DG H8     A 4  DG H8     . 5NYS ? 
+39  ? . 5  ? DG H1     H 1 11.352 0.002 ? ? ? ? . A 5  DG H1     A 5  DG H1     . 5NYS ? 
+40  ? . 5  ? DG "H1'"  H 1 6.291  0.001 ? ? ? ? . A 5  DG "H1'"  A 5  DG "H1'"  . 5NYS ? 
+41  ? . 5  ? DG "H2'"  H 1 2.521  0.003 ? ? ? ? . A 5  DG "H2'"  A 5  DG "H2'"  . 5NYS ? 
+42  ? . 5  ? DG "H2''" H 1 2.478  0.004 ? ? ? ? . A 5  DG "H2''" A 5  DG "H2''" . 5NYS ? 
+43  ? . 5  ? DG "H3'"  H 1 4.966  0.002 ? ? ? ? . A 5  DG "H3'"  A 5  DG "H3'"  . 5NYS ? 
+44  ? . 5  ? DG "H4'"  H 1 4.171  0.002 ? ? ? ? . A 5  DG "H4'"  A 5  DG "H4'"  . 5NYS ? 
+45  ? . 5  ? DG "H5'"  H 1 4.010  0.006 ? ? ? ? . A 5  DG "H5'"  A 5  DG "H5'"  . 5NYS ? 
+46  ? . 5  ? DG "H5''" H 1 3.614  0.005 ? ? ? ? . A 5  DG "H5''" A 5  DG "H5''" . 5NYS ? 
+47  ? . 5  ? DG H8     H 1 7.705  0.001 ? ? ? ? . A 5  DG H8     A 5  DG H8     . 5NYS ? 
+48  ? . 6  ? DA "H1'"  H 1 6.572  0.002 ? ? ? ? . A 6  DA "H1'"  A 6  DA "H1'"  . 5NYS ? 
+49  ? . 6  ? DA H2     H 1 8.400  0.002 ? ? ? ? . A 6  DA H2     A 6  DA H2     . 5NYS ? 
+50  ? . 6  ? DA "H2'"  H 1 3.061  0.006 ? ? ? ? . A 6  DA "H2'"  A 6  DA "H2'"  . 5NYS ? 
+51  ? . 6  ? DA "H2''" H 1 2.948  0.001 ? ? ? ? . A 6  DA "H2''" A 6  DA "H2''" . 5NYS ? 
+52  ? . 6  ? DA "H3'"  H 1 5.066  0.004 ? ? ? ? . A 6  DA "H3'"  A 6  DA "H3'"  . 5NYS ? 
+53  ? . 6  ? DA "H4'"  H 1 4.533  0.004 ? ? ? ? . A 6  DA "H4'"  A 6  DA "H4'"  . 5NYS ? 
+54  ? . 6  ? DA "H5''" H 1 4.167  0.003 ? ? ? ? . A 6  DA "H5''" A 6  DA "H5''" . 5NYS ? 
+55  ? . 6  ? DA H8     H 1 8.626  0.001 ? ? ? ? . A 6  DA H8     A 6  DA H8     . 5NYS ? 
+56  ? . 7  ? DC "H1'"  H 1 6.402  0.000 ? ? ? ? . A 7  DC "H1'"  A 7  DC "H1'"  . 5NYS ? 
+57  ? . 7  ? DC "H2'"  H 1 2.450  0.000 ? ? ? ? . A 7  DC "H2'"  A 7  DC "H2'"  . 5NYS ? 
+58  ? . 7  ? DC "H2''" H 1 2.708  0.001 ? ? ? ? . A 7  DC "H2''" A 7  DC "H2''" . 5NYS ? 
+59  ? . 7  ? DC "H3'"  H 1 4.970  0.003 ? ? ? ? . A 7  DC "H3'"  A 7  DC "H3'"  . 5NYS ? 
+60  ? . 7  ? DC "H4'"  H 1 4.492  0.002 ? ? ? ? . A 7  DC "H4'"  A 7  DC "H4'"  . 5NYS ? 
+61  ? . 7  ? DC H5     H 1 6.104  0.000 ? ? ? ? . A 7  DC H5     A 7  DC H5     . 5NYS ? 
+62  ? . 7  ? DC "H5'"  H 1 4.305  0.001 ? ? ? ? . A 7  DC "H5'"  A 7  DC "H5'"  . 5NYS ? 
+63  ? . 7  ? DC H6     H 1 7.958  0.003 ? ? ? ? . A 7  DC H6     A 7  DC H6     . 5NYS ? 
+64  ? . 8  ? DG H1     H 1 11.925 0.001 ? ? ? ? . A 8  DG H1     A 8  DG H1     . 5NYS ? 
+65  ? . 8  ? DG "H1'"  H 1 6.165  0.001 ? ? ? ? . A 8  DG "H1'"  A 8  DG "H1'"  . 5NYS ? 
+66  ? . 8  ? DG "H2'"  H 1 2.484  0.002 ? ? ? ? . A 8  DG "H2'"  A 8  DG "H2'"  . 5NYS ? 
+67  ? . 8  ? DG "H2''" H 1 3.052  0.002 ? ? ? ? . A 8  DG "H2''" A 8  DG "H2''" . 5NYS ? 
+68  ? . 8  ? DG "H3'"  H 1 4.861  0.002 ? ? ? ? . A 8  DG "H3'"  A 8  DG "H3'"  . 5NYS ? 
+69  ? . 8  ? DG "H4'"  H 1 4.430  0.004 ? ? ? ? . A 8  DG "H4'"  A 8  DG "H4'"  . 5NYS ? 
+70  ? . 8  ? DG "H5'"  H 1 3.616  0.002 ? ? ? ? . A 8  DG "H5'"  A 8  DG "H5'"  . 5NYS ? 
+71  ? . 8  ? DG "H5''" H 1 4.047  0.003 ? ? ? ? . A 8  DG "H5''" A 8  DG "H5''" . 5NYS ? 
+72  ? . 8  ? DG H8     H 1 7.955  0.001 ? ? ? ? . A 8  DG H8     A 8  DG H8     . 5NYS ? 
+73  ? . 9  ? DG H1     H 1 11.448 0.006 ? ? ? ? . A 9  DG H1     A 9  DG H1     . 5NYS ? 
+74  ? . 9  ? DG "H1'"  H 1 6.277  0.001 ? ? ? ? . A 9  DG "H1'"  A 9  DG "H1'"  . 5NYS ? 
+75  ? . 9  ? DG "H2'"  H 1 2.810  0.001 ? ? ? ? . A 9  DG "H2'"  A 9  DG "H2'"  . 5NYS ? 
+76  ? . 9  ? DG "H2''" H 1 3.004  0.001 ? ? ? ? . A 9  DG "H2''" A 9  DG "H2''" . 5NYS ? 
+77  ? . 9  ? DG "H3'"  H 1 5.112  0.001 ? ? ? ? . A 9  DG "H3'"  A 9  DG "H3'"  . 5NYS ? 
+78  ? . 9  ? DG "H4'"  H 1 4.613  0.005 ? ? ? ? . A 9  DG "H4'"  A 9  DG "H4'"  . 5NYS ? 
+79  ? . 9  ? DG "H5'"  H 1 4.330  0.005 ? ? ? ? . A 9  DG "H5'"  A 9  DG "H5'"  . 5NYS ? 
+80  ? . 9  ? DG "H5''" H 1 4.330  0.005 ? ? ? ? . A 9  DG "H5''" A 9  DG "H5''" . 5NYS ? 
+81  ? . 9  ? DG H8     H 1 8.020  0.000 ? ? ? ? . A 9  DG H8     A 9  DG H8     . 5NYS ? 
+82  ? . 10 ? DG H1     H 1 11.264 0.003 ? ? ? ? . A 10 DG H1     A 10 DG H1     . 5NYS ? 
+83  ? . 10 ? DG "H1'"  H 1 6.464  0.002 ? ? ? ? . A 10 DG "H1'"  A 10 DG "H1'"  . 5NYS ? 
+84  ? . 10 ? DG "H2'"  H 1 2.732  0.001 ? ? ? ? . A 10 DG "H2'"  A 10 DG "H2'"  . 5NYS ? 
+85  ? . 10 ? DG "H2''" H 1 2.571  0.002 ? ? ? ? . A 10 DG "H2''" A 10 DG "H2''" . 5NYS ? 
+86  ? . 10 ? DG "H3'"  H 1 5.132  0.002 ? ? ? ? . A 10 DG "H3'"  A 10 DG "H3'"  . 5NYS ? 
+87  ? . 10 ? DG "H4'"  H 1 4.656  0.002 ? ? ? ? . A 10 DG "H4'"  A 10 DG "H4'"  . 5NYS ? 
+88  ? . 10 ? DG "H5'"  H 1 4.331  0.002 ? ? ? ? . A 10 DG "H5'"  A 10 DG "H5'"  . 5NYS ? 
+89  ? . 10 ? DG "H5''" H 1 4.422  0.005 ? ? ? ? . A 10 DG "H5''" A 10 DG "H5''" . 5NYS ? 
+90  ? . 10 ? DG H8     H 1 7.864  0.001 ? ? ? ? . A 10 DG H8     A 10 DG H8     . 5NYS ? 
+91  ? . 11 ? DC "H1'"  H 1 6.509  0.003 ? ? ? ? . A 11 DC "H1'"  A 11 DC "H1'"  . 5NYS ? 
+92  ? . 11 ? DC "H2'"  H 1 2.447  0.003 ? ? ? ? . A 11 DC "H2'"  A 11 DC "H2'"  . 5NYS ? 
+93  ? . 11 ? DC "H2''" H 1 2.767  0.001 ? ? ? ? . A 11 DC "H2''" A 11 DC "H2''" . 5NYS ? 
+94  ? . 11 ? DC "H3'"  H 1 5.115  0.002 ? ? ? ? . A 11 DC "H3'"  A 11 DC "H3'"  . 5NYS ? 
+95  ? . 11 ? DC "H4'"  H 1 4.641  0.001 ? ? ? ? . A 11 DC "H4'"  A 11 DC "H4'"  . 5NYS ? 
+96  ? . 11 ? DC H5     H 1 6.192  0.000 ? ? ? ? . A 11 DC H5     A 11 DC H5     . 5NYS ? 
+97  ? . 11 ? DC "H5'"  H 1 4.393  0.002 ? ? ? ? . A 11 DC "H5'"  A 11 DC "H5'"  . 5NYS ? 
+98  ? . 11 ? DC "H5''" H 1 4.393  0.002 ? ? ? ? . A 11 DC "H5''" A 11 DC "H5''" . 5NYS ? 
+99  ? . 11 ? DC H6     H 1 8.025  0.003 ? ? ? ? . A 11 DC H6     A 11 DC H6     . 5NYS ? 
+100 ? . 12 ? DG H1     H 1 11.950 0.001 ? ? ? ? . A 12 DG H1     A 12 DG H1     . 5NYS ? 
+101 ? . 12 ? DG "H1'"  H 1 6.228  0.004 ? ? ? ? . A 12 DG "H1'"  A 12 DG "H1'"  . 5NYS ? 
+102 ? . 12 ? DG "H2'"  H 1 2.567  0.001 ? ? ? ? . A 12 DG "H2'"  A 12 DG "H2'"  . 5NYS ? 
+103 ? . 12 ? DG "H2''" H 1 2.997  0.001 ? ? ? ? . A 12 DG "H2''" A 12 DG "H2''" . 5NYS ? 
+104 ? . 12 ? DG "H3'"  H 1 5.202  0.002 ? ? ? ? . A 12 DG "H3'"  A 12 DG "H3'"  . 5NYS ? 
+105 ? . 12 ? DG "H4'"  H 1 4.515  0.001 ? ? ? ? . A 12 DG "H4'"  A 12 DG "H4'"  . 5NYS ? 
+106 ? . 12 ? DG "H5'"  H 1 4.382  0.002 ? ? ? ? . A 12 DG "H5'"  A 12 DG "H5'"  . 5NYS ? 
+107 ? . 12 ? DG "H5''" H 1 4.271  0.003 ? ? ? ? . A 12 DG "H5''" A 12 DG "H5''" . 5NYS ? 
+108 ? . 12 ? DG H8     H 1 8.109  0.000 ? ? ? ? . A 12 DG H8     A 12 DG H8     . 5NYS ? 
+109 ? . 13 ? DG H1     H 1 11.493 0.002 ? ? ? ? . A 13 DG H1     A 13 DG H1     . 5NYS ? 
+110 ? . 13 ? DG "H1'"  H 1 6.191  0.002 ? ? ? ? . A 13 DG "H1'"  A 13 DG "H1'"  . 5NYS ? 
+111 ? . 13 ? DG "H2'"  H 1 2.720  0.001 ? ? ? ? . A 13 DG "H2'"  A 13 DG "H2'"  . 5NYS ? 
+112 ? . 13 ? DG "H2''" H 1 2.885  0.002 ? ? ? ? . A 13 DG "H2''" A 13 DG "H2''" . 5NYS ? 
+113 ? . 13 ? DG "H3'"  H 1 5.106  0.004 ? ? ? ? . A 13 DG "H3'"  A 13 DG "H3'"  . 5NYS ? 
+114 ? . 13 ? DG "H4'"  H 1 4.476  0.003 ? ? ? ? . A 13 DG "H4'"  A 13 DG "H4'"  . 5NYS ? 
+115 ? . 13 ? DG "H5'"  H 1 4.260  0.001 ? ? ? ? . A 13 DG "H5'"  A 13 DG "H5'"  . 5NYS ? 
+116 ? . 13 ? DG "H5''" H 1 4.312  0.007 ? ? ? ? . A 13 DG "H5''" A 13 DG "H5''" . 5NYS ? 
+117 ? . 13 ? DG H8     H 1 7.989  0.001 ? ? ? ? . A 13 DG H8     A 13 DG H8     . 5NYS ? 
+118 ? . 14 ? DG H1     H 1 11.078 0.004 ? ? ? ? . A 14 DG H1     A 14 DG H1     . 5NYS ? 
+119 ? . 14 ? DG "H1'"  H 1 6.418  0.001 ? ? ? ? . A 14 DG "H1'"  A 14 DG "H1'"  . 5NYS ? 
+120 ? . 14 ? DG "H2'"  H 1 2.664  0.004 ? ? ? ? . A 14 DG "H2'"  A 14 DG "H2'"  . 5NYS ? 
+121 ? . 14 ? DG "H2''" H 1 2.520  0.001 ? ? ? ? . A 14 DG "H2''" A 14 DG "H2''" . 5NYS ? 
+122 ? . 14 ? DG "H3'"  H 1 5.009  0.005 ? ? ? ? . A 14 DG "H3'"  A 14 DG "H3'"  . 5NYS ? 
+123 ? . 14 ? DG "H4'"  H 1 4.507  0.008 ? ? ? ? . A 14 DG "H4'"  A 14 DG "H4'"  . 5NYS ? 
+124 ? . 14 ? DG "H5'"  H 1 4.295  0.004 ? ? ? ? . A 14 DG "H5'"  A 14 DG "H5'"  . 5NYS ? 
+125 ? . 14 ? DG "H5''" H 1 4.295  0.004 ? ? ? ? . A 14 DG "H5''" A 14 DG "H5''" . 5NYS ? 
+126 ? . 14 ? DG H8     H 1 7.833  0.001 ? ? ? ? . A 14 DG H8     A 14 DG H8     . 5NYS ? 
+127 ? . 15 ? DC "H1'"  H 1 6.226  0.000 ? ? ? ? . A 15 DC "H1'"  A 15 DC "H1'"  . 5NYS ? 
+128 ? . 15 ? DC "H2'"  H 1 2.158  0.001 ? ? ? ? . A 15 DC "H2'"  A 15 DC "H2'"  . 5NYS ? 
+129 ? . 15 ? DC "H2''" H 1 2.520  0.008 ? ? ? ? . A 15 DC "H2''" A 15 DC "H2''" . 5NYS ? 
+130 ? . 15 ? DC "H3'"  H 1 4.720  0.002 ? ? ? ? . A 15 DC "H3'"  A 15 DC "H3'"  . 5NYS ? 
+131 ? . 15 ? DC "H4'"  H 1 3.901  0.002 ? ? ? ? . A 15 DC "H4'"  A 15 DC "H4'"  . 5NYS ? 
+132 ? . 15 ? DC H5     H 1 6.129  0.000 ? ? ? ? . A 15 DC H5     A 15 DC H5     . 5NYS ? 
+133 ? . 15 ? DC "H5'"  H 1 3.728  0.002 ? ? ? ? . A 15 DC "H5'"  A 15 DC "H5'"  . 5NYS ? 
+134 ? . 15 ? DC "H5''" H 1 3.728  0.002 ? ? ? ? . A 15 DC "H5''" A 15 DC "H5''" . 5NYS ? 
+135 ? . 15 ? DC H6     H 1 7.807  0.003 ? ? ? ? . A 15 DC H6     A 15 DC H6     . 5NYS ? 
+136 ? . 16 ? DA "H1'"  H 1 6.699  0.002 ? ? ? ? . A 16 DA "H1'"  A 16 DA "H1'"  . 5NYS ? 
+137 ? . 16 ? DA H2     H 1 8.384  0.001 ? ? ? ? . A 16 DA H2     A 16 DA H2     . 5NYS ? 
+138 ? . 16 ? DA "H2'"  H 1 3.128  0.001 ? ? ? ? . A 16 DA "H2'"  A 16 DA "H2'"  . 5NYS ? 
+139 ? . 16 ? DA "H2''" H 1 2.986  0.002 ? ? ? ? . A 16 DA "H2''" A 16 DA "H2''" . 5NYS ? 
+140 ? . 16 ? DA "H3'"  H 1 5.204  0.002 ? ? ? ? . A 16 DA "H3'"  A 16 DA "H3'"  . 5NYS ? 
+141 ? . 16 ? DA "H4'"  H 1 4.606  0.004 ? ? ? ? . A 16 DA "H4'"  A 16 DA "H4'"  . 5NYS ? 
+142 ? . 16 ? DA "H5'"  H 1 4.226  0.002 ? ? ? ? . A 16 DA "H5'"  A 16 DA "H5'"  . 5NYS ? 
+143 ? . 16 ? DA "H5''" H 1 4.313  0.004 ? ? ? ? . A 16 DA "H5''" A 16 DA "H5''" . 5NYS ? 
+144 ? . 16 ? DA H8     H 1 8.530  0.001 ? ? ? ? . A 16 DA H8     A 16 DA H8     . 5NYS ? 
+145 ? . 17 ? DG H1     H 1 11.417 0.008 ? ? ? ? . A 17 DG H1     A 17 DG H1     . 5NYS ? 
+146 ? . 17 ? DG "H1'"  H 1 6.108  0.001 ? ? ? ? . A 17 DG "H1'"  A 17 DG "H1'"  . 5NYS ? 
+147 ? . 17 ? DG "H2'"  H 1 2.589  0.001 ? ? ? ? . A 17 DG "H2'"  A 17 DG "H2'"  . 5NYS ? 
+148 ? . 17 ? DG "H2''" H 1 2.850  0.002 ? ? ? ? . A 17 DG "H2''" A 17 DG "H2''" . 5NYS ? 
+149 ? . 17 ? DG "H3'"  H 1 5.030  0.004 ? ? ? ? . A 17 DG "H3'"  A 17 DG "H3'"  . 5NYS ? 
+150 ? . 17 ? DG "H4'"  H 1 4.499  0.005 ? ? ? ? . A 17 DG "H4'"  A 17 DG "H4'"  . 5NYS ? 
+151 ? . 17 ? DG "H5'"  H 1 4.301  0.000 ? ? ? ? . A 17 DG "H5'"  A 17 DG "H5'"  . 5NYS ? 
+152 ? . 17 ? DG "H5''" H 1 4.213  0.003 ? ? ? ? . A 17 DG "H5''" A 17 DG "H5''" . 5NYS ? 
+153 ? . 17 ? DG H8     H 1 8.103  0.001 ? ? ? ? . A 17 DG H8     A 17 DG H8     . 5NYS ? 
+154 ? . 18 ? DG H1     H 1 11.346 0.006 ? ? ? ? . A 18 DG H1     A 18 DG H1     . 5NYS ? 
+155 ? . 18 ? DG "H1'"  H 1 6.094  0.002 ? ? ? ? . A 18 DG "H1'"  A 18 DG "H1'"  . 5NYS ? 
+156 ? . 18 ? DG "H2'"  H 1 2.749  0.002 ? ? ? ? . A 18 DG "H2'"  A 18 DG "H2'"  . 5NYS ? 
+157 ? . 18 ? DG "H2''" H 1 2.779  0.001 ? ? ? ? . A 18 DG "H2''" A 18 DG "H2''" . 5NYS ? 
+158 ? . 18 ? DG "H3'"  H 1 5.054  0.002 ? ? ? ? . A 18 DG "H3'"  A 18 DG "H3'"  . 5NYS ? 
+159 ? . 18 ? DG "H4'"  H 1 4.532  0.003 ? ? ? ? . A 18 DG "H4'"  A 18 DG "H4'"  . 5NYS ? 
+160 ? . 18 ? DG "H5'"  H 1 4.229  0.005 ? ? ? ? . A 18 DG "H5'"  A 18 DG "H5'"  . 5NYS ? 
+161 ? . 18 ? DG "H5''" H 1 4.229  0.005 ? ? ? ? . A 18 DG "H5''" A 18 DG "H5''" . 5NYS ? 
+162 ? . 18 ? DG H8     H 1 7.884  0.002 ? ? ? ? . A 18 DG H8     A 18 DG H8     . 5NYS ? 
+163 ? . 19 ? DG H1     H 1 11.180 0.007 ? ? ? ? . A 19 DG H1     A 19 DG H1     . 5NYS ? 
+164 ? . 19 ? DG "H1'"  H 1 6.227  0.003 ? ? ? ? . A 19 DG "H1'"  A 19 DG "H1'"  . 5NYS ? 
+165 ? . 19 ? DG "H2'"  H 1 2.621  0.001 ? ? ? ? . A 19 DG "H2'"  A 19 DG "H2'"  . 5NYS ? 
+166 ? . 19 ? DG "H2''" H 1 2.795  0.003 ? ? ? ? . A 19 DG "H2''" A 19 DG "H2''" . 5NYS ? 
+167 ? . 19 ? DG "H3'"  H 1 4.942  0.006 ? ? ? ? . A 19 DG "H3'"  A 19 DG "H3'"  . 5NYS ? 
+168 ? . 19 ? DG "H4'"  H 1 4.537  0.002 ? ? ? ? . A 19 DG "H4'"  A 19 DG "H4'"  . 5NYS ? 
+169 ? . 19 ? DG "H5'"  H 1 4.313  0.001 ? ? ? ? . A 19 DG "H5'"  A 19 DG "H5'"  . 5NYS ? 
+170 ? . 19 ? DG "H5''" H 1 4.266  0.001 ? ? ? ? . A 19 DG "H5''" A 19 DG "H5''" . 5NYS ? 
+171 ? . 19 ? DG H8     H 1 7.736  0.000 ? ? ? ? . A 19 DG H8     A 19 DG H8     . 5NYS ? 
+172 ? . 20 ? DT "H1'"  H 1 5.929  0.002 ? ? ? ? . A 20 DT "H1'"  A 20 DT "H1'"  . 5NYS ? 
+173 ? . 20 ? DT "H2'"  H 1 2.094  0.004 ? ? ? ? . A 20 DT "H2'"  A 20 DT "H2'"  . 5NYS ? 
+174 ? . 20 ? DT "H2''" H 1 2.094  0.004 ? ? ? ? . A 20 DT "H2''" A 20 DT "H2''" . 5NYS ? 
+175 ? . 20 ? DT "H3'"  H 1 4.451  0.002 ? ? ? ? . A 20 DT "H3'"  A 20 DT "H3'"  . 5NYS ? 
+176 ? . 20 ? DT "H4'"  H 1 3.987  0.003 ? ? ? ? . A 20 DT "H4'"  A 20 DT "H4'"  . 5NYS ? 
+177 ? . 20 ? DT "H5'"  H 1 4.257  0.005 ? ? ? ? . A 20 DT "H5'"  A 20 DT "H5'"  . 5NYS ? 
+178 ? . 20 ? DT "H5''" H 1 4.090  0.002 ? ? ? ? . A 20 DT "H5''" A 20 DT "H5''" . 5NYS ? 
+179 ? . 20 ? DT H6     H 1 7.157  0.002 ? ? ? ? . A 20 DT H6     A 20 DT H6     . 5NYS ? 
+180 ? . 20 ? DT H71    H 1 1.531  0.001 ? ? ? ? . A 20 DT H71    A 20 DT H71    . 5NYS ? 
+181 ? . 20 ? DT H72    H 1 1.531  0.001 ? ? ? ? . A 20 DT H72    A 20 DT H72    . 5NYS ? 
+182 ? . 20 ? DT H73    H 1 1.531  0.001 ? ? ? ? . A 20 DT H73    A 20 DT H73    . 5NYS ? 
+stop_
+save_

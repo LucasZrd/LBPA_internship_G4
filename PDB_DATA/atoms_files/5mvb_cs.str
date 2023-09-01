@@ -1,0 +1,351 @@
+data_5mvb
+
+save_entry_information
+# 
+_Entry.ID                 5MVB 
+_Entry.Assigned_BMRB_ID   34086 
+# 
+loop_
+_Audit.Revision_ID 
+_Audit.Creation_date 
+_Audit.Update_record 
+_Audit.Creation_method 
+_Audit.Entry_ID 
+1 2017-01-16 'Nomenclature checked and updated' . 5MVB 
+2 2017-01-16 'Preliminary version'              . 5MVB 
+3 2017-02-07 'Nomenclature checked'             . 5MVB 
+4 2017-05-31 'Initial release'                  . 5MVB 
+stop_
+save_
+save_Reference
+# 
+_Chem_shift_reference.Sf_category    chem_shift_reference 
+_Chem_shift_reference.Sf_framecode   Reference 
+_Chem_shift_reference.Entry_ID       5MVB 
+_Chem_shift_reference.ID             1 
+# 
+loop_
+_Chem_shift_ref.Atom_type 
+_Chem_shift_ref.Atom_isotope_number 
+_Chem_shift_ref.Mol_common_name 
+_Chem_shift_ref.Atom_group 
+_Chem_shift_ref.Concentration_val 
+_Chem_shift_ref.Concentration_units 
+_Chem_shift_ref.Solvent 
+_Chem_shift_ref.Rank 
+_Chem_shift_ref.Chem_shift_units 
+_Chem_shift_ref.Chem_shift_val 
+_Chem_shift_ref.Ref_method 
+_Chem_shift_ref.Ref_type 
+_Chem_shift_ref.Indirect_shift_ratio 
+_Chem_shift_ref.Entry_ID 
+_Chem_shift_ref.Chem_shift_reference_ID 
+H 1 DSS 'methyl protons' ? ? ? ? ppm 0 internal direct 1 5MVB 1 
+stop_
+save_
+save_bmrb_.tbl
+# 
+loop_
+_Atom_chem_shift.ID 
+_Atom_chem_shift.Entity_assembly_ID 
+_Atom_chem_shift.Entity_ID 
+_Atom_chem_shift.Comp_index_ID 
+_Atom_chem_shift.Seq_ID 
+_Atom_chem_shift.Comp_ID 
+_Atom_chem_shift.Atom_ID 
+_Atom_chem_shift.Atom_type 
+_Atom_chem_shift.Atom_isotope_number 
+_Atom_chem_shift.Val 
+_Atom_chem_shift.Val_err 
+_Atom_chem_shift.Assign_fig_of_merit 
+_Atom_chem_shift.Ambiguity_code 
+_Atom_chem_shift.Occupancy 
+_Atom_chem_shift.Resonance_ID 
+_Atom_chem_shift.Auth_entity_assembly_ID 
+_Atom_chem_shift.Auth_asym_ID 
+_Atom_chem_shift.Auth_seq_ID 
+_Atom_chem_shift.Auth_comp_ID 
+_Atom_chem_shift.Auth_atom_ID 
+_Atom_chem_shift.Original_PDB_strand_ID 
+_Atom_chem_shift.Original_PDB_residue_no 
+_Atom_chem_shift.Original_PDB_residue_name 
+_Atom_chem_shift.Original_PDB_atom_name 
+_Atom_chem_shift.Details 
+_Atom_chem_shift.Entry_ID 
+_Atom_chem_shift.Assigned_chem_shift_list_ID 
+1   ? . 1   ? DT  "H1'"  H ? 5.89  0.02 ? 1 ? ? . A 1   DT  "H1'"  A 1   DT  "H1'"  . 5MVB ? 
+2   ? . 1   ? DT  "H2'"  H ? 1.99  0.02 ? 2 ? ? . A 1   DT  "H2'"  A 1   DT  "H2'"  . 5MVB ? 
+3   ? . 1   ? DT  "H2''" H ? 2.28  0.02 ? 2 ? ? . A 1   DT  "H2''" A 1   DT  "H2''" . 5MVB ? 
+4   ? . 1   ? DT  "H3'"  H ? 4.57  0.02 ? 1 ? ? . A 1   DT  "H3'"  A 1   DT  "H3'"  . 5MVB ? 
+5   ? . 1   ? DT  "H4'"  H ? 3.93  0.02 ? 1 ? ? . A 1   DT  "H4'"  A 1   DT  "H4'"  . 5MVB ? 
+6   ? . 1   ? DT  "H5'"  H ? 3.74  0.02 ? 2 ? ? . A 1   DT  "H5'"  A 1   DT  "H5'"  . 5MVB ? 
+7   ? . 1   ? DT  "H5''" H ? 3.58  0.02 ? 2 ? ? . A 1   DT  "H5''" A 1   DT  "H5''" . 5MVB ? 
+8   ? . 1   ? DT  H6     H ? 7.35  0.02 ? 1 ? ? . A 1   DT  H6     A 1   DT  H6     . 5MVB ? 
+9   ? . 1   ? DT  H71    H ? 1.57  0.02 ? 1 ? ? . A 1   DT  H71    A 1   DT  H71    . 5MVB ? 
+10  ? . 1   ? DT  H72    H ? 1.57  0.02 ? 1 ? ? . A 1   DT  H72    A 1   DT  H72    . 5MVB ? 
+11  ? . 1   ? DT  H73    H ? 1.57  0.02 ? 1 ? ? . A 1   DT  H73    A 1   DT  H73    . 5MVB ? 
+12  ? . 2   ? DT  "H1'"  H ? 5.63  0.02 ? 1 ? ? . A 2   DT  "H1'"  A 2   DT  "H1'"  . 5MVB ? 
+13  ? . 2   ? DT  "H2'"  H ? 1.70  0.02 ? 2 ? ? . A 2   DT  "H2'"  A 2   DT  "H2'"  . 5MVB ? 
+14  ? . 2   ? DT  "H2''" H ? 1.99  0.02 ? 2 ? ? . A 2   DT  "H2''" A 2   DT  "H2''" . 5MVB ? 
+15  ? . 2   ? DT  "H3'"  H ? 4.62  0.02 ? 1 ? ? . A 2   DT  "H3'"  A 2   DT  "H3'"  . 5MVB ? 
+16  ? . 2   ? DT  "H4'"  H ? 3.97  0.02 ? 1 ? ? . A 2   DT  "H4'"  A 2   DT  "H4'"  . 5MVB ? 
+17  ? . 2   ? DT  "H5'"  H ? 3.78  0.02 ? 2 ? ? . A 2   DT  "H5'"  A 2   DT  "H5'"  . 5MVB ? 
+18  ? . 2   ? DT  "H5''" H ? 3.74  0.02 ? 2 ? ? . A 2   DT  "H5''" A 2   DT  "H5''" . 5MVB ? 
+19  ? . 2   ? DT  H6     H ? 7.20  0.02 ? 1 ? ? . A 2   DT  H6     A 2   DT  H6     . 5MVB ? 
+20  ? . 2   ? DT  H71    H ? 1.64  0.02 ? 1 ? ? . A 2   DT  H71    A 2   DT  H71    . 5MVB ? 
+21  ? . 2   ? DT  H72    H ? 1.64  0.02 ? 1 ? ? . A 2   DT  H72    A 2   DT  H72    . 5MVB ? 
+22  ? . 2   ? DT  H73    H ? 1.64  0.02 ? 1 ? ? . A 2   DT  H73    A 2   DT  H73    . 5MVB ? 
+23  ? . 3   ? DA  "H1'"  H ? 5.66  0.02 ? 1 ? ? . A 3   DA  "H1'"  A 3   DA  "H1'"  . 5MVB ? 
+24  ? . 3   ? DA  H2     H ? 7.80  0.02 ? 1 ? ? . A 3   DA  H2     A 3   DA  H2     . 5MVB ? 
+25  ? . 3   ? DA  "H2'"  H ? 2.73  0.02 ? 2 ? ? . A 3   DA  "H2'"  A 3   DA  "H2'"  . 5MVB ? 
+26  ? . 3   ? DA  "H2''" H ? 2.62  0.02 ? 2 ? ? . A 3   DA  "H2''" A 3   DA  "H2''" . 5MVB ? 
+27  ? . 3   ? DA  "H3'"  H ? 4.99  0.02 ? 1 ? ? . A 3   DA  "H3'"  A 3   DA  "H3'"  . 5MVB ? 
+28  ? . 3   ? DA  "H4'"  H ? 4.28  0.02 ? 1 ? ? . A 3   DA  "H4'"  A 3   DA  "H4'"  . 5MVB ? 
+29  ? . 3   ? DA  H8     H ? 7.97  0.02 ? 1 ? ? . A 3   DA  H8     A 3   DA  H8     . 5MVB ? 
+30  ? . 4   ? DG  H1     H ? 11.61 0.02 ? 1 ? ? . A 4   DG  H1     A 4   DG  H1     . 5MVB ? 
+31  ? . 4   ? DG  "H1'"  H ? 6.01  0.02 ? 1 ? ? . A 4   DG  "H1'"  A 4   DG  "H1'"  . 5MVB ? 
+32  ? . 4   ? DG  "H2'"  H ? 3.48  0.02 ? 2 ? ? . A 4   DG  "H2'"  A 4   DG  "H2'"  . 5MVB ? 
+33  ? . 4   ? DG  "H2''" H ? 2.95  0.02 ? 2 ? ? . A 4   DG  "H2''" A 4   DG  "H2''" . 5MVB ? 
+34  ? . 4   ? DG  "H3'"  H ? 4.89  0.02 ? 1 ? ? . A 4   DG  "H3'"  A 4   DG  "H3'"  . 5MVB ? 
+35  ? . 4   ? DG  "H4'"  H ? 4.62  0.02 ? 1 ? ? . A 4   DG  "H4'"  A 4   DG  "H4'"  . 5MVB ? 
+36  ? . 4   ? DG  "H5'"  H ? 4.44  0.02 ? 2 ? ? . A 4   DG  "H5'"  A 4   DG  "H5'"  . 5MVB ? 
+37  ? . 4   ? DG  "H5''" H ? 4.28  0.02 ? 2 ? ? . A 4   DG  "H5''" A 4   DG  "H5''" . 5MVB ? 
+38  ? . 4   ? DG  H8     H ? 7.34  0.02 ? 1 ? ? . A 4   DG  H8     A 4   DG  H8     . 5MVB ? 
+39  ? . 5   ? DG  H1     H ? 11.84 0.02 ? 1 ? ? . A 5   DG  H1     A 5   DG  H1     . 5MVB ? 
+40  ? . 5   ? DG  "H1'"  H ? 5.63  0.02 ? 1 ? ? . A 5   DG  "H1'"  A 5   DG  "H1'"  . 5MVB ? 
+41  ? . 5   ? DG  "H2'"  H ? 2.51  0.02 ? 2 ? ? . A 5   DG  "H2'"  A 5   DG  "H2'"  . 5MVB ? 
+42  ? . 5   ? DG  "H2''" H ? 2.62  0.02 ? 2 ? ? . A 5   DG  "H2''" A 5   DG  "H2''" . 5MVB ? 
+43  ? . 5   ? DG  "H3'"  H ? 5.03  0.02 ? 1 ? ? . A 5   DG  "H3'"  A 5   DG  "H3'"  . 5MVB ? 
+44  ? . 5   ? DG  "H4'"  H ? 4.28  0.02 ? 1 ? ? . A 5   DG  "H4'"  A 5   DG  "H4'"  . 5MVB ? 
+45  ? . 5   ? DG  "H5'"  H ? 4.35  0.02 ? 2 ? ? . A 5   DG  "H5'"  A 5   DG  "H5'"  . 5MVB ? 
+46  ? . 5   ? DG  "H5''" H ? 4.24  0.02 ? 2 ? ? . A 5   DG  "H5''" A 5   DG  "H5''" . 5MVB ? 
+47  ? . 5   ? DG  H8     H ? 7.92  0.02 ? 1 ? ? . A 5   DG  H8     A 5   DG  H8     . 5MVB ? 
+48  ? . 6   ? DG  H1     H ? 10.94 0.02 ? 1 ? ? . A 6   DG  H1     A 6   DG  H1     . 5MVB ? 
+49  ? . 6   ? DG  "H1'"  H ? 6.01  0.02 ? 1 ? ? . A 6   DG  "H1'"  A 6   DG  "H1'"  . 5MVB ? 
+50  ? . 6   ? DG  "H2'"  H ? 2.41  0.02 ? 2 ? ? . A 6   DG  "H2'"  A 6   DG  "H2'"  . 5MVB ? 
+51  ? . 6   ? DG  "H2''" H ? 2.33  0.02 ? 2 ? ? . A 6   DG  "H2''" A 6   DG  "H2''" . 5MVB ? 
+52  ? . 6   ? DG  "H3'"  H ? 4.98  0.02 ? 1 ? ? . A 6   DG  "H3'"  A 6   DG  "H3'"  . 5MVB ? 
+53  ? . 6   ? DG  "H4'"  H ? 4.42  0.02 ? 1 ? ? . A 6   DG  "H4'"  A 6   DG  "H4'"  . 5MVB ? 
+54  ? . 6   ? DG  "H5'"  H ? 4.21  0.02 ? 2 ? ? . A 6   DG  "H5'"  A 6   DG  "H5'"  . 5MVB ? 
+55  ? . 6   ? DG  "H5''" H ? 4.08  0.02 ? 2 ? ? . A 6   DG  "H5''" A 6   DG  "H5''" . 5MVB ? 
+56  ? . 6   ? DG  H8     H ? 7.76  0.02 ? 1 ? ? . A 6   DG  H8     A 6   DG  H8     . 5MVB ? 
+57  ? . 7   ? DT  "H1'"  H ? 6.27  0.02 ? 1 ? ? . A 7   DT  "H1'"  A 7   DT  "H1'"  . 5MVB ? 
+58  ? . 7   ? DT  "H2'"  H ? 2.25  0.02 ? 2 ? ? . A 7   DT  "H2'"  A 7   DT  "H2'"  . 5MVB ? 
+59  ? . 7   ? DT  "H2''" H ? 2.49  0.02 ? 2 ? ? . A 7   DT  "H2''" A 7   DT  "H2''" . 5MVB ? 
+60  ? . 7   ? DT  "H3'"  H ? 4.61  0.02 ? 1 ? ? . A 7   DT  "H3'"  A 7   DT  "H3'"  . 5MVB ? 
+61  ? . 7   ? DT  "H4'"  H ? 4.35  0.02 ? 1 ? ? . A 7   DT  "H4'"  A 7   DT  "H4'"  . 5MVB ? 
+62  ? . 7   ? DT  "H5'"  H ? 4.09  0.02 ? 2 ? ? . A 7   DT  "H5'"  A 7   DT  "H5'"  . 5MVB ? 
+63  ? . 7   ? DT  "H5''" H ? 4.05  0.02 ? 2 ? ? . A 7   DT  "H5''" A 7   DT  "H5''" . 5MVB ? 
+64  ? . 7   ? DT  H6     H ? 7.67  0.02 ? 1 ? ? . A 7   DT  H6     A 7   DT  H6     . 5MVB ? 
+65  ? . 7   ? DT  H71    H ? 1.86  0.02 ? 1 ? ? . A 7   DT  H71    A 7   DT  H71    . 5MVB ? 
+66  ? . 7   ? DT  H72    H ? 1.86  0.02 ? 1 ? ? . A 7   DT  H72    A 7   DT  H72    . 5MVB ? 
+67  ? . 7   ? DT  H73    H ? 1.86  0.02 ? 1 ? ? . A 7   DT  H73    A 7   DT  H73    . 5MVB ? 
+68  ? . 8   ? DT  "H1'"  H ? 5.76  0.02 ? 1 ? ? . A 8   DT  "H1'"  A 8   DT  "H1'"  . 5MVB ? 
+69  ? . 8   ? DT  "H2'"  H ? 1.96  0.02 ? 2 ? ? . A 8   DT  "H2'"  A 8   DT  "H2'"  . 5MVB ? 
+70  ? . 8   ? DT  "H2''" H ? 2.16  0.02 ? 2 ? ? . A 8   DT  "H2''" A 8   DT  "H2''" . 5MVB ? 
+71  ? . 8   ? DT  "H3'"  H ? 4.61  0.02 ? 1 ? ? . A 8   DT  "H3'"  A 8   DT  "H3'"  . 5MVB ? 
+72  ? . 8   ? DT  "H4'"  H ? 4.05  0.02 ? 1 ? ? . A 8   DT  "H4'"  A 8   DT  "H4'"  . 5MVB ? 
+73  ? . 8   ? DT  "H5'"  H ? 3.97  0.02 ? 2 ? ? . A 8   DT  "H5'"  A 8   DT  "H5'"  . 5MVB ? 
+74  ? . 8   ? DT  "H5''" H ? 3.93  0.02 ? 2 ? ? . A 8   DT  "H5''" A 8   DT  "H5''" . 5MVB ? 
+75  ? . 8   ? DT  H6     H ? 7.43  0.02 ? 1 ? ? . A 8   DT  H6     A 8   DT  H6     . 5MVB ? 
+76  ? . 8   ? DT  H71    H ? 1.77  0.02 ? 1 ? ? . A 8   DT  H71    A 8   DT  H71    . 5MVB ? 
+77  ? . 8   ? DT  H72    H ? 1.77  0.02 ? 1 ? ? . A 8   DT  H72    A 8   DT  H72    . 5MVB ? 
+78  ? . 8   ? DT  H73    H ? 1.77  0.02 ? 1 ? ? . A 8   DT  H73    A 8   DT  H73    . 5MVB ? 
+79  ? . 9   ? DA  "H1'"  H ? 5.59  0.02 ? 1 ? ? . A 9   DA  "H1'"  A 9   DA  "H1'"  . 5MVB ? 
+80  ? . 9   ? DA  H2     H ? 7.55  0.02 ? 1 ? ? . A 9   DA  H2     A 9   DA  H2     . 5MVB ? 
+81  ? . 9   ? DA  "H2'"  H ? 1.95  0.02 ? 2 ? ? . A 9   DA  "H2'"  A 9   DA  "H2'"  . 5MVB ? 
+82  ? . 9   ? DA  "H2''" H ? 2.44  0.02 ? 2 ? ? . A 9   DA  "H2''" A 9   DA  "H2''" . 5MVB ? 
+83  ? . 9   ? DA  "H3'"  H ? 4.66  0.02 ? 1 ? ? . A 9   DA  "H3'"  A 9   DA  "H3'"  . 5MVB ? 
+84  ? . 9   ? DA  "H4'"  H ? 4.26  0.02 ? 1 ? ? . A 9   DA  "H4'"  A 9   DA  "H4'"  . 5MVB ? 
+85  ? . 9   ? DA  "H5'"  H ? 3.63  0.02 ? 2 ? ? . A 9   DA  "H5'"  A 9   DA  "H5'"  . 5MVB ? 
+86  ? . 9   ? DA  "H5''" H ? 3.14  0.02 ? 2 ? ? . A 9   DA  "H5''" A 9   DA  "H5''" . 5MVB ? 
+87  ? . 9   ? DA  H8     H ? 7.71  0.02 ? 1 ? ? . A 9   DA  H8     A 9   DA  H8     . 5MVB ? 
+88  ? . 10  ? DG  H1     H ? 11.08 0.02 ? 1 ? ? . A 10  DG  H1     A 10  DG  H1     . 5MVB ? 
+89  ? . 10  ? DG  "H1'"  H ? 6.08  0.02 ? 1 ? ? . A 10  DG  "H1'"  A 10  DG  "H1'"  . 5MVB ? 
+90  ? . 10  ? DG  "H2'"  H ? 3.72  0.02 ? 2 ? ? . A 10  DG  "H2'"  A 10  DG  "H2'"  . 5MVB ? 
+91  ? . 10  ? DG  "H2''" H ? 3.14  0.02 ? 2 ? ? . A 10  DG  "H2''" A 10  DG  "H2''" . 5MVB ? 
+92  ? . 10  ? DG  "H3'"  H ? 4.85  0.02 ? 1 ? ? . A 10  DG  "H3'"  A 10  DG  "H3'"  . 5MVB ? 
+93  ? . 10  ? DG  "H4'"  H ? 4.54  0.02 ? 1 ? ? . A 10  DG  "H4'"  A 10  DG  "H4'"  . 5MVB ? 
+94  ? . 10  ? DG  "H5'"  H ? 4.45  0.02 ? 2 ? ? . A 10  DG  "H5'"  A 10  DG  "H5'"  . 5MVB ? 
+95  ? . 10  ? DG  "H5''" H ? 4.10  0.02 ? 2 ? ? . A 10  DG  "H5''" A 10  DG  "H5''" . 5MVB ? 
+96  ? . 10  ? DG  H8     H ? 7.26  0.02 ? 1 ? ? . A 10  DG  H8     A 10  DG  H8     . 5MVB ? 
+97  ? . 11  ? DG  H1     H ? 11.15 0.02 ? 1 ? ? . A 11  DG  H1     A 11  DG  H1     . 5MVB ? 
+98  ? . 11  ? DG  "H1'"  H ? 5.83  0.02 ? 1 ? ? . A 11  DG  "H1'"  A 11  DG  "H1'"  . 5MVB ? 
+99  ? . 11  ? DG  "H2'"  H ? 2.55  0.02 ? 2 ? ? . A 11  DG  "H2'"  A 11  DG  "H2'"  . 5MVB ? 
+100 ? . 11  ? DG  "H2''" H ? 2.38  0.02 ? 2 ? ? . A 11  DG  "H2''" A 11  DG  "H2''" . 5MVB ? 
+101 ? . 11  ? DG  "H3'"  H ? 5.07  0.02 ? 1 ? ? . A 11  DG  "H3'"  A 11  DG  "H3'"  . 5MVB ? 
+102 ? . 11  ? DG  "H4'"  H ? 4.25  0.02 ? 1 ? ? . A 11  DG  "H4'"  A 11  DG  "H4'"  . 5MVB ? 
+103 ? . 11  ? DG  "H5'"  H ? 4.33  0.02 ? 2 ? ? . A 11  DG  "H5'"  A 11  DG  "H5'"  . 5MVB ? 
+104 ? . 11  ? DG  "H5''" H ? 4.24  0.02 ? 2 ? ? . A 11  DG  "H5''" A 11  DG  "H5''" . 5MVB ? 
+105 ? . 11  ? DG  H8     H ? 7.42  0.02 ? 1 ? ? . A 11  DG  H8     A 11  DG  H8     . 5MVB ? 
+106 ? . 12  ? DG  H1     H ? 11.79 0.02 ? 1 ? ? . A 12  DG  H1     A 12  DG  H1     . 5MVB ? 
+107 ? . 12  ? DG  "H1'"  H ? 6.04  0.02 ? 1 ? ? . A 12  DG  "H1'"  A 12  DG  "H1'"  . 5MVB ? 
+108 ? . 12  ? DG  "H2'"  H ? 2.72  0.02 ? 2 ? ? . A 12  DG  "H2'"  A 12  DG  "H2'"  . 5MVB ? 
+109 ? . 12  ? DG  "H2''" H ? 2.54  0.02 ? 2 ? ? . A 12  DG  "H2''" A 12  DG  "H2''" . 5MVB ? 
+110 ? . 12  ? DG  "H3'"  H ? 5.14  0.02 ? 1 ? ? . A 12  DG  "H3'"  A 12  DG  "H3'"  . 5MVB ? 
+111 ? . 12  ? DG  "H4'"  H ? 4.48  0.02 ? 1 ? ? . A 12  DG  "H4'"  A 12  DG  "H4'"  . 5MVB ? 
+112 ? . 12  ? DG  "H5'"  H ? 4.17  0.02 ? 2 ? ? . A 12  DG  "H5'"  A 12  DG  "H5'"  . 5MVB ? 
+113 ? . 12  ? DG  "H5''" H ? 4.24  0.02 ? 2 ? ? . A 12  DG  "H5''" A 12  DG  "H5''" . 5MVB ? 
+114 ? . 12  ? DG  H8     H ? 8.20  0.02 ? 1 ? ? . A 12  DG  H8     A 12  DG  H8     . 5MVB ? 
+115 ? . 13  ? DT  "H1'"  H ? 6.24  0.02 ? 1 ? ? . A 13  DT  "H1'"  A 13  DT  "H1'"  . 5MVB ? 
+116 ? . 13  ? DT  "H2'"  H ? 2.35  0.02 ? 2 ? ? . A 13  DT  "H2'"  A 13  DT  "H2'"  . 5MVB ? 
+117 ? . 13  ? DT  "H2''" H ? 2.63  0.02 ? 2 ? ? . A 13  DT  "H2''" A 13  DT  "H2''" . 5MVB ? 
+118 ? . 13  ? DT  "H3'"  H ? 4.94  0.02 ? 1 ? ? . A 13  DT  "H3'"  A 13  DT  "H3'"  . 5MVB ? 
+119 ? . 13  ? DT  "H4'"  H ? 4.45  0.02 ? 1 ? ? . A 13  DT  "H4'"  A 13  DT  "H4'"  . 5MVB ? 
+120 ? . 13  ? DT  "H5'"  H ? 4.28  0.02 ? 2 ? ? . A 13  DT  "H5'"  A 13  DT  "H5'"  . 5MVB ? 
+121 ? . 13  ? DT  "H5''" H ? 4.17  0.02 ? 2 ? ? . A 13  DT  "H5''" A 13  DT  "H5''" . 5MVB ? 
+122 ? . 13  ? DT  H6     H ? 7.78  0.02 ? 1 ? ? . A 13  DT  H6     A 13  DT  H6     . 5MVB ? 
+123 ? . 13  ? DT  H71    H ? 1.95  0.02 ? 1 ? ? . A 13  DT  H71    A 13  DT  H71    . 5MVB ? 
+124 ? . 13  ? DT  H72    H ? 1.95  0.02 ? 1 ? ? . A 13  DT  H72    A 13  DT  H72    . 5MVB ? 
+125 ? . 13  ? DT  H73    H ? 1.95  0.02 ? 2 ? ? . A 13  DT  H73    A 13  DT  H73    . 5MVB ? 
+126 ? . 14  ? DT  "H1'"  H ? 5.87  0.02 ? 1 ? ? . A 14  DT  "H1'"  A 14  DT  "H1'"  . 5MVB ? 
+127 ? . 14  ? DT  "H2'"  H ? 1.63  0.02 ? 2 ? ? . A 14  DT  "H2'"  A 14  DT  "H2'"  . 5MVB ? 
+128 ? . 14  ? DT  "H2''" H ? 2.15  0.02 ? 2 ? ? . A 14  DT  "H2''" A 14  DT  "H2''" . 5MVB ? 
+129 ? . 14  ? DT  "H3'"  H ? 4.79  0.02 ? 1 ? ? . A 14  DT  "H3'"  A 14  DT  "H3'"  . 5MVB ? 
+130 ? . 14  ? DT  "H4'"  H ? 4.38  0.02 ? 1 ? ? . A 14  DT  "H4'"  A 14  DT  "H4'"  . 5MVB ? 
+131 ? . 14  ? DT  "H5'"  H ? 4.24  0.02 ? 2 ? ? . A 14  DT  "H5'"  A 14  DT  "H5'"  . 5MVB ? 
+132 ? . 14  ? DT  "H5''" H ? 4.06  0.02 ? 2 ? ? . A 14  DT  "H5''" A 14  DT  "H5''" . 5MVB ? 
+133 ? . 14  ? DT  H6     H ? 7.55  0.02 ? 1 ? ? . A 14  DT  H6     A 14  DT  H6     . 5MVB ? 
+134 ? . 14  ? DT  H71    H ? 1.70  0.02 ? 1 ? ? . A 14  DT  H71    A 14  DT  H71    . 5MVB ? 
+135 ? . 14  ? DT  H72    H ? 1.70  0.02 ? 1 ? ? . A 14  DT  H72    A 14  DT  H72    . 5MVB ? 
+136 ? . 14  ? DT  H73    H ? 1.70  0.02 ? 1 ? ? . A 14  DT  H73    A 14  DT  H73    . 5MVB ? 
+137 ? . 15  ? DA  "H1'"  H ? 5.63  0.02 ? 1 ? ? . A 15  DA  "H1'"  A 15  DA  "H1'"  . 5MVB ? 
+138 ? . 15  ? DA  H2     H ? 7.69  0.02 ? 1 ? ? . A 15  DA  H2     A 15  DA  H2     . 5MVB ? 
+139 ? . 15  ? DA  "H2'"  H ? 2.55  0.02 ? 2 ? ? . A 15  DA  "H2'"  A 15  DA  "H2'"  . 5MVB ? 
+140 ? . 15  ? DA  "H2''" H ? 2.61  0.02 ? 2 ? ? . A 15  DA  "H2''" A 15  DA  "H2''" . 5MVB ? 
+141 ? . 15  ? DA  "H3'"  H ? 5.02  0.02 ? 1 ? ? . A 15  DA  "H3'"  A 15  DA  "H3'"  . 5MVB ? 
+142 ? . 15  ? DA  "H4'"  H ? 4.32  0.02 ? 1 ? ? . A 15  DA  "H4'"  A 15  DA  "H4'"  . 5MVB ? 
+143 ? . 15  ? DA  "H5'"  H ? 4.09  0.02 ? 2 ? ? . A 15  DA  "H5'"  A 15  DA  "H5'"  . 5MVB ? 
+144 ? . 15  ? DA  "H5''" H ? 3.98  0.02 ? 2 ? ? . A 15  DA  "H5''" A 15  DA  "H5''" . 5MVB ? 
+145 ? . 15  ? DA  H8     H ? 8.02  0.02 ? 1 ? ? . A 15  DA  H8     A 15  DA  H8     . 5MVB ? 
+146 ? . 16  ? DG  H1     H ? 10.99 0.02 ? 1 ? ? . A 16  DG  H1     A 16  DG  H1     . 5MVB ? 
+147 ? . 16  ? DG  "H1'"  H ? 5.97  0.02 ? 1 ? ? . A 16  DG  "H1'"  A 16  DG  "H1'"  . 5MVB ? 
+148 ? . 16  ? DG  "H2'"  H ? 3.52  0.02 ? 2 ? ? . A 16  DG  "H2'"  A 16  DG  "H2'"  . 5MVB ? 
+149 ? . 16  ? DG  "H2''" H ? 2.94  0.02 ? 2 ? ? . A 16  DG  "H2''" A 16  DG  "H2''" . 5MVB ? 
+150 ? . 16  ? DG  "H3'"  H ? 4.88  0.02 ? 1 ? ? . A 16  DG  "H3'"  A 16  DG  "H3'"  . 5MVB ? 
+151 ? . 16  ? DG  "H4'"  H ? 4.65  0.02 ? 1 ? ? . A 16  DG  "H4'"  A 16  DG  "H4'"  . 5MVB ? 
+152 ? . 16  ? DG  "H5'"  H ? 4.47  0.02 ? 2 ? ? . A 16  DG  "H5'"  A 16  DG  "H5'"  . 5MVB ? 
+153 ? . 16  ? DG  "H5''" H ? 4.34  0.02 ? 2 ? ? . A 16  DG  "H5''" A 16  DG  "H5''" . 5MVB ? 
+154 ? . 16  ? DG  H8     H ? 7.10  0.02 ? 1 ? ? . A 16  DG  H8     A 16  DG  H8     . 5MVB ? 
+155 ? . 17  ? DG  H1     H ? 11.42 0.02 ? 1 ? ? . A 17  DG  H1     A 17  DG  H1     . 5MVB ? 
+156 ? . 17  ? DG  "H1'"  H ? 5.75  0.02 ? 1 ? ? . A 17  DG  "H1'"  A 17  DG  "H1'"  . 5MVB ? 
+157 ? . 17  ? DG  "H2'"  H ? 2.32  0.02 ? 2 ? ? . A 17  DG  "H2'"  A 17  DG  "H2'"  . 5MVB ? 
+158 ? . 17  ? DG  "H2''" H ? 2.69  0.02 ? 2 ? ? . A 17  DG  "H2''" A 17  DG  "H2''" . 5MVB ? 
+159 ? . 17  ? DG  "H3'"  H ? 4.91  0.02 ? 1 ? ? . A 17  DG  "H3'"  A 17  DG  "H3'"  . 5MVB ? 
+160 ? . 17  ? DG  "H4'"  H ? 4.22  0.02 ? 1 ? ? . A 17  DG  "H4'"  A 17  DG  "H4'"  . 5MVB ? 
+161 ? . 17  ? DG  "H5'"  H ? 4.39  0.02 ? 2 ? ? . A 17  DG  "H5'"  A 17  DG  "H5'"  . 5MVB ? 
+162 ? . 17  ? DG  "H5''" H ? 4.23  0.02 ? 2 ? ? . A 17  DG  "H5''" A 17  DG  "H5''" . 5MVB ? 
+163 ? . 17  ? DG  H8     H ? 7.64  0.02 ? 1 ? ? . A 17  DG  H8     A 17  DG  H8     . 5MVB ? 
+164 ? . 18  ? DG  H1     H ? 10.71 0.02 ? 1 ? ? . A 18  DG  H1     A 18  DG  H1     . 5MVB ? 
+165 ? . 18  ? DG  "H1'"  H ? 6.24  0.02 ? 1 ? ? . A 18  DG  "H1'"  A 18  DG  "H1'"  . 5MVB ? 
+166 ? . 18  ? DG  "H2'"  H ? 2.25  0.02 ? 2 ? ? . A 18  DG  "H2'"  A 18  DG  "H2'"  . 5MVB ? 
+167 ? . 18  ? DG  "H2''" H ? 2.54  0.02 ? 2 ? ? . A 18  DG  "H2''" A 18  DG  "H2''" . 5MVB ? 
+168 ? . 18  ? DG  "H3'"  H ? 4.99  0.02 ? 1 ? ? . A 18  DG  "H3'"  A 18  DG  "H3'"  . 5MVB ? 
+169 ? . 18  ? DG  "H4'"  H ? 4.28  0.02 ? 1 ? ? . A 18  DG  "H4'"  A 18  DG  "H4'"  . 5MVB ? 
+170 ? . 18  ? DG  "H5'"  H ? 3.97  0.02 ? 2 ? ? . A 18  DG  "H5'"  A 18  DG  "H5'"  . 5MVB ? 
+171 ? . 18  ? DG  "H5''" H ? 3.89  0.02 ? 2 ? ? . A 18  DG  "H5''" A 18  DG  "H5''" . 5MVB ? 
+172 ? . 18  ? DG  H8     H ? 7.69  0.02 ? 1 ? ? . A 18  DG  H8     A 18  DG  H8     . 5MVB ? 
+173 ? . 19  ? DT  "H1'"  H ? 6.37  0.02 ? 1 ? ? . A 19  DT  "H1'"  A 19  DT  "H1'"  . 5MVB ? 
+174 ? . 19  ? DT  "H2'"  H ? 2.45  0.02 ? 2 ? ? . A 19  DT  "H2'"  A 19  DT  "H2'"  . 5MVB ? 
+175 ? . 19  ? DT  "H2''" H ? 2.54  0.02 ? 2 ? ? . A 19  DT  "H2''" A 19  DT  "H2''" . 5MVB ? 
+176 ? . 19  ? DT  "H3'"  H ? 4.81  0.02 ? 1 ? ? . A 19  DT  "H3'"  A 19  DT  "H3'"  . 5MVB ? 
+177 ? . 19  ? DT  "H4'"  H ? 4.36  0.02 ? 1 ? ? . A 19  DT  "H4'"  A 19  DT  "H4'"  . 5MVB ? 
+178 ? . 19  ? DT  "H5'"  H ? 4.12  0.02 ? 2 ? ? . A 19  DT  "H5'"  A 19  DT  "H5'"  . 5MVB ? 
+179 ? . 19  ? DT  "H5''" H ? 4.05  0.02 ? 2 ? ? . A 19  DT  "H5''" A 19  DT  "H5''" . 5MVB ? 
+180 ? . 19  ? DT  H6     H ? 7.73  0.02 ? 1 ? ? . A 19  DT  H6     A 19  DT  H6     . 5MVB ? 
+181 ? . 19  ? DT  H71    H ? 1.96  0.02 ? 1 ? ? . A 19  DT  H71    A 19  DT  H71    . 5MVB ? 
+182 ? . 19  ? DT  H72    H ? 1.96  0.02 ? 1 ? ? . A 19  DT  H72    A 19  DT  H72    . 5MVB ? 
+183 ? . 19  ? DT  H73    H ? 1.96  0.02 ? 1 ? ? . A 19  DT  H73    A 19  DT  H73    . 5MVB ? 
+184 ? . 20  ? DT  "H1'"  H ? 6.24  0.02 ? 1 ? ? . A 20  DT  "H1'"  A 20  DT  "H1'"  . 5MVB ? 
+185 ? . 20  ? DT  "H2'"  H ? 2.16  0.02 ? 2 ? ? . A 20  DT  "H2'"  A 20  DT  "H2'"  . 5MVB ? 
+186 ? . 20  ? DT  "H2''" H ? 2.47  0.02 ? 2 ? ? . A 20  DT  "H2''" A 20  DT  "H2''" . 5MVB ? 
+187 ? . 20  ? DT  "H3'"  H ? 4.90  0.02 ? 1 ? ? . A 20  DT  "H3'"  A 20  DT  "H3'"  . 5MVB ? 
+188 ? . 20  ? DT  "H4'"  H ? 4.31  0.02 ? 1 ? ? . A 20  DT  "H4'"  A 20  DT  "H4'"  . 5MVB ? 
+189 ? . 20  ? DT  "H5'"  H ? 4.23  0.02 ? 2 ? ? . A 20  DT  "H5'"  A 20  DT  "H5'"  . 5MVB ? 
+190 ? . 20  ? DT  "H5''" H ? 4.13  0.02 ? 2 ? ? . A 20  DT  "H5''" A 20  DT  "H5''" . 5MVB ? 
+191 ? . 20  ? DT  H6     H ? 7.67  0.02 ? 1 ? ? . A 20  DT  H6     A 20  DT  H6     . 5MVB ? 
+192 ? . 20  ? DT  H71    H ? 2.02  0.02 ? 1 ? ? . A 20  DT  H71    A 20  DT  H71    . 5MVB ? 
+193 ? . 20  ? DT  H72    H ? 2.02  0.02 ? 1 ? ? . A 20  DT  H72    A 20  DT  H72    . 5MVB ? 
+194 ? . 20  ? DT  H73    H ? 2.02  0.02 ? 1 ? ? . A 20  DT  H73    A 20  DT  H73    . 5MVB ? 
+195 ? . 21  ? DA  "H1'"  H ? 6.58  0.02 ? 1 ? ? . A 21  DA  "H1'"  A 21  DA  "H1'"  . 5MVB ? 
+196 ? . 21  ? DA  H2     H ? 8.31  0.02 ? 1 ? ? . A 21  DA  H2     A 21  DA  H2     . 5MVB ? 
+197 ? . 21  ? DA  "H2'"  H ? 3.06  0.02 ? 2 ? ? . A 21  DA  "H2'"  A 21  DA  "H2'"  . 5MVB ? 
+198 ? . 21  ? DA  "H2''" H ? 2.86  0.02 ? 2 ? ? . A 21  DA  "H2''" A 21  DA  "H2''" . 5MVB ? 
+199 ? . 21  ? DA  "H3'"  H ? 5.17  0.02 ? 1 ? ? . A 21  DA  "H3'"  A 21  DA  "H3'"  . 5MVB ? 
+200 ? . 21  ? DA  "H4'"  H ? 4.55  0.02 ? 1 ? ? . A 21  DA  "H4'"  A 21  DA  "H4'"  . 5MVB ? 
+201 ? . 21  ? DA  "H5'"  H ? 4.22  0.02 ? 2 ? ? . A 21  DA  "H5'"  A 21  DA  "H5'"  . 5MVB ? 
+202 ? . 21  ? DA  "H5''" H ? 4.18  0.02 ? 2 ? ? . A 21  DA  "H5''" A 21  DA  "H5''" . 5MVB ? 
+203 ? . 21  ? DA  H8     H ? 8.50  0.02 ? 1 ? ? . A 21  DA  H8     A 21  DA  H8     . 5MVB ? 
+204 ? . 22  ? DG  H1     H ? 11.63 0.02 ? 1 ? ? . A 22  DG  H1     A 22  DG  H1     . 5MVB ? 
+205 ? . 22  ? DG  "H1'"  H ? 5.84  0.02 ? 1 ? ? . A 22  DG  "H1'"  A 22  DG  "H1'"  . 5MVB ? 
+206 ? . 22  ? DG  "H2'"  H ? 3.32  0.02 ? 2 ? ? . A 22  DG  "H2'"  A 22  DG  "H2'"  . 5MVB ? 
+207 ? . 22  ? DG  "H2''" H ? 2.93  0.02 ? 2 ? ? . A 22  DG  "H2''" A 22  DG  "H2''" . 5MVB ? 
+208 ? . 22  ? DG  "H3'"  H ? 4.98  0.02 ? 1 ? ? . A 22  DG  "H3'"  A 22  DG  "H3'"  . 5MVB ? 
+209 ? . 22  ? DG  "H4'"  H ? 4.45  0.02 ? 1 ? ? . A 22  DG  "H4'"  A 22  DG  "H4'"  . 5MVB ? 
+210 ? . 22  ? DG  "H5'"  H ? 4.26  0.02 ? 2 ? ? . A 22  DG  "H5'"  A 22  DG  "H5'"  . 5MVB ? 
+211 ? . 22  ? DG  "H5''" H ? 4.19  0.02 ? 2 ? ? . A 22  DG  "H5''" A 22  DG  "H5''" . 5MVB ? 
+212 ? . 22  ? DG  H8     H ? 6.95  0.02 ? 1 ? ? . A 22  DG  H8     A 22  DG  H8     . 5MVB ? 
+213 ? . 23  ? DG  H1     H ? 11.46 0.02 ? 1 ? ? . A 23  DG  H1     A 23  DG  H1     . 5MVB ? 
+214 ? . 23  ? DG  "H1'"  H ? 5.70  0.02 ? 1 ? ? . A 23  DG  "H1'"  A 23  DG  "H1'"  . 5MVB ? 
+215 ? . 23  ? DG  "H2'"  H ? 2.58  0.02 ? 2 ? ? . A 23  DG  "H2'"  A 23  DG  "H2'"  . 5MVB ? 
+216 ? . 23  ? DG  "H2''" H ? 2.62  0.02 ? 2 ? ? . A 23  DG  "H2''" A 23  DG  "H2''" . 5MVB ? 
+217 ? . 23  ? DG  "H3'"  H ? 5.04  0.02 ? 1 ? ? . A 23  DG  "H3'"  A 23  DG  "H3'"  . 5MVB ? 
+218 ? . 23  ? DG  "H4'"  H ? 4.33  0.02 ? 1 ? ? . A 23  DG  "H4'"  A 23  DG  "H4'"  . 5MVB ? 
+219 ? . 23  ? DG  H8     H ? 7.91  0.02 ? 1 ? ? . A 23  DG  H8     A 23  DG  H8     . 5MVB ? 
+220 ? . 24  ? DG  H1     H ? 11.28 0.02 ? 1 ? ? . A 24  DG  H1     A 24  DG  H1     . 5MVB ? 
+221 ? . 24  ? DG  "H1'"  H ? 6.18  0.02 ? 1 ? ? . A 24  DG  "H1'"  A 24  DG  "H1'"  . 5MVB ? 
+222 ? . 24  ? DG  "H2'"  H ? 2.50  0.02 ? 2 ? ? . A 24  DG  "H2'"  A 24  DG  "H2'"  . 5MVB ? 
+223 ? . 24  ? DG  "H2''" H ? 2.75  0.02 ? 2 ? ? . A 24  DG  "H2''" A 24  DG  "H2''" . 5MVB ? 
+224 ? . 24  ? DG  "H3'"  H ? 4.92  0.02 ? 1 ? ? . A 24  DG  "H3'"  A 24  DG  "H3'"  . 5MVB ? 
+225 ? . 24  ? DG  "H4'"  H ? 4.47  0.02 ? 1 ? ? . A 24  DG  "H4'"  A 24  DG  "H4'"  . 5MVB ? 
+226 ? . 24  ? DG  "H5'"  H ? 4.12  0.02 ? 2 ? ? . A 24  DG  "H5'"  A 24  DG  "H5'"  . 5MVB ? 
+227 ? . 24  ? DG  "H5''" H ? 4.24  0.02 ? 2 ? ? . A 24  DG  "H5''" A 24  DG  "H5''" . 5MVB ? 
+228 ? . 24  ? DG  H8     H ? 7.75  0.02 ? 1 ? ? . A 24  DG  H8     A 24  DG  H8     . 5MVB ? 
+229 ? . 25  ? DT  "H1'"  H ? 6.07  0.02 ? 1 ? ? . A 25  DT  "H1'"  A 25  DT  "H1'"  . 5MVB ? 
+230 ? . 25  ? DT  "H2'"  H ? 2.10  0.02 ? 2 ? ? . A 25  DT  "H2'"  A 25  DT  "H2'"  . 5MVB ? 
+231 ? . 25  ? DT  "H2''" H ? 2.37  0.02 ? 2 ? ? . A 25  DT  "H2''" A 25  DT  "H2''" . 5MVB ? 
+232 ? . 25  ? DT  "H3'"  H ? 4.77  0.02 ? 1 ? ? . A 25  DT  "H3'"  A 25  DT  "H3'"  . 5MVB ? 
+233 ? . 25  ? DT  "H4'"  H ? 4.23  0.02 ? 1 ? ? . A 25  DT  "H4'"  A 25  DT  "H4'"  . 5MVB ? 
+234 ? . 25  ? DT  "H5'"  H ? 4.30  0.02 ? 2 ? ? . A 25  DT  "H5'"  A 25  DT  "H5'"  . 5MVB ? 
+235 ? . 25  ? DT  "H5''" H ? 4.11  0.02 ? 2 ? ? . A 25  DT  "H5''" A 25  DT  "H5''" . 5MVB ? 
+236 ? . 25  ? DT  H6     H ? 7.28  0.02 ? 1 ? ? . A 25  DT  H6     A 25  DT  H6     . 5MVB ? 
+237 ? . 25  ? DT  H71    H ? 1.48  0.02 ? 1 ? ? . A 25  DT  H71    A 25  DT  H71    . 5MVB ? 
+238 ? . 25  ? DT  H72    H ? 1.48  0.02 ? 1 ? ? . A 25  DT  H72    A 25  DT  H72    . 5MVB ? 
+239 ? . 25  ? DT  H73    H ? 1.48  0.02 ? 1 ? ? . A 25  DT  H73    A 25  DT  H73    . 5MVB ? 
+240 ? . 26  ? DT  "H1'"  H ? 5.82  0.02 ? 1 ? ? . A 26  DT  "H1'"  A 26  DT  "H1'"  . 5MVB ? 
+241 ? . 26  ? DT  "H2'"  H ? 2.07  0.02 ? 2 ? ? . A 26  DT  "H2'"  A 26  DT  "H2'"  . 5MVB ? 
+242 ? . 26  ? DT  "H2''" H ? 2.18  0.02 ? 2 ? ? . A 26  DT  "H2''" A 26  DT  "H2''" . 5MVB ? 
+243 ? . 26  ? DT  "H3'"  H ? 4.41  0.02 ? 1 ? ? . A 26  DT  "H3'"  A 26  DT  "H3'"  . 5MVB ? 
+244 ? . 26  ? DT  "H4'"  H ? 3.88  0.02 ? 1 ? ? . A 26  DT  "H4'"  A 26  DT  "H4'"  . 5MVB ? 
+245 ? . 26  ? DT  "H5'"  H ? 4.06  0.02 ? 2 ? ? . A 26  DT  "H5'"  A 26  DT  "H5'"  . 5MVB ? 
+246 ? . 26  ? DT  "H5''" H ? 3.97  0.02 ? 2 ? ? . A 26  DT  "H5''" A 26  DT  "H5''" . 5MVB ? 
+247 ? . 26  ? DT  H6     H ? 7.33  0.02 ? 1 ? ? . A 26  DT  H6     A 26  DT  H6     . 5MVB ? 
+248 ? . 26  ? DT  H71    H ? 1.57  0.02 ? 1 ? ? . A 26  DT  H71    A 26  DT  H71    . 5MVB ? 
+249 ? . 26  ? DT  H72    H ? 1.57  0.02 ? 1 ? ? . A 26  DT  H72    A 26  DT  H72    . 5MVB ? 
+250 ? . 26  ? DT  H73    H ? 1.57  0.02 ? 1 ? ? . A 26  DT  H73    A 26  DT  H73    . 5MVB ? 
+251 ? . 100 ? AUZ H21    H ? 6.99  0.02 ? 4 ? ? . A 103 AUZ H21    C 100 AOX H21    . 5MVB ? 
+252 ? . 100 ? AUZ H22    H ? 7.00  0.02 ? 4 ? ? . A 103 AUZ H22    C 100 AOX H22    . 5MVB ? 
+253 ? . 100 ? AUZ H23    H ? 7.00  0.02 ? 4 ? ? . A 103 AUZ H23    C 100 AOX H23    . 5MVB ? 
+254 ? . 100 ? AUZ H24    H ? 6.99  0.02 ? 4 ? ? . A 103 AUZ H24    C 100 AOX H24    . 5MVB ? 
+255 ? . 100 ? AUZ H31    H ? 8.01  0.02 ? 4 ? ? . A 103 AUZ H31    C 100 AOX H31    . 5MVB ? 
+256 ? . 100 ? AUZ H32    H ? 7.91  0.02 ? 4 ? ? . A 103 AUZ H32    C 100 AOX H32    . 5MVB ? 
+257 ? . 100 ? AUZ H33    H ? 7.91  0.02 ? 4 ? ? . A 103 AUZ H33    C 100 AOX H33    . 5MVB ? 
+258 ? . 100 ? AUZ H34    H ? 8.01  0.02 ? 4 ? ? . A 103 AUZ H34    C 100 AOX H34    . 5MVB ? 
+259 ? . 100 ? AUZ H41    H ? 7.83  0.02 ? 4 ? ? . A 103 AUZ H41    C 100 AOX H41    . 5MVB ? 
+260 ? . 100 ? AUZ H42    H ? 7.83  0.02 ? 4 ? ? . A 103 AUZ H42    C 100 AOX H42    . 5MVB ? 
+261 ? . 100 ? AUZ H43    H ? 7.83  0.02 ? 4 ? ? . A 103 AUZ H43    C 100 AOX H43    . 5MVB ? 
+262 ? . 100 ? AUZ H44    H ? 7.83  0.02 ? 4 ? ? . A 103 AUZ H44    C 100 AOX H44    . 5MVB ? 
+263 ? . 100 ? AUZ H611   H ? 1.94  0.02 ? 4 ? ? . A 103 AUZ H611   C 100 AOX H611   . 5MVB ? 
+264 ? . 100 ? AUZ H612   H ? 1.94  0.02 ? 4 ? ? . A 103 AUZ H612   C 100 AOX H612   . 5MVB ? 
+265 ? . 100 ? AUZ H613   H ? 1.94  0.02 ? 4 ? ? . A 103 AUZ H613   C 100 AOX H613   . 5MVB ? 
+266 ? . 100 ? AUZ H621   H ? 2.20  0.02 ? 4 ? ? . A 103 AUZ H621   C 100 AOX H621   . 5MVB ? 
+267 ? . 100 ? AUZ H622   H ? 2.20  0.02 ? 4 ? ? . A 103 AUZ H622   C 100 AOX H622   . 5MVB ? 
+268 ? . 100 ? AUZ H623   H ? 2.20  0.02 ? 4 ? ? . A 103 AUZ H623   C 100 AOX H623   . 5MVB ? 
+269 ? . 100 ? AUZ H631   H ? 2.20  0.02 ? 4 ? ? . A 103 AUZ H631   C 100 AOX H631   . 5MVB ? 
+270 ? . 100 ? AUZ H632   H ? 2.20  0.02 ? 4 ? ? . A 103 AUZ H632   C 100 AOX H632   . 5MVB ? 
+271 ? . 100 ? AUZ H633   H ? 2.20  0.02 ? 4 ? ? . A 103 AUZ H633   C 100 AOX H633   . 5MVB ? 
+272 ? . 100 ? AUZ H641   H ? 1.94  0.02 ? 4 ? ? . A 103 AUZ H641   C 100 AOX H641   . 5MVB ? 
+273 ? . 100 ? AUZ H642   H ? 1.94  0.02 ? 4 ? ? . A 103 AUZ H642   C 100 AOX H642   . 5MVB ? 
+274 ? . 100 ? AUZ H643   H ? 1.94  0.02 ? 4 ? ? . A 103 AUZ H643   C 100 AOX H643   . 5MVB ? 
+stop_
+save_

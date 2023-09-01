@@ -1,0 +1,276 @@
+data_5ov2
+
+save_entry_information
+# 
+_Entry.ID                 5OV2 
+_Entry.Assigned_BMRB_ID   1 
+# 
+loop_
+_Audit.Revision_ID 
+_Audit.Creation_date 
+_Audit.Update_record 
+_Audit.Creation_method 
+_Audit.Entry_ID 
+1 2017-09-20 'Nomenclature checked and updated' . 5OV2 
+2 2017-09-20 'Preliminary version'              . 5OV2 
+3 2017-10-18 'Initial release'                  . 5OV2 
+stop_
+save_
+save_reference_1
+# 
+_Chem_shift_reference.Sf_category    chem_shift_reference 
+_Chem_shift_reference.Sf_framecode   reference_1 
+_Chem_shift_reference.Entry_ID       5OV2 
+_Chem_shift_reference.ID             1 
+# 
+loop_
+_Chem_shift_ref.Atom_type 
+_Chem_shift_ref.Atom_isotope_number 
+_Chem_shift_ref.Mol_common_name 
+_Chem_shift_ref.Atom_group 
+_Chem_shift_ref.Concentration_val 
+_Chem_shift_ref.Concentration_units 
+_Chem_shift_ref.Solvent 
+_Chem_shift_ref.Rank 
+_Chem_shift_ref.Chem_shift_units 
+_Chem_shift_ref.Chem_shift_val 
+_Chem_shift_ref.Ref_method 
+_Chem_shift_ref.Ref_type 
+_Chem_shift_ref.Indirect_shift_ratio 
+_Chem_shift_ref.Entry_ID 
+_Chem_shift_ref.Chem_shift_reference_ID 
+H 1  water protons          ? ? ? ? ppm 4.78  internal direct   1.0        34174 1 
+C 13 DSS   'methyl protons' ? ? ? ? ppm 0.000 internal indirect 0.25144953 34174 1 
+stop_
+save_
+save_assigned_chem_shift_list
+# 
+_Assigned_chem_shift_list.Sf_category      assigned_chemical_shifts 
+_Assigned_chem_shift_list.Sf_framecode     assigned_chem_shift_list 
+_Assigned_chem_shift_list.Entry_ID         5OV2 
+_Assigned_chem_shift_list.ID               1 
+_Assigned_chem_shift_list.Data_file_name   
+;From CCPN project: 'ODN1620'
+;
+# 
+loop_
+_Atom_chem_shift.ID 
+_Atom_chem_shift.Entity_assembly_ID 
+_Atom_chem_shift.Entity_ID 
+_Atom_chem_shift.Comp_index_ID 
+_Atom_chem_shift.Seq_ID 
+_Atom_chem_shift.Comp_ID 
+_Atom_chem_shift.Atom_ID 
+_Atom_chem_shift.Atom_type 
+_Atom_chem_shift.Atom_isotope_number 
+_Atom_chem_shift.Val 
+_Atom_chem_shift.Val_err 
+_Atom_chem_shift.Assign_fig_of_merit 
+_Atom_chem_shift.Ambiguity_code 
+_Atom_chem_shift.Occupancy 
+_Atom_chem_shift.Resonance_ID 
+_Atom_chem_shift.Auth_entity_assembly_ID 
+_Atom_chem_shift.Auth_asym_ID 
+_Atom_chem_shift.Auth_seq_ID 
+_Atom_chem_shift.Auth_comp_ID 
+_Atom_chem_shift.Auth_atom_ID 
+_Atom_chem_shift.Original_PDB_strand_ID 
+_Atom_chem_shift.Original_PDB_residue_no 
+_Atom_chem_shift.Original_PDB_residue_name 
+_Atom_chem_shift.Original_PDB_atom_name 
+_Atom_chem_shift.Details 
+_Atom_chem_shift.Entry_ID 
+_Atom_chem_shift.Assigned_chem_shift_list_ID 
+1   1 1 18 18 DA  "H2''" H 1  2.361   0.002 ? 1 ? 2195 . X 18 DA  "H2''" X 18 DA  "H2''" . 5OV2 1 
+2   1 1 8  8  DG  H1     H 1  11.095  0.003 ? 1 ? 2196 . X 8  DG  H1     X 8  DG  H1     . 5OV2 1 
+3   1 1 18 18 DA  H2     H 1  7.679   0.003 ? 1 ? 2197 . X 18 DA  H2     X 18 DA  H2     . 5OV2 1 
+4   1 1 17 17 DG  "H1'"  H 1  6.155   0.002 ? 1 ? 2198 . X 17 DG  "H1'"  X 17 DG  "H1'"  . 5OV2 1 
+5   1 1 19 19 DC  "H4'"  H 1  4.523   0.003 ? 1 ? 2199 . X 19 DC  "H4'"  X 19 DC  "H4'"  . 5OV2 1 
+6   1 1 15 15 DG  "H3'"  H 1  4.996   0.002 ? 1 ? 2200 . X 15 DG  "H3'"  X 15 DG  "H3'"  . 5OV2 1 
+7   1 1 2  2  DG  "H3'"  H 1  5.007   0.001 ? 1 ? 2201 . X 2  DG  "H3'"  X 2  DG  "H3'"  . 5OV2 1 
+8   1 1 3  3  DG  "H3'"  H 1  5.006   0.002 ? 1 ? 2202 . X 3  DG  "H3'"  X 3  DG  "H3'"  . 5OV2 1 
+9   1 1 18 18 DA  "H3'"  H 1  5.181   0.003 ? 1 ? 2203 . X 18 DA  "H3'"  X 18 DA  "H3'"  . 5OV2 1 
+10  1 1 10 10 DC  "H4'"  H 1  4.080   0.0   ? 1 ? 2204 . X 10 DC  "H4'"  X 10 DC  "H4'"  . 5OV2 1 
+11  1 1 11 11 DA  "H4'"  H 1  3.934   0.003 ? 1 ? 2205 . X 11 DA  "H4'"  X 11 DA  "H4'"  . 5OV2 1 
+12  1 1 12 12 DC  "H4'"  H 1  3.553   0.002 ? 1 ? 2206 . X 12 DC  "H4'"  X 12 DC  "H4'"  . 5OV2 1 
+13  1 1 15 15 DG  "H4'"  H 1  4.285   0.002 ? 1 ? 2207 . X 15 DG  "H4'"  X 15 DG  "H4'"  . 5OV2 1 
+14  1 1 2  2  DG  "H4'"  H 1  4.488   0.002 ? 1 ? 2208 . X 2  DG  "H4'"  X 2  DG  "H4'"  . 5OV2 1 
+15  1 1 8  8  DG  "H4'"  H 1  4.414   0.002 ? 1 ? 2209 . X 8  DG  "H4'"  X 8  DG  "H4'"  . 5OV2 1 
+16  1 1 9  9  DA  "H4'"  H 1  4.418   0.003 ? 1 ? 2210 . X 9  DA  "H4'"  X 9  DA  "H4'"  . 5OV2 1 
+17  1 1 14 14 DG  "H3'"  H 1  4.889   0.004 ? 1 ? 2211 . X 14 DG  "H3'"  X 14 DG  "H3'"  . 5OV2 1 
+18  1 1 19 19 DC  "H5''" H 1  3.698   0.009 ? 1 ? 2212 . X 19 DC  "H5''" X 19 DC  "H5''" . 5OV2 1 
+19  1 1 4  4  DA  H2     H 1  8.322   0.001 ? 1 ? 2213 . X 4  DA  H2     X 4  DA  H2     . 5OV2 1 
+20  1 1 4  4  DA  C2     C 13 155.452 ?     ? 1 ? 2214 . X 4  DA  C2     X 4  DA  C2     . 5OV2 1 
+21  1 1 13 13 DA  H2     H 1  7.755   0.001 ? 1 ? 2215 . X 13 DA  H2     X 13 DA  H2     . 5OV2 1 
+22  1 1 13 13 DA  C2     C 13 154.400 ?     ? 1 ? 2216 . X 13 DA  C2     X 13 DA  C2     . 5OV2 1 
+23  1 1 18 18 DA  C2     C 13 154.841 ?     ? 1 ? 2217 . X 18 DA  C2     X 18 DA  C2     . 5OV2 1 
+24  1 1 11 11 DA  H2     H 1  7.681   0.001 ? 1 ? 2218 . X 11 DA  H2     X 11 DA  H2     . 5OV2 1 
+25  1 1 11 11 DA  C2     C 13 154.557 ?     ? 1 ? 2219 . X 11 DA  C2     X 11 DA  C2     . 5OV2 1 
+26  1 1 9  9  DA  H2     H 1  7.733   0.003 ? 1 ? 2220 . X 9  DA  H2     X 9  DA  H2     . 5OV2 1 
+27  1 1 9  9  DA  C2     C 13 154.740 ?     ? 1 ? 2221 . X 9  DA  C2     X 9  DA  C2     . 5OV2 1 
+28  1 1 20 20 GFL "H3'"  H 1  4.723   0.004 ? 1 ? 2222 . X 20 GFL "H3'"  X 20 GFL "H3'"  . 5OV2 1 
+29  1 1 6  6  GFL "H5'2" H 1  3.890   0.002 ? 1 ? 2223 . X 6  GFL "H5'2" X 6  GFL "H5''" . 5OV2 1 
+30  1 1 6  6  GFL "H5'1" H 1  4.157   0.004 ? 1 ? 2224 . X 6  GFL "H5'1" X 6  GFL "H5'"  . 5OV2 1 
+31  1 1 17 17 DG  "H2'"  H 1  2.960   0.004 ? 1 ? 2225 . X 17 DG  "H2'"  X 17 DG  "H2'"  . 5OV2 1 
+32  1 1 17 17 DG  "H2''" H 1  2.784   0.003 ? 1 ? 2226 . X 17 DG  "H2''" X 17 DG  "H2''" . 5OV2 1 
+33  1 1 16 16 DG  "H3'"  H 1  4.916   0.002 ? 1 ? 2227 . X 16 DG  "H3'"  X 16 DG  "H3'"  . 5OV2 1 
+34  1 1 7  7  DG  "H5'"  H 1  4.272   ?     ? 2 ? 2228 . X 7  DG  "H5'"  X 7  DG  "H5'"  . 5OV2 1 
+35  1 1 7  7  DG  "H5''" H 1  4.215   ?     ? 2 ? 2229 . X 7  DG  "H5''" X 7  DG  "H5''" . 5OV2 1 
+36  1 1 12 12 DC  "H5'"  H 1  3.352   0.001 ? 2 ? 2230 . X 12 DC  "H5'"  X 12 DC  "H5'"  . 5OV2 1 
+37  1 1 12 12 DC  "H5''" H 1  3.540   0.0   ? 2 ? 2231 . X 12 DC  "H5''" X 12 DC  "H5''" . 5OV2 1 
+38  1 1 17 17 DG  "H3'"  H 1  5.111   0.002 ? 1 ? 2232 . X 17 DG  "H3'"  X 17 DG  "H3'"  . 5OV2 1 
+39  1 1 22 22 DG  "H5'"  H 1  4.233   0.003 ? 1 ? 2233 . X 22 DG  "H5'"  X 22 DG  "H5'"  . 5OV2 1 
+40  1 1 16 16 DG  "H4'"  H 1  4.293   0.003 ? 1 ? 2234 . X 16 DG  "H4'"  X 16 DG  "H4'"  . 5OV2 1 
+41  1 1 14 14 DG  "H4'"  H 1  4.344   0.001 ? 1 ? 2235 . X 14 DG  "H4'"  X 14 DG  "H4'"  . 5OV2 1 
+42  1 1 6  6  GFL "H4'"  H 1  4.351   0.004 ? 1 ? 2135 . X 6  GFL "H4'"  X 6  GFL "H4'"  . 5OV2 1 
+43  1 1 7  7  DG  "H3'"  H 1  5.072   0.003 ? 1 ? 2136 . X 7  DG  "H3'"  X 7  DG  "H3'"  . 5OV2 1 
+44  1 1 6  6  GFL "H3'"  H 1  5.029   0.003 ? 1 ? 2137 . X 6  GFL "H3'"  X 6  GFL "H3'"  . 5OV2 1 
+45  1 1 20 20 GFL "H4'"  H 1  4.306   0.004 ? 1 ? 2138 . X 20 GFL "H4'"  X 20 GFL "H4'"  . 5OV2 1 
+46  1 1 8  8  DG  "H3'"  H 1  4.958   0.003 ? 1 ? 2139 . X 8  DG  "H3'"  X 8  DG  "H3'"  . 5OV2 1 
+47  1 1 9  9  DA  "H3'"  H 1  4.961   0.003 ? 1 ? 2140 . X 9  DA  "H3'"  X 9  DA  "H3'"  . 5OV2 1 
+48  1 1 10 10 DC  "H3'"  H 1  4.595   0.005 ? 1 ? 2141 . X 10 DC  "H3'"  X 10 DC  "H3'"  . 5OV2 1 
+49  1 1 11 11 DA  "H3'"  H 1  4.458   0.006 ? 1 ? 2142 . X 11 DA  "H3'"  X 11 DA  "H3'"  . 5OV2 1 
+50  1 1 12 12 DC  "H3'"  H 1  4.395   0.003 ? 1 ? 2143 . X 12 DC  "H3'"  X 12 DC  "H3'"  . 5OV2 1 
+51  1 1 13 13 DA  "H3'"  H 1  4.758   0.003 ? 1 ? 2144 . X 13 DA  "H3'"  X 13 DA  "H3'"  . 5OV2 1 
+52  1 1 19 19 DC  "H3'"  H 1  4.695   0.003 ? 1 ? 2145 . X 19 DC  "H3'"  X 19 DC  "H3'"  . 5OV2 1 
+53  1 1 10 10 DC  C6     C 13 143.474 ?     ? 1 ? 2146 . X 10 DC  C6     X 10 DC  C6     . 5OV2 1 
+54  1 1 19 19 DC  C6     C 13 143.722 ?     ? 1 ? 2147 . X 19 DC  C6     X 19 DC  C6     . 5OV2 1 
+55  1 1 12 12 DC  C6     C 13 143.606 ?     ? 1 ? 2148 . X 12 DC  C6     X 12 DC  C6     . 5OV2 1 
+56  1 1 1  1  GFL C8     C 13 139.083 ?     ? 1 ? 2149 . X 1  GFL C8     X 1  GFL C8     . 5OV2 1 
+57  1 1 20 20 GFL C8     C 13 140.913 ?     ? 1 ? 2150 . X 20 GFL C8     X 20 GFL C8     . 5OV2 1 
+58  1 1 22 22 DG  H8     H 1  7.843   0.001 ? 1 ? 2151 . X 22 DG  H8     X 22 DG  H8     . 5OV2 1 
+59  1 1 22 22 DG  "H1'"  H 1  6.286   0.001 ? 1 ? 2152 . X 22 DG  "H1'"  X 22 DG  "H1'"  . 5OV2 1 
+60  1 1 22 22 DG  "H2'"  H 1  2.573   0.0   ? 1 ? 2153 . X 22 DG  "H2'"  X 22 DG  "H2'"  . 5OV2 1 
+61  1 1 22 22 DG  "H2''" H 1  2.393   0.001 ? 1 ? 2154 . X 22 DG  "H2''" X 22 DG  "H2''" . 5OV2 1 
+62  1 1 21 21 DG  "H1'"  H 1  5.970   0.004 ? 1 ? 2155 . X 21 DG  "H1'"  X 21 DG  "H1'"  . 5OV2 1 
+63  1 1 21 21 DG  "H2'"  H 1  2.652   0.004 ? 1 ? 2156 . X 21 DG  "H2'"  X 21 DG  "H2'"  . 5OV2 1 
+64  1 1 21 21 DG  "H2''" H 1  2.753   0.001 ? 1 ? 2157 . X 21 DG  "H2''" X 21 DG  "H2''" . 5OV2 1 
+65  1 1 21 21 DG  C8     C 13 137.888 ?     ? 1 ? 2158 . X 21 DG  C8     X 21 DG  C8     . 5OV2 1 
+66  1 1 22 22 DG  C8     C 13 137.513 ?     ? 1 ? 2159 . X 22 DG  C8     X 22 DG  C8     . 5OV2 1 
+67  1 1 6  6  GFL H8     H 1  7.847   0.001 ? 1 ? 2160 . X 6  GFL H8     X 6  GFL H8     . 5OV2 1 
+68  1 1 6  6  GFL C8     C 13 140.305 ?     ? 1 ? 2161 . X 6  GFL C8     X 6  GFL C8     . 5OV2 1 
+69  1 1 3  3  DG  H8     H 1  7.680   0.001 ? 1 ? 2170 . X 3  DG  H8     X 3  DG  H8     . 5OV2 1 
+70  1 1 3  3  DG  C8     C 13 137.483 ?     ? 1 ? 2171 . X 3  DG  C8     X 3  DG  C8     . 5OV2 1 
+71  1 1 3  3  DG  "H1'"  H 1  6.145   0.003 ? 1 ? 2172 . X 3  DG  "H1'"  X 3  DG  "H1'"  . 5OV2 1 
+72  1 1 3  3  DG  "H2'"  H 1  2.634   0.002 ? 1 ? 2173 . X 3  DG  "H2'"  X 3  DG  "H2'"  . 5OV2 1 
+73  1 1 3  3  DG  "H2''" H 1  2.554   0.002 ? 1 ? 2174 . X 3  DG  "H2''" X 3  DG  "H2''" . 5OV2 1 
+74  1 1 13 13 DA  "H4'"  H 1  4.105   0.005 ? 1 ? 2175 . X 13 DA  "H4'"  X 13 DA  "H4'"  . 5OV2 1 
+75  1 1 13 13 DA  "H5'"  H 1  3.784   0.003 ? 2 ? 2176 . X 13 DA  "H5'"  X 13 DA  "H5'"  . 5OV2 1 
+76  1 1 13 13 DA  "H5''" H 1  3.431   0.001 ? 2 ? 2177 . X 13 DA  "H5''" X 13 DA  "H5''" . 5OV2 1 
+77  1 1 18 18 DA  H8     H 1  7.985   0.001 ? 1 ? 2178 . X 18 DA  H8     X 18 DA  H8     . 5OV2 1 
+78  1 1 18 18 DA  C8     C 13 141.755 ?     ? 1 ? 2179 . X 18 DA  C8     X 18 DA  C8     . 5OV2 1 
+79  1 1 17 17 DG  H8     H 1  7.893   0.003 ? 1 ? 2180 . X 17 DG  H8     X 17 DG  H8     . 5OV2 1 
+80  1 1 17 17 DG  C8     C 13 139.059 ?     ? 1 ? 2181 . X 17 DG  C8     X 17 DG  C8     . 5OV2 1 
+81  1 1 19 19 DC  "H5'"  H 1  3.881   0.004 ? 1 ? 2183 . X 19 DC  "H5'"  X 19 DC  "H5'"  . 5OV2 1 
+82  1 1 22 22 DG  "H3'"  H 1  4.674   0.002 ? 1 ? 2184 . X 22 DG  "H3'"  X 22 DG  "H3'"  . 5OV2 1 
+83  1 1 21 21 DG  "H3'"  H 1  5.118   0.001 ? 1 ? 2185 . X 21 DG  "H3'"  X 21 DG  "H3'"  . 5OV2 1 
+84  1 1 21 21 DG  "H4'"  H 1  4.471   0.002 ? 1 ? 2186 . X 21 DG  "H4'"  X 21 DG  "H4'"  . 5OV2 1 
+85  1 1 7  7  DG  "H4'"  H 1  4.387   0.001 ? 1 ? 2187 . X 7  DG  "H4'"  X 7  DG  "H4'"  . 5OV2 1 
+86  1 1 22 22 DG  "H4'"  H 1  4.323   0.003 ? 1 ? 2188 . X 22 DG  "H4'"  X 22 DG  "H4'"  . 5OV2 1 
+87  1 1 4  4  DA  "H5''" H 1  4.113   0.004 ? 1 ? 2189 . X 4  DA  "H5''" X 4  DA  "H5''" . 5OV2 1 
+88  1 1 4  4  DA  "H5'"  H 1  4.067   0.004 ? 1 ? 2190 . X 4  DA  "H5'"  X 4  DA  "H5'"  . 5OV2 1 
+89  1 1 1  1  GFL "H5'1" H 1  3.995   0.002 ? 2 ? 2191 . X 1  GFL "H5'1" X 1  GFL "H5'"  . 5OV2 1 
+90  1 1 1  1  GFL "H5'2" H 1  4.040   0.002 ? 2 ? 2192 . X 1  GFL "H5'2" X 1  GFL "H5''" . 5OV2 1 
+91  1 1 18 18 DA  "H1'"  H 1  6.045   0.002 ? 1 ? 2193 . X 18 DA  "H1'"  X 18 DA  "H1'"  . 5OV2 1 
+92  1 1 18 18 DA  "H2'"  H 1  2.455   0.002 ? 1 ? 2194 . X 18 DA  "H2'"  X 18 DA  "H2'"  . 5OV2 1 
+93  1 1 21 21 DG  H8     H 1  7.846   0.002 ? 1 ? 2075 . X 21 DG  H8     X 21 DG  H8     . 5OV2 1 
+94  1 1 6  6  GFL "H1'"  H 1  6.143   0.002 ? 1 ? 2076 . X 6  GFL "H1'"  X 6  GFL "H1'"  . 5OV2 1 
+95  1 1 6  6  GFL "H2'"  H 1  5.364   0.002 ? 1 ? 2077 . X 6  GFL "H2'"  X 6  GFL "H2'"  . 5OV2 1 
+96  1 1 7  7  DG  H8     H 1  7.648   0.001 ? 1 ? 2078 . X 7  DG  H8     X 7  DG  H8     . 5OV2 1 
+97  1 1 1  1  GFL "H1'"  H 1  6.241   0.003 ? 1 ? 2079 . X 1  GFL "H1'"  X 1  GFL "H1'"  . 5OV2 1 
+98  1 1 1  1  GFL "H2'"  H 1  5.467   0.003 ? 1 ? 2080 . X 1  GFL "H2'"  X 1  GFL "H2'"  . 5OV2 1 
+99  1 1 1  1  GFL H8     H 1  7.995   0.002 ? 1 ? 2081 . X 1  GFL H8     X 1  GFL H8     . 5OV2 1 
+100 1 1 2  2  DG  H8     H 1  7.668   0.001 ? 1 ? 2082 . X 2  DG  H8     X 2  DG  H8     . 5OV2 1 
+101 1 1 14 14 DG  H8     H 1  7.221   0.001 ? 1 ? 2083 . X 14 DG  H8     X 14 DG  H8     . 5OV2 1 
+102 1 1 14 14 DG  "H1'"  H 1  6.029   0.002 ? 1 ? 2084 . X 14 DG  "H1'"  X 14 DG  "H1'"  . 5OV2 1 
+103 1 1 15 15 DG  H8     H 1  7.341   0.002 ? 1 ? 2085 . X 15 DG  H8     X 15 DG  H8     . 5OV2 1 
+104 1 1 15 15 DG  "H1'"  H 1  5.823   0.003 ? 1 ? 2086 . X 15 DG  "H1'"  X 15 DG  "H1'"  . 5OV2 1 
+105 1 1 16 16 DG  H8     H 1  7.488   0.001 ? 1 ? 2087 . X 16 DG  H8     X 16 DG  H8     . 5OV2 1 
+106 1 1 16 16 DG  "H1'"  H 1  5.780   0.001 ? 1 ? 2088 . X 16 DG  "H1'"  X 16 DG  "H1'"  . 5OV2 1 
+107 1 1 14 14 DG  "H2'"  H 1  3.520   0.003 ? 1 ? 2089 . X 14 DG  "H2'"  X 14 DG  "H2'"  . 5OV2 1 
+108 1 1 14 14 DG  "H2''" H 1  3.006   0.002 ? 1 ? 2090 . X 14 DG  "H2''" X 14 DG  "H2''" . 5OV2 1 
+109 1 1 15 15 DG  "H2''" H 1  2.893   0.002 ? 1 ? 2091 . X 15 DG  "H2''" X 15 DG  "H2''" . 5OV2 1 
+110 1 1 15 15 DG  "H2'"  H 1  2.848   0.001 ? 1 ? 2092 . X 15 DG  "H2'"  X 15 DG  "H2'"  . 5OV2 1 
+111 1 1 2  2  DG  "H2''" H 1  2.728   0.004 ? 1 ? 2093 . X 2  DG  "H2''" X 2  DG  "H2''" . 5OV2 1 
+112 1 1 2  2  DG  "H2'"  H 1  2.529   0.001 ? 1 ? 2094 . X 2  DG  "H2'"  X 2  DG  "H2'"  . 5OV2 1 
+113 1 1 2  2  DG  "H1'"  H 1  6.133   0.004 ? 1 ? 2095 . X 2  DG  "H1'"  X 2  DG  "H1'"  . 5OV2 1 
+114 1 1 2  2  DG  C8     C 13 137.725 ?     ? 1 ? 2096 . X 2  DG  C8     X 2  DG  C8     . 5OV2 1 
+115 1 1 7  7  DG  C8     C 13 137.216 ?     ? 1 ? 2097 . X 7  DG  C8     X 7  DG  C8     . 5OV2 1 
+116 1 1 16 16 DG  C8     C 13 141.271 ?     ? 1 ? 2098 . X 16 DG  C8     X 16 DG  C8     . 5OV2 1 
+117 1 1 15 15 DG  C8     C 13 140.707 ?     ? 1 ? 2099 . X 15 DG  C8     X 15 DG  C8     . 5OV2 1 
+118 1 1 14 14 DG  C8     C 13 141.395 ?     ? 1 ? 2100 . X 14 DG  C8     X 14 DG  C8     . 5OV2 1 
+119 1 1 4  4  DA  H8     H 1  8.567   0.001 ? 1 ? 2101 . X 4  DA  H8     X 4  DA  H8     . 5OV2 1 
+120 1 1 4  4  DA  "H1'"  H 1  6.603   0.002 ? 1 ? 2102 . X 4  DA  "H1'"  X 4  DA  "H1'"  . 5OV2 1 
+121 1 1 4  4  DA  C8     C 13 142.642 ?     ? 1 ? 2103 . X 4  DA  C8     X 4  DA  C8     . 5OV2 1 
+122 1 1 4  4  DA  "H2'"  H 1  2.920   0.002 ? 1 ? 2104 . X 4  DA  "H2'"  X 4  DA  "H2'"  . 5OV2 1 
+123 1 1 4  4  DA  "H2''" H 1  2.920   0.002 ? 1 ? 2105 . X 4  DA  "H2''" X 4  DA  "H2''" . 5OV2 1 
+124 1 1 5  5  DT  "H2''" H 1  2.680   0.004 ? 1 ? 2106 . X 5  DT  "H2''" X 5  DT  "H2''" . 5OV2 1 
+125 1 1 5  5  DT  "H2'"  H 1  2.611   0.003 ? 1 ? 2107 . X 5  DT  "H2'"  X 5  DT  "H2'"  . 5OV2 1 
+126 1 1 12 12 DC  "H2''" H 1  1.998   0.004 ? 1 ? 2108 . X 12 DC  "H2''" X 12 DC  "H2''" . 5OV2 1 
+127 1 1 12 12 DC  "H2'"  H 1  1.704   0.001 ? 1 ? 2109 . X 12 DC  "H2'"  X 12 DC  "H2'"  . 5OV2 1 
+128 1 1 10 10 DC  "H2''" H 1  2.172   0.002 ? 1 ? 2110 . X 10 DC  "H2''" X 10 DC  "H2''" . 5OV2 1 
+129 1 1 10 10 DC  "H2'"  H 1  1.789   0.005 ? 1 ? 2111 . X 10 DC  "H2'"  X 10 DC  "H2'"  . 5OV2 1 
+130 1 1 13 13 DA  "H2''" H 1  2.671   0.001 ? 1 ? 2112 . X 13 DA  "H2''" X 13 DA  "H2''" . 5OV2 1 
+131 1 1 13 13 DA  "H2'"  H 1  2.359   0.002 ? 1 ? 2113 . X 13 DA  "H2'"  X 13 DA  "H2'"  . 5OV2 1 
+132 1 1 16 16 DG  "H2''" H 1  2.267   0.003 ? 1 ? 2114 . X 16 DG  "H2''" X 16 DG  "H2''" . 5OV2 1 
+133 1 1 16 16 DG  "H2'"  H 1  2.518   0.002 ? 1 ? 2115 . X 16 DG  "H2'"  X 16 DG  "H2'"  . 5OV2 1 
+134 1 1 11 11 DA  "H2''" H 1  2.089   0.007 ? 1 ? 2116 . X 11 DA  "H2''" X 11 DA  "H2''" . 5OV2 1 
+135 1 1 11 11 DA  "H2'"  H 1  2.401   0.003 ? 1 ? 2117 . X 11 DA  "H2'"  X 11 DA  "H2'"  . 5OV2 1 
+136 1 1 16 16 DG  H1     H 1  11.016  0.002 ? 1 ? 2118 . X 16 DG  H1     X 16 DG  H1     . 5OV2 1 
+137 1 1 15 15 DG  H1     H 1  11.431  0.003 ? 1 ? 2119 . X 15 DG  H1     X 15 DG  H1     . 5OV2 1 
+138 1 1 6  6  GFL HN1    H 1  11.671  0.002 ? 1 ? 2120 . X 6  GFL HN1    X 6  GFL H1     . 5OV2 1 
+139 1 1 7  7  DG  H1     H 1  11.348  0.002 ? 1 ? 2121 . X 7  DG  H1     X 7  DG  H1     . 5OV2 1 
+140 1 1 14 14 DG  H1     H 1  11.224  0.002 ? 1 ? 2122 . X 14 DG  H1     X 14 DG  H1     . 5OV2 1 
+141 1 1 20 20 GFL HN1    H 1  11.638  0.002 ? 1 ? 2123 . X 20 GFL HN1    X 20 GFL H1     . 5OV2 1 
+142 1 1 21 21 DG  H1     H 1  11.483  0.004 ? 1 ? 2124 . X 21 DG  H1     X 21 DG  H1     . 5OV2 1 
+143 1 1 22 22 DG  H1     H 1  11.359  0.002 ? 1 ? 2125 . X 22 DG  H1     X 22 DG  H1     . 5OV2 1 
+144 1 1 1  1  GFL HN1    H 1  11.828  0.004 ? 1 ? 2126 . X 1  GFL HN1    X 1  GFL H1     . 5OV2 1 
+145 1 1 2  2  DG  H1     H 1  11.468  0.002 ? 1 ? 2127 . X 2  DG  H1     X 2  DG  H1     . 5OV2 1 
+146 1 1 3  3  DG  H1     H 1  11.220  0.004 ? 1 ? 2128 . X 3  DG  H1     X 3  DG  H1     . 5OV2 1 
+147 1 1 1  1  GFL "H3'"  H 1  4.987   0.002 ? 1 ? 2129 . X 1  GFL "H3'"  X 1  GFL "H3'"  . 5OV2 1 
+148 1 1 4  4  DA  "H3'"  H 1  4.899   0.003 ? 1 ? 2130 . X 4  DA  "H3'"  X 4  DA  "H3'"  . 5OV2 1 
+149 1 1 4  4  DA  "H4'"  H 1  4.608   0.001 ? 1 ? 2131 . X 4  DA  "H4'"  X 4  DA  "H4'"  . 5OV2 1 
+150 1 1 5  5  DT  "H3'"  H 1  5.017   0.002 ? 1 ? 2132 . X 5  DT  "H3'"  X 5  DT  "H3'"  . 5OV2 1 
+151 1 1 5  5  DT  "H4'"  H 1  4.468   0.001 ? 1 ? 2133 . X 5  DT  "H4'"  X 5  DT  "H4'"  . 5OV2 1 
+152 1 1 1  1  GFL "H4'"  H 1  4.378   0.003 ? 1 ? 2134 . X 1  GFL "H4'"  X 1  GFL "H4'"  . 5OV2 1 
+153 1 1 5  5  DT  H6     H 1  7.870   0.001 ? 1 ? 2038 . X 5  DT  H6     X 5  DT  H6     . 5OV2 1 
+154 1 1 5  5  DT  H73    H 1  2.048   0.003 ? 1 ? 2039 . X 5  DT  H73    X 5  DT  H73    . 5OV2 1 
+155 1 1 5  5  DT  H71    H 1  2.048   0.003 ? 1 ? 2039 . X 5  DT  H71    X 5  DT  H71    . 5OV2 1 
+156 1 1 5  5  DT  H72    H 1  2.048   0.003 ? 1 ? 2039 . X 5  DT  H72    X 5  DT  H72    . 5OV2 1 
+157 1 1 5  5  DT  "H1'"  H 1  6.539   0.002 ? 1 ? 2040 . X 5  DT  "H1'"  X 5  DT  "H1'"  . 5OV2 1 
+158 1 1 5  5  DT  C6     C 13 140.377 ?     ? 1 ? 2041 . X 5  DT  C6     X 5  DT  C6     . 5OV2 1 
+159 1 1 12 12 DC  H6     H 1  7.022   0.001 ? 1 ? 2042 . X 12 DC  H6     X 12 DC  H6     . 5OV2 1 
+160 1 1 12 12 DC  H5     H 1  5.180   0.002 ? 1 ? 2043 . X 12 DC  H5     X 12 DC  H5     . 5OV2 1 
+161 1 1 12 12 DC  "H1'"  H 1  5.502   0.004 ? 1 ? 2044 . X 12 DC  "H1'"  X 12 DC  "H1'"  . 5OV2 1 
+162 1 1 13 13 DA  H8     H 1  7.895   0.002 ? 1 ? 2045 . X 13 DA  H8     X 13 DA  H8     . 5OV2 1 
+163 1 1 13 13 DA  "H1'"  H 1  5.792   0.003 ? 1 ? 2046 . X 13 DA  "H1'"  X 13 DA  "H1'"  . 5OV2 1 
+164 1 1 11 11 DA  H8     H 1  7.853   0.001 ? 1 ? 2047 . X 11 DA  H8     X 11 DA  H8     . 5OV2 1 
+165 1 1 11 11 DA  "H1'"  H 1  5.750   0.002 ? 1 ? 2048 . X 11 DA  "H1'"  X 11 DA  "H1'"  . 5OV2 1 
+166 1 1 11 11 DA  C8     C 13 141.587 ?     ? 1 ? 2049 . X 11 DA  C8     X 11 DA  C8     . 5OV2 1 
+167 1 1 13 13 DA  C8     C 13 141.340 ?     ? 1 ? 2050 . X 13 DA  C8     X 13 DA  C8     . 5OV2 1 
+168 1 1 10 10 DC  H6     H 1  7.583   0.001 ? 1 ? 2051 . X 10 DC  H6     X 10 DC  H6     . 5OV2 1 
+169 1 1 10 10 DC  H5     H 1  5.896   0.001 ? 1 ? 2052 . X 10 DC  H5     X 10 DC  H5     . 5OV2 1 
+170 1 1 10 10 DC  "H1'"  H 1  5.831   0.003 ? 1 ? 2053 . X 10 DC  "H1'"  X 10 DC  "H1'"  . 5OV2 1 
+171 1 1 9  9  DA  H8     H 1  8.067   0.002 ? 1 ? 2054 . X 9  DA  H8     X 9  DA  H8     . 5OV2 1 
+172 1 1 9  9  DA  "H1'"  H 1  6.037   0.003 ? 1 ? 2055 . X 9  DA  "H1'"  X 9  DA  "H1'"  . 5OV2 1 
+173 1 1 9  9  DA  C8     C 13 141.656 ?     ? 1 ? 2056 . X 9  DA  C8     X 9  DA  C8     . 5OV2 1 
+174 1 1 8  8  DG  "H2''" H 1  2.393   0.003 ? 1 ? 2057 . X 8  DG  "H2''" X 8  DG  "H2''" . 5OV2 1 
+175 1 1 8  8  DG  "H2'"  H 1  2.153   0.003 ? 1 ? 2058 . X 8  DG  "H2'"  X 8  DG  "H2'"  . 5OV2 1 
+176 1 1 9  9  DA  "H2'"  H 1  2.684   0.003 ? 1 ? 2059 . X 9  DA  "H2'"  X 9  DA  "H2'"  . 5OV2 1 
+177 1 1 9  9  DA  "H2''" H 1  2.542   0.004 ? 1 ? 2060 . X 9  DA  "H2''" X 9  DA  "H2''" . 5OV2 1 
+178 1 1 8  8  DG  "H1'"  H 1  5.880   0.002 ? 1 ? 2061 . X 8  DG  "H1'"  X 8  DG  "H1'"  . 5OV2 1 
+179 1 1 8  8  DG  H8     H 1  7.505   0.002 ? 1 ? 2062 . X 8  DG  H8     X 8  DG  H8     . 5OV2 1 
+180 1 1 8  8  DG  C8     C 13 136.762 ?     ? 1 ? 2063 . X 8  DG  C8     X 8  DG  C8     . 5OV2 1 
+181 1 1 7  7  DG  "H1'"  H 1  5.921   0.001 ? 1 ? 2064 . X 7  DG  "H1'"  X 7  DG  "H1'"  . 5OV2 1 
+182 1 1 7  7  DG  "H2''" H 1  2.701   0.003 ? 1 ? 2065 . X 7  DG  "H2''" X 7  DG  "H2''" . 5OV2 1 
+183 1 1 7  7  DG  "H2'"  H 1  2.603   0.002 ? 1 ? 2066 . X 7  DG  "H2'"  X 7  DG  "H2'"  . 5OV2 1 
+184 1 1 19 19 DC  H6     H 1  7.617   0.002 ? 1 ? 2067 . X 19 DC  H6     X 19 DC  H6     . 5OV2 1 
+185 1 1 19 19 DC  H5     H 1  5.737   0.002 ? 1 ? 2068 . X 19 DC  H5     X 19 DC  H5     . 5OV2 1 
+186 1 1 19 19 DC  "H1'"  H 1  5.602   0.002 ? 1 ? 2069 . X 19 DC  "H1'"  X 19 DC  "H1'"  . 5OV2 1 
+187 1 1 19 19 DC  "H2''" H 1  2.493   0.003 ? 1 ? 2070 . X 19 DC  "H2''" X 19 DC  "H2''" . 5OV2 1 
+188 1 1 19 19 DC  "H2'"  H 1  2.034   0.002 ? 1 ? 2071 . X 19 DC  "H2'"  X 19 DC  "H2'"  . 5OV2 1 
+189 1 1 20 20 GFL H8     H 1  8.012   0.001 ? 1 ? 2072 . X 20 GFL H8     X 20 GFL H8     . 5OV2 1 
+190 1 1 20 20 GFL "H1'"  H 1  5.895   0.0   ? 1 ? 2073 . X 20 GFL "H1'"  X 20 GFL "H1'"  . 5OV2 1 
+191 1 1 20 20 GFL "H2'"  H 1  5.459   0.001 ? 1 ? 2074 . X 20 GFL "H2'"  X 20 GFL "H2'"  . 5OV2 1 
+stop_
+save_

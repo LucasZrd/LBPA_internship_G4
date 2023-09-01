@@ -1,0 +1,287 @@
+data_6jcd
+
+save_entry_information
+# 
+_Entry.ID                 6JCD 
+_Entry.Assigned_BMRB_ID   36236 
+# 
+loop_
+_Audit.Revision_ID 
+_Audit.Creation_date 
+_Audit.Update_record 
+_Audit.Creation_method 
+_Audit.Entry_ID 
+1 2019-02-08 'Nomenclature checked and updated' . 6JCD 
+2 2019-02-08 'Preliminary version'              . 6JCD 
+3 2019-08-28 'Initial release'                  . 6JCD 
+stop_
+save_
+save_DSS
+# 
+_Chem_shift_reference.Sf_category    chem_shift_reference 
+_Chem_shift_reference.Sf_framecode   DSS 
+_Chem_shift_reference.Entry_ID       6JCD 
+_Chem_shift_reference.ID             1 
+# 
+loop_
+_Chem_shift_ref.Atom_type 
+_Chem_shift_ref.Atom_isotope_number 
+_Chem_shift_ref.Mol_common_name 
+_Chem_shift_ref.Atom_group 
+_Chem_shift_ref.Concentration_val 
+_Chem_shift_ref.Concentration_units 
+_Chem_shift_ref.Solvent 
+_Chem_shift_ref.Rank 
+_Chem_shift_ref.Chem_shift_units 
+_Chem_shift_ref.Chem_shift_val 
+_Chem_shift_ref.Ref_method 
+_Chem_shift_ref.Ref_type 
+_Chem_shift_ref.Indirect_shift_ratio 
+_Chem_shift_ref.Entry_ID 
+_Chem_shift_ref.Chem_shift_reference_ID 
+H 1 DSS 'methyl protons' ? ? ? ? ppm 0 internal direct 1 36236 1 
+stop_
+save_
+save_submit-chem-shift.php
+# 
+loop_
+_Atom_chem_shift.ID 
+_Atom_chem_shift.Entity_assembly_ID 
+_Atom_chem_shift.Entity_ID 
+_Atom_chem_shift.Comp_index_ID 
+_Atom_chem_shift.Seq_ID 
+_Atom_chem_shift.Comp_ID 
+_Atom_chem_shift.Atom_ID 
+_Atom_chem_shift.Atom_type 
+_Atom_chem_shift.Atom_isotope_number 
+_Atom_chem_shift.Val 
+_Atom_chem_shift.Val_err 
+_Atom_chem_shift.Assign_fig_of_merit 
+_Atom_chem_shift.Ambiguity_code 
+_Atom_chem_shift.Occupancy 
+_Atom_chem_shift.Resonance_ID 
+_Atom_chem_shift.Auth_entity_assembly_ID 
+_Atom_chem_shift.Auth_asym_ID 
+_Atom_chem_shift.Auth_seq_ID 
+_Atom_chem_shift.Auth_comp_ID 
+_Atom_chem_shift.Auth_atom_ID 
+_Atom_chem_shift.Original_PDB_strand_ID 
+_Atom_chem_shift.Original_PDB_residue_no 
+_Atom_chem_shift.Original_PDB_residue_name 
+_Atom_chem_shift.Original_PDB_atom_name 
+_Atom_chem_shift.Details 
+_Atom_chem_shift.Entry_ID 
+_Atom_chem_shift.Assigned_chem_shift_list_ID 
+1   ? . 1  ? DT H71    H 1 1.901  ? ? ? ? ? . A 1  DT H71    A 1  DT H71    . 6JCD ? 
+2   ? . 1  ? DT H72    H 1 1.901  ? ? ? ? ? . A 1  DT H72    A 1  DT H72    . 6JCD ? 
+3   ? . 1  ? DT H73    H 1 1.901  ? ? ? ? ? . A 1  DT H73    A 1  DT H73    . 6JCD ? 
+4   ? . 1  ? DT "H1'"  H 1 6.357  ? ? ? ? ? . A 1  DT "H1'"  A 1  DT "H1'"  . 6JCD ? 
+5   ? . 1  ? DT "H2'"  H 1 2.469  ? ? ? ? ? . A 1  DT "H2'"  A 1  DT "H2'"  . 6JCD ? 
+6   ? . 1  ? DT "H2''" H 1 2.622  ? ? ? ? ? . A 1  DT "H2''" A 1  DT "H2''" . 6JCD ? 
+7   ? . 1  ? DT "H3'"  H 1 4.868  ? ? ? ? ? . A 1  DT "H3'"  A 1  DT "H3'"  . 6JCD ? 
+8   ? . 1  ? DT "H4'"  H 1 4.252  ? ? ? ? ? . A 1  DT "H4'"  A 1  DT "H4'"  . 6JCD ? 
+9   ? . 1  ? DT "H5'"  H 1 3.879  ? ? ? ? ? . A 1  DT "H5'"  A 1  DT "H5'"  . 6JCD ? 
+10  ? . 1  ? DT H6     H 1 7.687  ? ? ? ? ? . A 1  DT H6     A 1  DT H6     . 6JCD ? 
+11  ? . 2  ? DG H1     H 1 11.565 ? ? ? ? ? . A 2  DG H1     A 2  DG H1     . 6JCD ? 
+12  ? . 2  ? DG "H1'"  H 1 5.924  ? ? ? ? ? . A 2  DG "H1'"  A 2  DG "H1'"  . 6JCD ? 
+13  ? . 2  ? DG "H2'"  H 1 2.898  ? ? ? ? ? . A 2  DG "H2'"  A 2  DG "H2'"  . 6JCD ? 
+14  ? . 2  ? DG "H2''" H 1 2.757  ? ? ? ? ? . A 2  DG "H2''" A 2  DG "H2''" . 6JCD ? 
+15  ? . 2  ? DG "H3'"  H 1 4.989  ? ? ? ? ? . A 2  DG "H3'"  A 2  DG "H3'"  . 6JCD ? 
+16  ? . 2  ? DG "H4'"  H 1 4.391  ? ? ? ? ? . A 2  DG "H4'"  A 2  DG "H4'"  . 6JCD ? 
+17  ? . 2  ? DG "H5'"  H 1 4.184  ? ? ? ? ? . A 2  DG "H5'"  A 2  DG "H5'"  . 6JCD ? 
+18  ? . 2  ? DG H8     H 1 7.203  ? ? ? ? ? . A 2  DG H8     A 2  DG H8     . 6JCD ? 
+19  ? . 3  ? DG H1     H 1 12.327 ? ? ? ? ? . A 3  DG H1     A 3  DG H1     . 6JCD ? 
+20  ? . 3  ? DG "H1'"  H 1 6.066  ? ? ? ? ? . A 3  DG "H1'"  A 3  DG "H1'"  . 6JCD ? 
+21  ? . 3  ? DG "H2'"  H 1 2.513  ? ? ? ? ? . A 3  DG "H2'"  A 3  DG "H2'"  . 6JCD ? 
+22  ? . 3  ? DG "H2''" H 1 2.696  ? ? ? ? ? . A 3  DG "H2''" A 3  DG "H2''" . 6JCD ? 
+23  ? . 3  ? DG "H3'"  H 1 4.980  ? ? ? ? ? . A 3  DG "H3'"  A 3  DG "H3'"  . 6JCD ? 
+24  ? . 3  ? DG "H4'"  H 1 4.474  ? ? ? ? ? . A 3  DG "H4'"  A 3  DG "H4'"  . 6JCD ? 
+25  ? . 3  ? DG H8     H 1 8.037  ? ? ? ? ? . A 3  DG H8     A 3  DG H8     . 6JCD ? 
+26  ? . 4  ? DT H71    H 1 1.779  ? ? ? ? ? . A 4  DT H71    A 4  DT H71    . 6JCD ? 
+27  ? . 4  ? DT H72    H 1 1.779  ? ? ? ? ? . A 4  DT H72    A 4  DT H72    . 6JCD ? 
+28  ? . 4  ? DT H73    H 1 1.779  ? ? ? ? ? . A 4  DT H73    A 4  DT H73    . 6JCD ? 
+29  ? . 4  ? DT "H1'"  H 1 5.532  ? ? ? ? ? . A 4  DT "H1'"  A 4  DT "H1'"  . 6JCD ? 
+30  ? . 4  ? DT "H2'"  H 1 1.958  ? ? ? ? ? . A 4  DT "H2'"  A 4  DT "H2'"  . 6JCD ? 
+31  ? . 4  ? DT "H2''" H 1 1.958  ? ? ? ? ? . A 4  DT "H2''" A 4  DT "H2''" . 6JCD ? 
+32  ? . 4  ? DT "H3'"  H 1 4.631  ? ? ? ? ? . A 4  DT "H3'"  A 4  DT "H3'"  . 6JCD ? 
+33  ? . 4  ? DT "H4'"  H 1 4.269  ? ? ? ? ? . A 4  DT "H4'"  A 4  DT "H4'"  . 6JCD ? 
+34  ? . 4  ? DT H6     H 1 7.177  ? ? ? ? ? . A 4  DT H6     A 4  DT H6     . 6JCD ? 
+35  ? . 5  ? DT H71    H 1 1.727  ? ? ? ? ? . A 5  DT H71    A 5  DT H71    . 6JCD ? 
+36  ? . 5  ? DT H72    H 1 1.727  ? ? ? ? ? . A 5  DT H72    A 5  DT H72    . 6JCD ? 
+37  ? . 5  ? DT H73    H 1 1.727  ? ? ? ? ? . A 5  DT H73    A 5  DT H73    . 6JCD ? 
+38  ? . 5  ? DT "H1'"  H 1 5.691  ? ? ? ? ? . A 5  DT "H1'"  A 5  DT "H1'"  . 6JCD ? 
+39  ? . 5  ? DT "H2'"  H 1 2.120  ? ? ? ? ? . A 5  DT "H2'"  A 5  DT "H2'"  . 6JCD ? 
+40  ? . 5  ? DT "H2''" H 1 1.410  ? ? ? ? ? . A 5  DT "H2''" A 5  DT "H2''" . 6JCD ? 
+41  ? . 5  ? DT "H3'"  H 1 4.800  ? ? ? ? ? . A 5  DT "H3'"  A 5  DT "H3'"  . 6JCD ? 
+42  ? . 5  ? DT "H4'"  H 1 4.018  ? ? ? ? ? . A 5  DT "H4'"  A 5  DT "H4'"  . 6JCD ? 
+43  ? . 5  ? DT H6     H 1 7.480  ? ? ? ? ? . A 5  DT H6     A 5  DT H6     . 6JCD ? 
+44  ? . 6  ? DG H1     H 1 12.094 ? ? ? ? ? . A 6  DG H1     A 6  DG H1     . 6JCD ? 
+45  ? . 6  ? DG "H1'"  H 1 5.568  ? ? ? ? ? . A 6  DG "H1'"  A 6  DG "H1'"  . 6JCD ? 
+46  ? . 6  ? DG "H2'"  H 1 1.955  ? ? ? ? ? . A 6  DG "H2'"  A 6  DG "H2'"  . 6JCD ? 
+47  ? . 6  ? DG "H2''" H 1 3.190  ? ? ? ? ? . A 6  DG "H2''" A 6  DG "H2''" . 6JCD ? 
+48  ? . 6  ? DG H21    H 1 8.799  ? ? ? ? ? . A 6  DG H21    A 6  DG H21    . 6JCD ? 
+49  ? . 6  ? DG H22    H 1 6.450  ? ? ? ? ? . A 6  DG H22    A 6  DG H22    . 6JCD ? 
+50  ? . 6  ? DG "H3'"  H 1 5.054  ? ? ? ? ? . A 6  DG "H3'"  A 6  DG "H3'"  . 6JCD ? 
+51  ? . 6  ? DG "H4'"  H 1 4.646  ? ? ? ? ? . A 6  DG "H4'"  A 6  DG "H4'"  . 6JCD ? 
+52  ? . 6  ? DG "H5'"  H 1 4.398  ? ? ? ? ? . A 6  DG "H5'"  A 6  DG "H5'"  . 6JCD ? 
+53  ? . 6  ? DG "H5''" H 1 4.240  ? ? ? ? ? . A 6  DG "H5''" A 6  DG "H5''" . 6JCD ? 
+54  ? . 6  ? DG H8     H 1 7.736  ? ? ? ? ? . A 6  DG H8     A 6  DG H8     . 6JCD ? 
+55  ? . 7  ? DT H71    H 1 1.782  ? ? ? ? ? . A 7  DT H71    A 7  DT H71    . 6JCD ? 
+56  ? . 7  ? DT H72    H 1 1.782  ? ? ? ? ? . A 7  DT H72    A 7  DT H72    . 6JCD ? 
+57  ? . 7  ? DT H73    H 1 1.782  ? ? ? ? ? . A 7  DT H73    A 7  DT H73    . 6JCD ? 
+58  ? . 7  ? DT "H1'"  H 1 6.690  ? ? ? ? ? . A 7  DT "H1'"  A 7  DT "H1'"  . 6JCD ? 
+59  ? . 7  ? DT "H2'"  H 1 2.733  ? ? ? ? ? . A 7  DT "H2'"  A 7  DT "H2'"  . 6JCD ? 
+60  ? . 7  ? DT "H2''" H 1 2.733  ? ? ? ? ? . A 7  DT "H2''" A 7  DT "H2''" . 6JCD ? 
+61  ? . 7  ? DT "H3'"  H 1 5.124  ? ? ? ? ? . A 7  DT "H3'"  A 7  DT "H3'"  . 6JCD ? 
+62  ? . 7  ? DT "H4'"  H 1 5.034  ? ? ? ? ? . A 7  DT "H4'"  A 7  DT "H4'"  . 6JCD ? 
+63  ? . 7  ? DT "H5'"  H 1 4.574  ? ? ? ? ? . A 7  DT "H5'"  A 7  DT "H5'"  . 6JCD ? 
+64  ? . 7  ? DT H6     H 1 8.115  ? ? ? ? ? . A 7  DT H6     A 7  DT H6     . 6JCD ? 
+65  ? . 8  ? DG H1     H 1 11.865 ? ? ? ? ? . A 8  DG H1     A 8  DG H1     . 6JCD ? 
+66  ? . 8  ? DG "H1'"  H 1 5.980  ? ? ? ? ? . A 8  DG "H1'"  A 8  DG "H1'"  . 6JCD ? 
+67  ? . 8  ? DG "H2'"  H 1 2.924  ? ? ? ? ? . A 8  DG "H2'"  A 8  DG "H2'"  . 6JCD ? 
+68  ? . 8  ? DG "H2''" H 1 2.868  ? ? ? ? ? . A 8  DG "H2''" A 8  DG "H2''" . 6JCD ? 
+69  ? . 8  ? DG H21    H 1 9.763  ? ? ? ? ? . A 8  DG H21    A 8  DG H21    . 6JCD ? 
+70  ? . 8  ? DG H22    H 1 6.850  ? ? ? ? ? . A 8  DG H22    A 8  DG H22    . 6JCD ? 
+71  ? . 8  ? DG "H3'"  H 1 5.157  ? ? ? ? ? . A 8  DG "H3'"  A 8  DG "H3'"  . 6JCD ? 
+72  ? . 8  ? DG "H4'"  H 1 4.407  ? ? ? ? ? . A 8  DG "H4'"  A 8  DG "H4'"  . 6JCD ? 
+73  ? . 8  ? DG H8     H 1 7.473  ? ? ? ? ? . A 8  DG H8     A 8  DG H8     . 6JCD ? 
+74  ? . 9  ? DG H1     H 1 12.255 ? ? ? ? ? . A 9  DG H1     A 9  DG H1     . 6JCD ? 
+75  ? . 9  ? DG "H1'"  H 1 6.122  ? ? ? ? ? . A 9  DG "H1'"  A 9  DG "H1'"  . 6JCD ? 
+76  ? . 9  ? DG "H2'"  H 1 2.631  ? ? ? ? ? . A 9  DG "H2'"  A 9  DG "H2'"  . 6JCD ? 
+77  ? . 9  ? DG "H2''" H 1 2.579  ? ? ? ? ? . A 9  DG "H2''" A 9  DG "H2''" . 6JCD ? 
+78  ? . 9  ? DG "H3'"  H 1 5.027  ? ? ? ? ? . A 9  DG "H3'"  A 9  DG "H3'"  . 6JCD ? 
+79  ? . 9  ? DG "H4'"  H 1 4.437  ? ? ? ? ? . A 9  DG "H4'"  A 9  DG "H4'"  . 6JCD ? 
+80  ? . 9  ? DG "H5'"  H 1 4.298  ? ? ? ? ? . A 9  DG "H5'"  A 9  DG "H5'"  . 6JCD ? 
+81  ? . 9  ? DG "H5''" H 1 4.225  ? ? ? ? ? . A 9  DG "H5''" A 9  DG "H5''" . 6JCD ? 
+82  ? . 9  ? DG H8     H 1 7.839  ? ? ? ? ? . A 9  DG H8     A 9  DG H8     . 6JCD ? 
+83  ? . 10 ? DT H71    H 1 1.881  ? ? ? ? ? . A 10 DT H71    A 10 DT H71    . 6JCD ? 
+84  ? . 10 ? DT H72    H 1 1.881  ? ? ? ? ? . A 10 DT H72    A 10 DT H72    . 6JCD ? 
+85  ? . 10 ? DT H73    H 1 1.881  ? ? ? ? ? . A 10 DT H73    A 10 DT H73    . 6JCD ? 
+86  ? . 10 ? DT "H1'"  H 1 5.826  ? ? ? ? ? . A 10 DT "H1'"  A 10 DT "H1'"  . 6JCD ? 
+87  ? . 10 ? DT "H2'"  H 1 2.155  ? ? ? ? ? . A 10 DT "H2'"  A 10 DT "H2'"  . 6JCD ? 
+88  ? . 10 ? DT "H2''" H 1 2.367  ? ? ? ? ? . A 10 DT "H2''" A 10 DT "H2''" . 6JCD ? 
+89  ? . 10 ? DT "H3'"  H 1 4.751  ? ? ? ? ? . A 10 DT "H3'"  A 10 DT "H3'"  . 6JCD ? 
+90  ? . 10 ? DT H6     H 1 7.504  ? ? ? ? ? . A 10 DT H6     A 10 DT H6     . 6JCD ? 
+91  ? . 11 ? DT H71    H 1 1.795  ? ? ? ? ? . A 11 DT H71    A 11 DT H71    . 6JCD ? 
+92  ? . 11 ? DT H72    H 1 1.795  ? ? ? ? ? . A 11 DT H72    A 11 DT H72    . 6JCD ? 
+93  ? . 11 ? DT H73    H 1 1.795  ? ? ? ? ? . A 11 DT H73    A 11 DT H73    . 6JCD ? 
+94  ? . 11 ? DT "H1'"  H 1 5.842  ? ? ? ? ? . A 11 DT "H1'"  A 11 DT "H1'"  . 6JCD ? 
+95  ? . 11 ? DT "H2'"  H 1 1.888  ? ? ? ? ? . A 11 DT "H2'"  A 11 DT "H2'"  . 6JCD ? 
+96  ? . 11 ? DT "H2''" H 1 2.395  ? ? ? ? ? . A 11 DT "H2''" A 11 DT "H2''" . 6JCD ? 
+97  ? . 11 ? DT "H3'"  H 1 4.735  ? ? ? ? ? . A 11 DT "H3'"  A 11 DT "H3'"  . 6JCD ? 
+98  ? . 11 ? DT "H4'"  H 1 4.083  ? ? ? ? ? . A 11 DT "H4'"  A 11 DT "H4'"  . 6JCD ? 
+99  ? . 11 ? DT H6     H 1 7.340  ? ? ? ? ? . A 11 DT H6     A 11 DT H6     . 6JCD ? 
+100 ? . 12 ? DT H71    H 1 1.796  ? ? ? ? ? . A 12 DT H71    A 12 DT H71    . 6JCD ? 
+101 ? . 12 ? DT H72    H 1 1.796  ? ? ? ? ? . A 12 DT H72    A 12 DT H72    . 6JCD ? 
+102 ? . 12 ? DT H73    H 1 1.796  ? ? ? ? ? . A 12 DT H73    A 12 DT H73    . 6JCD ? 
+103 ? . 12 ? DT "H1'"  H 1 6.139  ? ? ? ? ? . A 12 DT "H1'"  A 12 DT "H1'"  . 6JCD ? 
+104 ? . 12 ? DT "H2'"  H 1 2.314  ? ? ? ? ? . A 12 DT "H2'"  A 12 DT "H2'"  . 6JCD ? 
+105 ? . 12 ? DT "H2''" H 1 2.585  ? ? ? ? ? . A 12 DT "H2''" A 12 DT "H2''" . 6JCD ? 
+106 ? . 12 ? DT "H3'"  H 1 4.680  ? ? ? ? ? . A 12 DT "H3'"  A 12 DT "H3'"  . 6JCD ? 
+107 ? . 12 ? DT "H5'"  H 1 3.783  ? ? ? ? ? . A 12 DT "H5'"  A 12 DT "H5'"  . 6JCD ? 
+108 ? . 12 ? DT "H5''" H 1 3.544  ? ? ? ? ? . A 12 DT "H5''" A 12 DT "H5''" . 6JCD ? 
+109 ? . 12 ? DT H6     H 1 7.462  ? ? ? ? ? . A 12 DT H6     A 12 DT H6     . 6JCD ? 
+110 ? . 13 ? DG H1     H 1 11.887 ? ? ? ? ? . A 13 DG H1     A 13 DG H1     . 6JCD ? 
+111 ? . 13 ? DG "H1'"  H 1 6.033  ? ? ? ? ? . A 13 DG "H1'"  A 13 DG "H1'"  . 6JCD ? 
+112 ? . 13 ? DG "H2'"  H 1 2.790  ? ? ? ? ? . A 13 DG "H2'"  A 13 DG "H2'"  . 6JCD ? 
+113 ? . 13 ? DG "H2''" H 1 3.324  ? ? ? ? ? . A 13 DG "H2''" A 13 DG "H2''" . 6JCD ? 
+114 ? . 13 ? DG "H3'"  H 1 4.927  ? ? ? ? ? . A 13 DG "H3'"  A 13 DG "H3'"  . 6JCD ? 
+115 ? . 13 ? DG "H4'"  H 1 4.286  ? ? ? ? ? . A 13 DG "H4'"  A 13 DG "H4'"  . 6JCD ? 
+116 ? . 13 ? DG "H5'"  H 1 4.358  ? ? ? ? ? . A 13 DG "H5'"  A 13 DG "H5'"  . 6JCD ? 
+117 ? . 13 ? DG "H5''" H 1 4.140  ? ? ? ? ? . A 13 DG "H5''" A 13 DG "H5''" . 6JCD ? 
+118 ? . 13 ? DG H8     H 1 7.438  ? ? ? ? ? . A 13 DG H8     A 13 DG H8     . 6JCD ? 
+119 ? . 14 ? DG H1     H 1 11.987 ? ? ? ? ? . A 14 DG H1     A 14 DG H1     . 6JCD ? 
+120 ? . 14 ? DG "H1'"  H 1 6.029  ? ? ? ? ? . A 14 DG "H1'"  A 14 DG "H1'"  . 6JCD ? 
+121 ? . 14 ? DG "H2'"  H 1 2.472  ? ? ? ? ? . A 14 DG "H2'"  A 14 DG "H2'"  . 6JCD ? 
+122 ? . 14 ? DG "H2''" H 1 2.758  ? ? ? ? ? . A 14 DG "H2''" A 14 DG "H2''" . 6JCD ? 
+123 ? . 14 ? DG "H3'"  H 1 4.988  ? ? ? ? ? . A 14 DG "H3'"  A 14 DG "H3'"  . 6JCD ? 
+124 ? . 14 ? DG "H4'"  H 1 4.531  ? ? ? ? ? . A 14 DG "H4'"  A 14 DG "H4'"  . 6JCD ? 
+125 ? . 14 ? DG H8     H 1 8.090  ? ? ? ? ? . A 14 DG H8     A 14 DG H8     . 6JCD ? 
+126 ? . 15 ? DT H71    H 1 1.914  ? ? ? ? ? . A 15 DT H71    A 15 DT H71    . 6JCD ? 
+127 ? . 15 ? DT H72    H 1 1.914  ? ? ? ? ? . A 15 DT H72    A 15 DT H72    . 6JCD ? 
+128 ? . 15 ? DT H73    H 1 1.914  ? ? ? ? ? . A 15 DT H73    A 15 DT H73    . 6JCD ? 
+129 ? . 15 ? DT "H1'"  H 1 5.562  ? ? ? ? ? . A 15 DT "H1'"  A 15 DT "H1'"  . 6JCD ? 
+130 ? . 15 ? DT "H2'"  H 1 0.499  ? ? ? ? ? . A 15 DT "H2'"  A 15 DT "H2'"  . 6JCD ? 
+131 ? . 15 ? DT "H2''" H 1 1.373  ? ? ? ? ? . A 15 DT "H2''" A 15 DT "H2''" . 6JCD ? 
+132 ? . 15 ? DT H3     H 1 12.228 ? ? ? ? ? . A 15 DT H3     A 15 DT H3     . 6JCD ? 
+133 ? . 15 ? DT "H3'"  H 1 4.548  ? ? ? ? ? . A 15 DT "H3'"  A 15 DT "H3'"  . 6JCD ? 
+134 ? . 15 ? DT "H4'"  H 1 3.857  ? ? ? ? ? . A 15 DT "H4'"  A 15 DT "H4'"  . 6JCD ? 
+135 ? . 15 ? DT H6     H 1 7.010  ? ? ? ? ? . A 15 DT H6     A 15 DT H6     . 6JCD ? 
+136 ? . 16 ? DG H1     H 1 10.040 ? ? ? ? ? . A 16 DG H1     A 16 DG H1     . 6JCD ? 
+137 ? . 16 ? DG "H1'"  H 1 5.373  ? ? ? ? ? . A 16 DG "H1'"  A 16 DG "H1'"  . 6JCD ? 
+138 ? . 16 ? DG H21    H 1 5.719  ? ? ? ? ? . A 16 DG H21    A 16 DG H21    . 6JCD ? 
+139 ? . 16 ? DG "H2'"  H 1 2.703  ? ? ? ? ? . A 16 DG "H2'"  A 16 DG "H2'"  . 6JCD ? 
+140 ? . 16 ? DG "H2''" H 1 2.338  ? ? ? ? ? . A 16 DG "H2''" A 16 DG "H2''" . 6JCD ? 
+141 ? . 16 ? DG "H3'"  H 1 4.724  ? ? ? ? ? . A 16 DG "H3'"  A 16 DG "H3'"  . 6JCD ? 
+142 ? . 16 ? DG "H4'"  H 1 3.947  ? ? ? ? ? . A 16 DG "H4'"  A 16 DG "H4'"  . 6JCD ? 
+143 ? . 16 ? DG H8     H 1 7.850  ? ? ? ? ? . A 16 DG H8     A 16 DG H8     . 6JCD ? 
+144 ? . 17 ? DT H71    H 1 1.529  ? ? ? ? ? . A 17 DT H71    A 17 DT H71    . 6JCD ? 
+145 ? . 17 ? DT H72    H 1 1.529  ? ? ? ? ? . A 17 DT H72    A 17 DT H72    . 6JCD ? 
+146 ? . 17 ? DT H73    H 1 1.529  ? ? ? ? ? . A 17 DT H73    A 17 DT H73    . 6JCD ? 
+147 ? . 17 ? DT "H1'"  H 1 5.832  ? ? ? ? ? . A 17 DT "H1'"  A 17 DT "H1'"  . 6JCD ? 
+148 ? . 17 ? DT "H2'"  H 1 1.851  ? ? ? ? ? . A 17 DT "H2'"  A 17 DT "H2'"  . 6JCD ? 
+149 ? . 17 ? DT "H2''" H 1 2.701  ? ? ? ? ? . A 17 DT "H2''" A 17 DT "H2''" . 6JCD ? 
+150 ? . 17 ? DT H3     H 1 9.492  ? ? ? ? ? . A 17 DT H3     A 17 DT H3     . 6JCD ? 
+151 ? . 17 ? DT "H3'"  H 1 4.979  ? ? ? ? ? . A 17 DT "H3'"  A 17 DT "H3'"  . 6JCD ? 
+152 ? . 17 ? DT "H4'"  H 1 4.374  ? ? ? ? ? . A 17 DT "H4'"  A 17 DT "H4'"  . 6JCD ? 
+153 ? . 17 ? DT H6     H 1 7.199  ? ? ? ? ? . A 17 DT H6     A 17 DT H6     . 6JCD ? 
+154 ? . 18 ? DT H71    H 1 1.920  ? ? ? ? ? . A 18 DT H71    A 18 DT H71    . 6JCD ? 
+155 ? . 18 ? DT H72    H 1 1.920  ? ? ? ? ? . A 18 DT H72    A 18 DT H72    . 6JCD ? 
+156 ? . 18 ? DT H73    H 1 1.920  ? ? ? ? ? . A 18 DT H73    A 18 DT H73    . 6JCD ? 
+157 ? . 18 ? DT "H1'"  H 1 6.287  ? ? ? ? ? . A 18 DT "H1'"  A 18 DT "H1'"  . 6JCD ? 
+158 ? . 18 ? DT "H2'"  H 1 2.269  ? ? ? ? ? . A 18 DT "H2'"  A 18 DT "H2'"  . 6JCD ? 
+159 ? . 18 ? DT "H2''" H 1 2.360  ? ? ? ? ? . A 18 DT "H2''" A 18 DT "H2''" . 6JCD ? 
+160 ? . 18 ? DT "H3'"  H 1 4.727  ? ? ? ? ? . A 18 DT "H3'"  A 18 DT "H3'"  . 6JCD ? 
+161 ? . 18 ? DT "H4'"  H 1 3.660  ? ? ? ? ? . A 18 DT "H4'"  A 18 DT "H4'"  . 6JCD ? 
+162 ? . 18 ? DT H6     H 1 7.701  ? ? ? ? ? . A 18 DT H6     A 18 DT H6     . 6JCD ? 
+163 ? . 19 ? DG H1     H 1 11.856 ? ? ? ? ? . A 19 DG H1     A 19 DG H1     . 6JCD ? 
+164 ? . 19 ? DG "H1'"  H 1 6.456  ? ? ? ? ? . A 19 DG "H1'"  A 19 DG "H1'"  . 6JCD ? 
+165 ? . 19 ? DG "H2'"  H 1 3.627  ? ? ? ? ? . A 19 DG "H2'"  A 19 DG "H2'"  . 6JCD ? 
+166 ? . 19 ? DG "H2''" H 1 2.909  ? ? ? ? ? . A 19 DG "H2''" A 19 DG "H2''" . 6JCD ? 
+167 ? . 19 ? DG H21    H 1 9.419  ? ? ? ? ? . A 19 DG H21    A 19 DG H21    . 6JCD ? 
+168 ? . 19 ? DG H22    H 1 5.764  ? ? ? ? ? . A 19 DG H22    A 19 DG H22    . 6JCD ? 
+169 ? . 19 ? DG "H3'"  H 1 5.730  ? ? ? ? ? . A 19 DG "H3'"  A 19 DG "H3'"  . 6JCD ? 
+170 ? . 19 ? DG "H4'"  H 1 4.273  ? ? ? ? ? . A 19 DG "H4'"  A 19 DG "H4'"  . 6JCD ? 
+171 ? . 19 ? DG "H5'"  H 1 3.479  ? ? ? ? ? . A 19 DG "H5'"  A 19 DG "H5'"  . 6JCD ? 
+172 ? . 19 ? DG H8     H 1 8.354  ? ? ? ? ? . A 19 DG H8     A 19 DG H8     . 6JCD ? 
+173 ? . 20 ? DG H1     H 1 10.303 ? ? ? ? ? . A 20 DG H1     A 20 DG H1     . 6JCD ? 
+174 ? . 20 ? DG "H1'"  H 1 5.752  ? ? ? ? ? . A 20 DG "H1'"  A 20 DG "H1'"  . 6JCD ? 
+175 ? . 20 ? DG H21    H 1 6.639  ? ? ? ? ? . A 20 DG H21    A 20 DG H21    . 6JCD ? 
+176 ? . 20 ? DG "H2'"  H 1 2.064  ? ? ? ? ? . A 20 DG "H2'"  A 20 DG "H2'"  . 6JCD ? 
+177 ? . 20 ? DG "H2''" H 1 2.601  ? ? ? ? ? . A 20 DG "H2''" A 20 DG "H2''" . 6JCD ? 
+178 ? . 20 ? DG "H3'"  H 1 4.864  ? ? ? ? ? . A 20 DG "H3'"  A 20 DG "H3'"  . 6JCD ? 
+179 ? . 20 ? DG "H4'"  H 1 4.454  ? ? ? ? ? . A 20 DG "H4'"  A 20 DG "H4'"  . 6JCD ? 
+180 ? . 20 ? DG H8     H 1 7.318  ? ? ? ? ? . A 20 DG H8     A 20 DG H8     . 6JCD ? 
+181 ? . 21 ? DT H71    H 1 0.976  ? ? ? ? ? . A 21 DT H71    A 21 DT H71    . 6JCD ? 
+182 ? . 21 ? DT H72    H 1 0.976  ? ? ? ? ? . A 21 DT H72    A 21 DT H72    . 6JCD ? 
+183 ? . 21 ? DT H73    H 1 0.976  ? ? ? ? ? . A 21 DT H73    A 21 DT H73    . 6JCD ? 
+184 ? . 21 ? DT "H1'"  H 1 5.962  ? ? ? ? ? . A 21 DT "H1'"  A 21 DT "H1'"  . 6JCD ? 
+185 ? . 21 ? DT "H2'"  H 1 1.342  ? ? ? ? ? . A 21 DT "H2'"  A 21 DT "H2'"  . 6JCD ? 
+186 ? . 21 ? DT "H2''" H 1 1.786  ? ? ? ? ? . A 21 DT "H2''" A 21 DT "H2''" . 6JCD ? 
+187 ? . 21 ? DT H3     H 1 11.758 ? ? ? ? ? . A 21 DT H3     A 21 DT H3     . 6JCD ? 
+188 ? . 21 ? DT "H3'"  H 1 4.662  ? ? ? ? ? . A 21 DT "H3'"  A 21 DT "H3'"  . 6JCD ? 
+189 ? . 21 ? DT "H4'"  H 1 4.139  ? ? ? ? ? . A 21 DT "H4'"  A 21 DT "H4'"  . 6JCD ? 
+190 ? . 21 ? DT H6     H 1 6.964  ? ? ? ? ? . A 21 DT H6     A 21 DT H6     . 6JCD ? 
+191 ? . 22 ? DG "H1'"  H 1 5.690  ? ? ? ? ? . A 22 DG "H1'"  A 22 DG "H1'"  . 6JCD ? 
+192 ? . 22 ? DG "H2'"  H 1 2.516  ? ? ? ? ? . A 22 DG "H2'"  A 22 DG "H2'"  . 6JCD ? 
+193 ? . 22 ? DG "H2''" H 1 2.516  ? ? ? ? ? . A 22 DG "H2''" A 22 DG "H2''" . 6JCD ? 
+194 ? . 22 ? DG "H3'"  H 1 4.876  ? ? ? ? ? . A 22 DG "H3'"  A 22 DG "H3'"  . 6JCD ? 
+195 ? . 22 ? DG "H4'"  H 1 4.158  ? ? ? ? ? . A 22 DG "H4'"  A 22 DG "H4'"  . 6JCD ? 
+196 ? . 22 ? DG H8     H 1 7.744  ? ? ? ? ? . A 22 DG H8     A 22 DG H8     . 6JCD ? 
+197 ? . 23 ? DG "H1'"  H 1 5.951  ? ? ? ? ? . A 23 DG "H1'"  A 23 DG "H1'"  . 6JCD ? 
+198 ? . 23 ? DG "H2'"  H 1 2.647  ? ? ? ? ? . A 23 DG "H2'"  A 23 DG "H2'"  . 6JCD ? 
+199 ? . 23 ? DG "H2''" H 1 2.570  ? ? ? ? ? . A 23 DG "H2''" A 23 DG "H2''" . 6JCD ? 
+200 ? . 23 ? DG "H3'"  H 1 4.918  ? ? ? ? ? . A 23 DG "H3'"  A 23 DG "H3'"  . 6JCD ? 
+201 ? . 23 ? DG "H4'"  H 1 4.301  ? ? ? ? ? . A 23 DG "H4'"  A 23 DG "H4'"  . 6JCD ? 
+202 ? . 23 ? DG H8     H 1 7.845  ? ? ? ? ? . A 23 DG H8     A 23 DG H8     . 6JCD ? 
+203 ? . 24 ? DT H71    H 1 1.676  ? ? ? ? ? . A 24 DT H71    A 24 DT H71    . 6JCD ? 
+204 ? . 24 ? DT H72    H 1 1.676  ? ? ? ? ? . A 24 DT H72    A 24 DT H72    . 6JCD ? 
+205 ? . 24 ? DT H73    H 1 1.676  ? ? ? ? ? . A 24 DT H73    A 24 DT H73    . 6JCD ? 
+206 ? . 24 ? DT "H1'"  H 1 6.125  ? ? ? ? ? . A 24 DT "H1'"  A 24 DT "H1'"  . 6JCD ? 
+207 ? . 24 ? DT "H2'"  H 1 2.232  ? ? ? ? ? . A 24 DT "H2'"  A 24 DT "H2'"  . 6JCD ? 
+208 ? . 24 ? DT "H2''" H 1 2.231  ? ? ? ? ? . A 24 DT "H2''" A 24 DT "H2''" . 6JCD ? 
+209 ? . 24 ? DT "H3'"  H 1 4.507  ? ? ? ? ? . A 24 DT "H3'"  A 24 DT "H3'"  . 6JCD ? 
+210 ? . 24 ? DT "H4'"  H 1 4.049  ? ? ? ? ? . A 24 DT "H4'"  A 24 DT "H4'"  . 6JCD ? 
+211 ? . 24 ? DT H6     H 1 7.447  ? ? ? ? ? . A 24 DT H6     A 24 DT H6     . 6JCD ? 
+stop_
+save_

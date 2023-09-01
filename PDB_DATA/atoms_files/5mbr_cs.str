@@ -1,0 +1,328 @@
+data_5mbr
+
+save_entry_information
+# 
+_Entry.ID                 5MBR 
+_Entry.Assigned_BMRB_ID   1 
+# 
+loop_
+_Audit.Revision_ID 
+_Audit.Creation_date 
+_Audit.Update_record 
+_Audit.Creation_method 
+_Audit.Entry_ID 
+1 2016-11-09 'Nomenclature checked and updated' . 5MBR 
+2 2016-11-09 'Preliminary version'              . 5MBR 
+3 2017-04-19 'Initial release'                  . 5MBR 
+stop_
+save_
+save_chemical_shift_reference_1
+# 
+_Chem_shift_reference.Sf_category    chem_shift_reference 
+_Chem_shift_reference.Sf_framecode   chemical_shift_reference_1 
+_Chem_shift_reference.Entry_ID       5MBR 
+_Chem_shift_reference.ID             1 
+# 
+loop_
+_Chem_shift_ref.Atom_type 
+_Chem_shift_ref.Atom_isotope_number 
+_Chem_shift_ref.Mol_common_name 
+_Chem_shift_ref.Atom_group 
+_Chem_shift_ref.Concentration_val 
+_Chem_shift_ref.Concentration_units 
+_Chem_shift_ref.Solvent 
+_Chem_shift_ref.Rank 
+_Chem_shift_ref.Chem_shift_units 
+_Chem_shift_ref.Chem_shift_val 
+_Chem_shift_ref.Ref_method 
+_Chem_shift_ref.Ref_type 
+_Chem_shift_ref.Indirect_shift_ratio 
+_Chem_shift_ref.Entry_ID 
+_Chem_shift_ref.Chem_shift_reference_ID 
+H 1  water protons          ? ? ? ? ppm 4.78  internal direct   1.0        34062 1 
+C 13 DSS   'methyl protons' ? ? ? ? ppm 0.000 internal indirect 0.25144953 34062 1 
+stop_
+save_
+save_assigned_chem_shift_list
+# 
+_Assigned_chem_shift_list.Sf_category      assigned_chemical_shifts 
+_Assigned_chem_shift_list.Sf_framecode     assigned_chem_shift_list 
+_Assigned_chem_shift_list.Entry_ID         5MBR 
+_Assigned_chem_shift_list.ID               1 
+_Assigned_chem_shift_list.Data_file_name   
+;From CCPN project: 'HT_mod'
+;
+# 
+loop_
+_Atom_chem_shift.ID 
+_Atom_chem_shift.Entity_assembly_ID 
+_Atom_chem_shift.Entity_ID 
+_Atom_chem_shift.Comp_index_ID 
+_Atom_chem_shift.Seq_ID 
+_Atom_chem_shift.Comp_ID 
+_Atom_chem_shift.Atom_ID 
+_Atom_chem_shift.Atom_type 
+_Atom_chem_shift.Atom_isotope_number 
+_Atom_chem_shift.Val 
+_Atom_chem_shift.Val_err 
+_Atom_chem_shift.Assign_fig_of_merit 
+_Atom_chem_shift.Ambiguity_code 
+_Atom_chem_shift.Occupancy 
+_Atom_chem_shift.Resonance_ID 
+_Atom_chem_shift.Auth_entity_assembly_ID 
+_Atom_chem_shift.Auth_asym_ID 
+_Atom_chem_shift.Auth_seq_ID 
+_Atom_chem_shift.Auth_comp_ID 
+_Atom_chem_shift.Auth_atom_ID 
+_Atom_chem_shift.Original_PDB_strand_ID 
+_Atom_chem_shift.Original_PDB_residue_no 
+_Atom_chem_shift.Original_PDB_residue_name 
+_Atom_chem_shift.Original_PDB_atom_name 
+_Atom_chem_shift.Details 
+_Atom_chem_shift.Entry_ID 
+_Atom_chem_shift.Assigned_chem_shift_list_ID 
+1   1 1 21 21 GF2 "H4'"  H 1  4.663   0.0   ? 1 ? 568 . A 21 GF2 "H4'"  A 21 GF2 "H4'"  . 5MBR 1 
+2   1 1 17 17 DG  "H4'"  H 1  4.322   ?     ? 1 ? 569 . A 17 DG  "H4'"  A 17 DG  "H4'"  . 5MBR 1 
+3   1 1 20 20 DA  "H5'"  H 1  4.050   ?     ? 2 ? 574 . A 20 DA  "H5'"  A 20 DA  "H5'"  . 5MBR 1 
+4   1 1 20 20 DA  "H5''" H 1  3.941   0.001 ? 2 ? 575 . A 20 DA  "H5''" A 20 DA  "H5''" . 5MBR 1 
+5   1 1 23 23 DG  "H4'"  H 1  4.361   0.003 ? 1 ? 576 . A 23 DG  "H4'"  A 23 DG  "H4'"  . 5MBR 1 
+6   1 1 23 23 DG  "H5'"  H 1  4.189   0.002 ? 2 ? 577 . A 23 DG  "H5'"  A 23 DG  "H5'"  . 5MBR 1 
+7   1 1 23 23 DG  "H5''" H 1  4.131   0.004 ? 2 ? 578 . A 23 DG  "H5''" A 23 DG  "H5''" . 5MBR 1 
+8   1 1 7  7  DT  "H5'"  H 1  4.154   0.002 ? 2 ? 599 . A 7  DT  "H5'"  A 7  DT  "H5'"  . 5MBR 1 
+9   1 1 7  7  DT  "H5''" H 1  4.072   0.004 ? 2 ? 600 . A 7  DT  "H5''" A 7  DT  "H5''" . 5MBR 1 
+10  1 1 19 19 DT  "H4'"  H 1  4.191   0.001 ? 1 ? 601 . A 19 DT  "H4'"  A 19 DT  "H4'"  . 5MBR 1 
+11  1 1 8  8  DA  "H5'"  H 1  4.201   0.001 ? 2 ? 602 . A 8  DA  "H5'"  A 8  DA  "H5'"  . 5MBR 1 
+12  1 1 8  8  DA  "H5''" H 1  4.137   0.004 ? 2 ? 603 . A 8  DA  "H5''" A 8  DA  "H5''" . 5MBR 1 
+13  1 1 5  5  DG  "H5'"  H 1  4.104   ?     ? 2 ? 604 . A 5  DG  "H5'"  A 5  DG  "H5'"  . 5MBR 1 
+14  1 1 5  5  DG  "H5''" H 1  3.938   0.001 ? 2 ? 605 . A 5  DG  "H5''" A 5  DG  "H5''" . 5MBR 1 
+15  1 1 9  9  GF2 "H5'"  H 1  4.236   0.001 ? 1 ? 606 . A 9  GF2 "H5'"  A 9  GF2 "H5'"  . 5MBR 1 
+16  1 1 13 13 DT  "H3'"  H 1  4.491   0.003 ? 1 ? 511 . A 13 DT  "H3'"  A 13 DT  "H3'"  . 5MBR 1 
+17  1 1 14 14 DA  "H3'"  H 1  4.626   0.004 ? 1 ? 512 . A 14 DA  "H3'"  A 14 DA  "H3'"  . 5MBR 1 
+18  1 1 19 19 DT  "H3'"  H 1  4.754   0.013 ? 1 ? 514 . A 19 DT  "H3'"  A 19 DT  "H3'"  . 5MBR 1 
+19  1 1 12 12 DT  "H3'"  H 1  4.733   0.004 ? 1 ? 515 . A 12 DT  "H3'"  A 12 DT  "H3'"  . 5MBR 1 
+20  1 1 12 12 DT  "H4'"  H 1  4.246   0.006 ? 1 ? 516 . A 12 DT  "H4'"  A 12 DT  "H4'"  . 5MBR 1 
+21  1 1 24 24 DA  "H4'"  H 1  4.204   0.004 ? 1 ? 517 . A 24 DA  "H4'"  A 24 DA  "H4'"  . 5MBR 1 
+22  1 1 8  8  DA  "H4'"  H 1  4.496   0.002 ? 1 ? 518 . A 8  DA  "H4'"  A 8  DA  "H4'"  . 5MBR 1 
+23  1 1 11 11 DG  "H4'"  H 1  4.559   0.002 ? 1 ? 519 . A 11 DG  "H4'"  A 11 DG  "H4'"  . 5MBR 1 
+24  1 1 10 10 DG  "H4'"  H 1  4.444   0.002 ? 1 ? 520 . A 10 DG  "H4'"  A 10 DG  "H4'"  . 5MBR 1 
+25  1 1 7  7  DT  "H4'"  H 1  4.322   0.002 ? 1 ? 521 . A 7  DT  "H4'"  A 7  DT  "H4'"  . 5MBR 1 
+26  1 1 2  2  DT  "H3'"  H 1  4.739   0.002 ? 1 ? 522 . A 2  DT  "H3'"  A 2  DT  "H3'"  . 5MBR 1 
+27  1 1 13 13 DT  "H4'"  H 1  4.021   0.003 ? 1 ? 523 . A 13 DT  "H4'"  A 13 DT  "H4'"  . 5MBR 1 
+28  1 1 13 13 DT  "H5'"  H 1  3.845   0.005 ? 2 ? 524 . A 13 DT  "H5'"  A 13 DT  "H5'"  . 5MBR 1 
+29  1 1 13 13 DT  "H5''" H 1  3.655   0.004 ? 2 ? 525 . A 13 DT  "H5''" A 13 DT  "H5''" . 5MBR 1 
+30  1 1 1  1  DT  "H4'"  H 1  3.979   0.002 ? 1 ? 526 . A 1  DT  "H4'"  A 1  DT  "H4'"  . 5MBR 1 
+31  1 1 1  1  DT  "H5'"  H 1  3.432   0.005 ? 2 ? 527 . A 1  DT  "H5'"  A 1  DT  "H5'"  . 5MBR 1 
+32  1 1 1  1  DT  "H5''" H 1  3.432   0.005 ? 2 ? 528 . A 1  DT  "H5''" A 1  DT  "H5''" . 5MBR 1 
+33  1 1 14 14 DA  "H4'"  H 1  4.032   0.004 ? 1 ? 529 . A 14 DA  "H4'"  A 14 DA  "H4'"  . 5MBR 1 
+34  1 1 9  9  GF2 "H4'"  H 1  4.538   0.003 ? 1 ? 530 . A 9  GF2 "H4'"  A 9  GF2 "H4'"  . 5MBR 1 
+35  1 1 9  9  GF2 C2     C 13 93.504  ?     ? 1 ? 531 . A 9  GF2 C2     A 9  GF2 C2     . 5MBR 1 
+36  1 1 8  8  DA  "C1'"  C 13 86.166  ?     ? 1 ? 532 . A 8  DA  "C1'"  A 8  DA  "C1'"  . 5MBR 1 
+37  1 1 11 11 DG  "C1'"  C 13 84.539  ?     ? 1 ? 533 . A 11 DG  "C1'"  A 11 DG  "C1'"  . 5MBR 1 
+38  1 1 5  5  DG  "C1'"  C 13 85.427  ?     ? 1 ? 534 . A 5  DG  "C1'"  A 5  DG  "C1'"  . 5MBR 1 
+39  1 1 7  7  DT  "C1'"  C 13 88.002  ?     ? 1 ? 535 . A 7  DT  "C1'"  A 7  DT  "C1'"  . 5MBR 1 
+40  1 1 24 24 DA  "C1'"  C 13 85.262  ?     ? 1 ? 536 . A 24 DA  "C1'"  A 24 DA  "C1'"  . 5MBR 1 
+41  1 1 20 20 DA  "C1'"  C 13 84.742  ?     ? 1 ? 537 . A 20 DA  "C1'"  A 20 DA  "C1'"  . 5MBR 1 
+42  1 1 6  6  DT  "C1'"  C 13 87.718  ?     ? 1 ? 538 . A 6  DT  "C1'"  A 6  DT  "C1'"  . 5MBR 1 
+43  1 1 15 15 DG  "C1'"  C 13 88.734  ?     ? 1 ? 539 . A 15 DG  "C1'"  A 15 DG  "C1'"  . 5MBR 1 
+44  1 1 14 14 DA  "C1'"  C 13 87.472  ?     ? 1 ? 540 . A 14 DA  "C1'"  A 14 DA  "C1'"  . 5MBR 1 
+45  1 1 12 12 DT  "H1'"  H 1  6.244   0.005 ? 1 ? 541 . A 12 DT  "H1'"  A 12 DT  "H1'"  . 5MBR 1 
+46  1 1 12 12 DT  "C1'"  C 13 87.658  ?     ? 1 ? 542 . A 12 DT  "C1'"  A 12 DT  "C1'"  . 5MBR 1 
+47  1 1 10 10 DG  "C4'"  C 13 86.666  ?     ? 1 ? 543 . A 10 DG  "C4'"  A 10 DG  "C4'"  . 5MBR 1 
+48  1 1 14 14 DA  "C5'"  C 13 67.446  0.013 ? 1 ? 544 . A 14 DA  "C5'"  A 14 DA  "C5'"  . 5MBR 1 
+49  1 1 1  1  DT  "C4'"  C 13 88.488  ?     ? 1 ? 545 . A 1  DT  "C4'"  A 1  DT  "C4'"  . 5MBR 1 
+50  1 1 14 14 DA  "C4'"  C 13 87.736  ?     ? 1 ? 546 . A 14 DA  "C4'"  A 14 DA  "C4'"  . 5MBR 1 
+51  1 1 13 13 DT  "C4'"  C 13 86.652  ?     ? 1 ? 547 . A 13 DT  "C4'"  A 13 DT  "C4'"  . 5MBR 1 
+52  1 1 1  1  DT  "C5'"  C 13 63.912  ?     ? 1 ? 548 . A 1  DT  "C5'"  A 1  DT  "C5'"  . 5MBR 1 
+53  1 1 8  8  DA  "C2'"  C 13 40.665  0.006 ? 1 ? 549 . A 8  DA  "C2'"  A 8  DA  "C2'"  . 5MBR 1 
+54  1 1 23 23 DG  "H3'"  H 1  4.912   0.006 ? 1 ? 550 . A 23 DG  "H3'"  A 23 DG  "H3'"  . 5MBR 1 
+55  1 1 4  4  DG  "H4'"  H 1  4.333   0.003 ? 1 ? 551 . A 4  DG  "H4'"  A 4  DG  "H4'"  . 5MBR 1 
+56  1 1 22 22 DG  "H4'"  H 1  4.437   0.003 ? 1 ? 552 . A 22 DG  "H4'"  A 22 DG  "H4'"  . 5MBR 1 
+57  1 1 3  3  GF2 "H4'"  H 1  4.573   0.002 ? 1 ? 553 . A 3  GF2 "H4'"  A 3  GF2 "H4'"  . 5MBR 1 
+58  1 1 5  5  DG  "H4'"  H 1  4.426   0.003 ? 1 ? 554 . A 5  DG  "H4'"  A 5  DG  "H4'"  . 5MBR 1 
+59  1 1 20 20 DA  "H4'"  H 1  4.310   0.002 ? 1 ? 555 . A 20 DA  "H4'"  A 20 DA  "H4'"  . 5MBR 1 
+60  1 1 6  6  DT  "H3'"  H 1  4.809   0.003 ? 1 ? 556 . A 6  DT  "H3'"  A 6  DT  "H3'"  . 5MBR 1 
+61  1 1 2  2  DT  "H5'"  H 1  3.901   0.005 ? 2 ? 557 . A 2  DT  "H5'"  A 2  DT  "H5'"  . 5MBR 1 
+62  1 1 2  2  DT  "H5''" H 1  3.790   0.003 ? 2 ? 558 . A 2  DT  "H5''" A 2  DT  "H5''" . 5MBR 1 
+63  1 1 2  2  DT  "H4'"  H 1  4.176   0.003 ? 1 ? 559 . A 2  DT  "H4'"  A 2  DT  "H4'"  . 5MBR 1 
+64  1 1 15 15 DG  "H3'"  H 1  4.814   ?     ? 1 ? 563 . A 15 DG  "H3'"  A 15 DG  "H3'"  . 5MBR 1 
+65  1 1 16 16 DG  "H3'"  H 1  5.014   0.003 ? 1 ? 564 . A 16 DG  "H3'"  A 16 DG  "H3'"  . 5MBR 1 
+66  1 1 17 17 DG  "H3'"  H 1  5.080   0.003 ? 1 ? 565 . A 17 DG  "H3'"  A 17 DG  "H3'"  . 5MBR 1 
+67  1 1 18 18 DT  "H3'"  H 1  5.072   0.002 ? 1 ? 566 . A 18 DT  "H3'"  A 18 DT  "H3'"  . 5MBR 1 
+68  1 1 6  6  DT  "H4'"  H 1  4.227   0.002 ? 1 ? 567 . A 6  DT  "H4'"  A 6  DT  "H4'"  . 5MBR 1 
+69  1 1 11 11 DG  C8     C 13 137.082 ?     ? 1 ? 448 . A 11 DG  C8     A 11 DG  C8     . 5MBR 1 
+70  1 1 5  5  DG  C8     C 13 137.662 ?     ? 1 ? 450 . A 5  DG  C8     A 5  DG  C8     . 5MBR 1 
+71  1 1 6  6  DT  H6     H 1  7.561   0.003 ? 1 ? 451 . A 6  DT  H6     A 6  DT  H6     . 5MBR 1 
+72  1 1 6  6  DT  H71    H 1  1.959   0.003 ? 1 ? 452 . A 6  DT  H71    A 6  DT  H71    . 5MBR 1 
+73  1 1 6  6  DT  H72    H 1  1.959   0.003 ? 1 ? 452 . A 6  DT  H72    A 6  DT  H72    . 5MBR 1 
+74  1 1 6  6  DT  H73    H 1  1.959   0.003 ? 1 ? 452 . A 6  DT  H73    A 6  DT  H73    . 5MBR 1 
+75  1 1 6  6  DT  "H1'"  H 1  6.106   0.003 ? 1 ? 453 . A 6  DT  "H1'"  A 6  DT  "H1'"  . 5MBR 1 
+76  1 1 6  6  DT  "H2'"  H 1  1.957   0.002 ? 1 ? 454 . A 6  DT  "H2'"  A 6  DT  "H2'"  . 5MBR 1 
+77  1 1 6  6  DT  "H2''" H 1  2.314   0.003 ? 1 ? 455 . A 6  DT  "H2''" A 6  DT  "H2''" . 5MBR 1 
+78  1 1 6  6  DT  C6     C 13 139.538 ?     ? 1 ? 456 . A 6  DT  C6     A 6  DT  C6     . 5MBR 1 
+79  1 1 10 10 DG  "H3'"  H 1  5.023   0.004 ? 1 ? 457 . A 10 DG  "H3'"  A 10 DG  "H3'"  . 5MBR 1 
+80  1 1 11 11 DG  "H3'"  H 1  5.065   0.004 ? 1 ? 458 . A 11 DG  "H3'"  A 11 DG  "H3'"  . 5MBR 1 
+81  1 1 5  5  DG  "H3'"  H 1  4.973   0.004 ? 1 ? 460 . A 5  DG  "H3'"  A 5  DG  "H3'"  . 5MBR 1 
+82  1 1 9  9  GF2 HN1    H 1  11.697  0.002 ? 1 ? 461 . A 9  GF2 HN1    A 9  GF2 H1     . 5MBR 1 
+83  1 1 17 17 DG  H1     H 1  11.029  0.003 ? 1 ? 467 . A 17 DG  H1     A 17 DG  H1     . 5MBR 1 
+84  1 1 9  9  GF2 "H1'"  H 1  6.006   0.004 ? 1 ? 469 . A 9  GF2 "H1'"  A 9  GF2 "H1'"  . 5MBR 1 
+85  1 1 18 18 DT  "H1'"  H 1  5.926   0.003 ? 1 ? 470 . A 18 DT  "H1'"  A 18 DT  "H1'"  . 5MBR 1 
+86  1 1 18 18 DT  "H2''" H 1  2.527   0.004 ? 1 ? 471 . A 18 DT  "H2''" A 18 DT  "H2''" . 5MBR 1 
+87  1 1 18 18 DT  "H2'"  H 1  2.332   0.003 ? 1 ? 472 . A 18 DT  "H2'"  A 18 DT  "H2'"  . 5MBR 1 
+88  1 1 18 18 DT  H6     H 1  7.579   0.003 ? 1 ? 473 . A 18 DT  H6     A 18 DT  H6     . 5MBR 1 
+89  1 1 18 18 DT  C6     C 13 141.169 ?     ? 1 ? 474 . A 18 DT  C6     A 18 DT  C6     . 5MBR 1 
+90  1 1 9  9  GF2 C8     C 13 137.740 ?     ? 1 ? 475 . A 9  GF2 C8     A 9  GF2 C8     . 5MBR 1 
+91  1 1 12 12 DT  H6     H 1  7.573   0.003 ? 1 ? 476 . A 12 DT  H6     A 12 DT  H6     . 5MBR 1 
+92  1 1 12 12 DT  C6     C 13 139.885 ?     ? 1 ? 477 . A 12 DT  C6     A 12 DT  C6     . 5MBR 1 
+93  1 1 12 12 DT  "H2''" H 1  2.489   0.004 ? 1 ? 478 . A 12 DT  "H2''" A 12 DT  "H2''" . 5MBR 1 
+94  1 1 12 12 DT  "H2'"  H 1  2.354   0.003 ? 1 ? 479 . A 12 DT  "H2'"  A 12 DT  "H2'"  . 5MBR 1 
+95  1 1 14 14 DA  "H1'"  H 1  6.202   0.004 ? 1 ? 480 . A 14 DA  "H1'"  A 14 DA  "H1'"  . 5MBR 1 
+96  1 1 14 14 DA  "H2'"  H 1  2.125   0.004 ? 1 ? 481 . A 14 DA  "H2'"  A 14 DA  "H2'"  . 5MBR 1 
+97  1 1 14 14 DA  "H2''" H 1  2.443   0.002 ? 1 ? 482 . A 14 DA  "H2''" A 14 DA  "H2''" . 5MBR 1 
+98  1 1 4  4  DG  C8     C 13 137.200 ?     ? 1 ? 483 . A 4  DG  C8     A 4  DG  C8     . 5MBR 1 
+99  1 1 23 23 DG  C8     C 13 136.904 ?     ? 1 ? 484 . A 23 DG  C8     A 23 DG  C8     . 5MBR 1 
+100 1 1 11 11 DG  H1     H 1  11.434  0.003 ? 1 ? 490 . A 11 DG  H1     A 11 DG  H1     . 5MBR 1 
+101 1 1 1  1  DT  "H3'"  H 1  4.534   0.003 ? 1 ? 498 . A 1  DT  "H3'"  A 1  DT  "H3'"  . 5MBR 1 
+102 1 1 7  7  DT  C6     C 13 139.841 ?     ? 1 ? 499 . A 7  DT  C6     A 7  DT  C6     . 5MBR 1 
+103 1 1 7  7  DT  H71    H 1  1.972   0.002 ? 1 ? 500 . A 7  DT  H71    A 7  DT  H71    . 5MBR 1 
+104 1 1 7  7  DT  H72    H 1  1.972   0.002 ? 1 ? 500 . A 7  DT  H72    A 7  DT  H72    . 5MBR 1 
+105 1 1 7  7  DT  H73    H 1  1.972   0.002 ? 1 ? 500 . A 7  DT  H73    A 7  DT  H73    . 5MBR 1 
+106 1 1 7  7  DT  "H1'"  H 1  6.347   0.003 ? 1 ? 501 . A 7  DT  "H1'"  A 7  DT  "H1'"  . 5MBR 1 
+107 1 1 7  7  DT  "H2'"  H 1  2.493   0.003 ? 1 ? 502 . A 7  DT  "H2'"  A 7  DT  "H2'"  . 5MBR 1 
+108 1 1 14 14 DA  H2     H 1  7.365   0.001 ? 1 ? 503 . A 14 DA  H2     A 14 DA  H2     . 5MBR 1 
+109 1 1 14 14 DA  C2     C 13 153.804 ?     ? 1 ? 504 . A 14 DA  C2     A 14 DA  C2     . 5MBR 1 
+110 1 1 9  9  GF2 "H3'"  H 1  4.912   0.005 ? 1 ? 506 . A 9  GF2 "H3'"  A 9  GF2 "H3'"  . 5MBR 1 
+111 1 1 3  3  GF2 "H3'"  H 1  4.890   0.004 ? 1 ? 507 . A 3  GF2 "H3'"  A 3  GF2 "H3'"  . 5MBR 1 
+112 1 1 4  4  DG  "H3'"  H 1  4.778   0.005 ? 1 ? 508 . A 4  DG  "H3'"  A 4  DG  "H3'"  . 5MBR 1 
+113 1 1 7  7  DT  "H2''" H 1  2.493   0.003 ? 1 ? 509 . A 7  DT  "H2''" A 7  DT  "H2''" . 5MBR 1 
+114 1 1 7  7  DT  "H3'"  H 1  4.876   0.003 ? 1 ? 510 . A 7  DT  "H3'"  A 7  DT  "H3'"  . 5MBR 1 
+115 1 1 10 10 DG  "H2'"  H 1  2.561   0.005 ? 1 ? 385 . A 10 DG  "H2'"  A 10 DG  "H2'"  . 5MBR 1 
+116 1 1 10 10 DG  "H2''" H 1  2.669   0.004 ? 1 ? 386 . A 10 DG  "H2''" A 10 DG  "H2''" . 5MBR 1 
+117 1 1 4  4  DG  "H1'"  H 1  6.041   0.003 ? 1 ? 387 . A 4  DG  "H1'"  A 4  DG  "H1'"  . 5MBR 1 
+118 1 1 4  4  DG  "H2'"  H 1  2.427   0.004 ? 1 ? 388 . A 4  DG  "H2'"  A 4  DG  "H2'"  . 5MBR 1 
+119 1 1 4  4  DG  "H2''" H 1  2.483   0.004 ? 1 ? 389 . A 4  DG  "H2''" A 4  DG  "H2''" . 5MBR 1 
+120 1 1 5  5  DG  "H1'"  H 1  6.368   0.004 ? 1 ? 390 . A 5  DG  "H1'"  A 5  DG  "H1'"  . 5MBR 1 
+121 1 1 5  5  DG  "H2''" H 1  2.565   0.002 ? 1 ? 391 . A 5  DG  "H2''" A 5  DG  "H2''" . 5MBR 1 
+122 1 1 5  5  DG  "H2'"  H 1  2.622   0.004 ? 1 ? 392 . A 5  DG  "H2'"  A 5  DG  "H2'"  . 5MBR 1 
+123 1 1 22 22 DG  "H1'"  H 1  6.035   0.003 ? 1 ? 393 . A 22 DG  "H1'"  A 22 DG  "H1'"  . 5MBR 1 
+124 1 1 22 22 DG  "H2'"  H 1  2.499   0.003 ? 1 ? 394 . A 22 DG  "H2'"  A 22 DG  "H2'"  . 5MBR 1 
+125 1 1 22 22 DG  "H2''" H 1  2.711   0.002 ? 1 ? 395 . A 22 DG  "H2''" A 22 DG  "H2''" . 5MBR 1 
+126 1 1 23 23 DG  H8     H 1  7.404   0.003 ? 1 ? 396 . A 23 DG  H8     A 23 DG  H8     . 5MBR 1 
+127 1 1 23 23 DG  "H1'"  H 1  5.850   0.003 ? 1 ? 397 . A 23 DG  "H1'"  A 23 DG  "H1'"  . 5MBR 1 
+128 1 1 23 23 DG  "H2'"  H 1  2.109   0.004 ? 1 ? 398 . A 23 DG  "H2'"  A 23 DG  "H2'"  . 5MBR 1 
+129 1 1 23 23 DG  "H2''" H 1  2.481   0.004 ? 1 ? 399 . A 23 DG  "H2''" A 23 DG  "H2''" . 5MBR 1 
+130 1 1 24 24 DA  H8     H 1  7.927   0.002 ? 1 ? 400 . A 24 DA  H8     A 24 DA  H8     . 5MBR 1 
+131 1 1 24 24 DA  "H1'"  H 1  6.137   0.003 ? 1 ? 401 . A 24 DA  "H1'"  A 24 DA  "H1'"  . 5MBR 1 
+132 1 1 24 24 DA  "H2'"  H 1  2.728   0.003 ? 1 ? 402 . A 24 DA  "H2'"  A 24 DA  "H2'"  . 5MBR 1 
+133 1 1 24 24 DA  "H2''" H 1  2.423   0.003 ? 1 ? 403 . A 24 DA  "H2''" A 24 DA  "H2''" . 5MBR 1 
+134 1 1 24 24 DA  "H3'"  H 1  4.691   0.003 ? 1 ? 404 . A 24 DA  "H3'"  A 24 DA  "H3'"  . 5MBR 1 
+135 1 1 22 22 DG  "H3'"  H 1  4.883   0.003 ? 1 ? 405 . A 22 DG  "H3'"  A 22 DG  "H3'"  . 5MBR 1 
+136 1 1 15 15 DG  C8     C 13 141.474 ?     ? 1 ? 406 . A 15 DG  C8     A 15 DG  C8     . 5MBR 1 
+137 1 1 17 17 DG  C8     C 13 141.051 ?     ? 1 ? 407 . A 17 DG  C8     A 17 DG  C8     . 5MBR 1 
+138 1 1 16 16 DG  C8     C 13 140.611 ?     ? 1 ? 408 . A 16 DG  C8     A 16 DG  C8     . 5MBR 1 
+139 1 1 24 24 DA  C8     C 13 141.172 ?     ? 1 ? 409 . A 24 DA  C8     A 24 DA  C8     . 5MBR 1 
+140 1 1 21 21 GF2 C8     C 13 136.665 ?     ? 1 ? 410 . A 21 GF2 C8     A 21 GF2 C8     . 5MBR 1 
+141 1 1 22 22 DG  C8     C 13 136.687 ?     ? 1 ? 411 . A 22 DG  C8     A 22 DG  C8     . 5MBR 1 
+142 1 1 1  1  DT  C6     C 13 138.528 ?     ? 1 ? 412 . A 1  DT  C6     A 1  DT  C6     . 5MBR 1 
+143 1 1 8  8  DA  H2     H 1  8.272   0.003 ? 1 ? 413 . A 8  DA  H2     A 8  DA  H2     . 5MBR 1 
+144 1 1 8  8  DA  C2     C 13 155.455 ?     ? 1 ? 414 . A 8  DA  C2     A 8  DA  C2     . 5MBR 1 
+145 1 1 20 20 DA  C2     C 13 154.380 ?     ? 1 ? 415 . A 20 DA  C2     A 20 DA  C2     . 5MBR 1 
+146 1 1 24 24 DA  H2     H 1  7.606   0.003 ? 1 ? 416 . A 24 DA  H2     A 24 DA  H2     . 5MBR 1 
+147 1 1 24 24 DA  C2     C 13 154.167 ?     ? 1 ? 417 . A 24 DA  C2     A 24 DA  C2     . 5MBR 1 
+148 1 1 13 13 DT  H6     H 1  6.701   0.003 ? 1 ? 418 . A 13 DT  H6     A 13 DT  H6     . 5MBR 1 
+149 1 1 13 13 DT  C6     C 13 137.250 ?     ? 1 ? 419 . A 13 DT  C6     A 13 DT  C6     . 5MBR 1 
+150 1 1 13 13 DT  "H1'"  H 1  5.418   0.006 ? 1 ? 420 . A 13 DT  "H1'"  A 13 DT  "H1'"  . 5MBR 1 
+151 1 1 13 13 DT  "H2'"  H 1  1.417   0.003 ? 1 ? 421 . A 13 DT  "H2'"  A 13 DT  "H2'"  . 5MBR 1 
+152 1 1 13 13 DT  "H2''" H 1  2.232   0.004 ? 1 ? 422 . A 13 DT  "H2''" A 13 DT  "H2''" . 5MBR 1 
+153 1 1 8  8  DA  "H1'"  H 1  6.554   0.004 ? 1 ? 423 . A 8  DA  "H1'"  A 8  DA  "H1'"  . 5MBR 1 
+154 1 1 8  8  DA  "H2''" H 1  2.864   0.004 ? 1 ? 424 . A 8  DA  "H2''" A 8  DA  "H2''" . 5MBR 1 
+155 1 1 8  8  DA  "H2'"  H 1  3.057   0.004 ? 1 ? 425 . A 8  DA  "H2'"  A 8  DA  "H2'"  . 5MBR 1 
+156 1 1 14 14 DA  C8     C 13 142.447 ?     ? 1 ? 426 . A 14 DA  C8     A 14 DA  C8     . 5MBR 1 
+157 1 1 2  2  DT  H71    H 1  1.555   0.003 ? 1 ? 428 . A 2  DT  H71    A 2  DT  H71    . 5MBR 1 
+158 1 1 2  2  DT  H72    H 1  1.555   0.003 ? 1 ? 428 . A 2  DT  H72    A 2  DT  H72    . 5MBR 1 
+159 1 1 2  2  DT  H73    H 1  1.555   0.003 ? 1 ? 428 . A 2  DT  H73    A 2  DT  H73    . 5MBR 1 
+160 1 1 2  2  DT  H6     H 1  7.187   0.003 ? 1 ? 429 . A 2  DT  H6     A 2  DT  H6     . 5MBR 1 
+161 1 1 2  2  DT  C6     C 13 142.350 ?     ? 1 ? 430 . A 2  DT  C6     A 2  DT  C6     . 5MBR 1 
+162 1 1 2  2  DT  "H1'"  H 1  5.661   0.003 ? 1 ? 431 . A 2  DT  "H1'"  A 2  DT  "H1'"  . 5MBR 1 
+163 1 1 2  2  DT  "H2''" H 1  2.436   0.004 ? 1 ? 432 . A 2  DT  "H2''" A 2  DT  "H2''" . 5MBR 1 
+164 1 1 2  2  DT  "H2'"  H 1  2.552   0.006 ? 1 ? 433 . A 2  DT  "H2'"  A 2  DT  "H2'"  . 5MBR 1 
+165 1 1 3  3  GF2 C8     C 13 137.250 ?     ? 1 ? 434 . A 3  GF2 C8     A 3  GF2 C8     . 5MBR 1 
+166 1 1 8  8  DA  H8     H 1  8.502   0.003 ? 1 ? 435 . A 8  DA  H8     A 8  DA  H8     . 5MBR 1 
+167 1 1 8  8  DA  C8     C 13 142.572 ?     ? 1 ? 436 . A 8  DA  C8     A 8  DA  C8     . 5MBR 1 
+168 1 1 7  7  DT  H6     H 1  7.694   0.003 ? 1 ? 437 . A 7  DT  H6     A 7  DT  H6     . 5MBR 1 
+169 1 1 20 20 DA  C8     C 13 141.508 ?     ? 1 ? 438 . A 20 DA  C8     A 20 DA  C8     . 5MBR 1 
+170 1 1 19 19 DT  "H1'"  H 1  5.917   0.003 ? 1 ? 439 . A 19 DT  "H1'"  A 19 DT  "H1'"  . 5MBR 1 
+171 1 1 19 19 DT  "H2''" H 1  2.180   0.002 ? 1 ? 440 . A 19 DT  "H2''" A 19 DT  "H2''" . 5MBR 1 
+172 1 1 19 19 DT  "H2'"  H 1  1.594   0.004 ? 1 ? 441 . A 19 DT  "H2'"  A 19 DT  "H2'"  . 5MBR 1 
+173 1 1 19 19 DT  H6     H 1  7.232   0.004 ? 1 ? 442 . A 19 DT  H6     A 19 DT  H6     . 5MBR 1 
+174 1 1 19 19 DT  C6     C 13 138.680 ?     ? 1 ? 443 . A 19 DT  C6     A 19 DT  C6     . 5MBR 1 
+175 1 1 20 20 DA  "H3'"  H 1  4.985   0.003 ? 1 ? 444 . A 20 DA  "H3'"  A 20 DA  "H3'"  . 5MBR 1 
+176 1 1 21 21 GF2 "H3'"  H 1  4.890   0.003 ? 1 ? 445 . A 21 GF2 "H3'"  A 21 GF2 "H3'"  . 5MBR 1 
+177 1 1 8  8  DA  "H3'"  H 1  5.169   0.004 ? 1 ? 446 . A 8  DA  "H3'"  A 8  DA  "H3'"  . 5MBR 1 
+178 1 1 10 10 DG  C8     C 13 137.640 ?     ? 1 ? 447 . A 10 DG  C8     A 10 DG  C8     . 5MBR 1 
+179 1 1 15 15 DG  "H1'"  H 1  6.078   0.005 ? 1 ? 330 . A 15 DG  "H1'"  A 15 DG  "H1'"  . 5MBR 1 
+180 1 1 15 15 DG  "H2'"  H 1  3.535   0.005 ? 1 ? 331 . A 15 DG  "H2'"  A 15 DG  "H2'"  . 5MBR 1 
+181 1 1 15 15 DG  "H2''" H 1  3.058   0.003 ? 1 ? 332 . A 15 DG  "H2''" A 15 DG  "H2''" . 5MBR 1 
+182 1 1 15 15 DG  H8     H 1  7.362   0.002 ? 1 ? 333 . A 15 DG  H8     A 15 DG  H8     . 5MBR 1 
+183 1 1 16 16 DG  "H1'"  H 1  5.883   0.004 ? 1 ? 334 . A 16 DG  "H1'"  A 16 DG  "H1'"  . 5MBR 1 
+184 1 1 16 16 DG  "H2''" H 1  2.785   0.004 ? 1 ? 335 . A 16 DG  "H2''" A 16 DG  "H2''" . 5MBR 1 
+185 1 1 16 16 DG  "H2'"  H 1  2.922   0.004 ? 1 ? 336 . A 16 DG  "H2'"  A 16 DG  "H2'"  . 5MBR 1 
+186 1 1 16 16 DG  H8     H 1  7.391   0.003 ? 1 ? 337 . A 16 DG  H8     A 16 DG  H8     . 5MBR 1 
+187 1 1 17 17 DG  H8     H 1  7.633   0.002 ? 1 ? 338 . A 17 DG  H8     A 17 DG  H8     . 5MBR 1 
+188 1 1 17 17 DG  "H1'"  H 1  6.002   0.005 ? 1 ? 339 . A 17 DG  "H1'"  A 17 DG  "H1'"  . 5MBR 1 
+189 1 1 17 17 DG  "H2'"  H 1  3.121   0.004 ? 1 ? 340 . A 17 DG  "H2'"  A 17 DG  "H2'"  . 5MBR 1 
+190 1 1 17 17 DG  "H2''" H 1  2.214   0.003 ? 1 ? 341 . A 17 DG  "H2''" A 17 DG  "H2''" . 5MBR 1 
+191 1 1 14 14 DA  "H5'"  H 1  2.796   0.005 ? 1 ? 342 . A 14 DA  "H5'"  A 14 DA  "H5'"  . 5MBR 1 
+192 1 1 14 14 DA  "H5''" H 1  3.378   0.004 ? 1 ? 343 . A 14 DA  "H5''" A 14 DA  "H5''" . 5MBR 1 
+193 1 1 14 14 DA  H8     H 1  7.745   0.002 ? 1 ? 344 . A 14 DA  H8     A 14 DA  H8     . 5MBR 1 
+194 1 1 18 18 DT  H71    H 1  1.710   0.004 ? 1 ? 345 . A 18 DT  H71    A 18 DT  H71    . 5MBR 1 
+195 1 1 18 18 DT  H72    H 1  1.710   0.004 ? 1 ? 345 . A 18 DT  H72    A 18 DT  H72    . 5MBR 1 
+196 1 1 18 18 DT  H73    H 1  1.710   0.004 ? 1 ? 345 . A 18 DT  H73    A 18 DT  H73    . 5MBR 1 
+197 1 1 13 13 DT  H71    H 1  1.289   0.002 ? 1 ? 346 . A 13 DT  H71    A 13 DT  H71    . 5MBR 1 
+198 1 1 13 13 DT  H72    H 1  1.289   0.002 ? 1 ? 346 . A 13 DT  H72    A 13 DT  H72    . 5MBR 1 
+199 1 1 13 13 DT  H73    H 1  1.289   0.002 ? 1 ? 346 . A 13 DT  H73    A 13 DT  H73    . 5MBR 1 
+200 1 1 1  1  DT  H71    H 1  1.306   0.002 ? 1 ? 347 . A 1  DT  H71    A 1  DT  H71    . 5MBR 1 
+201 1 1 1  1  DT  H72    H 1  1.306   0.002 ? 1 ? 347 . A 1  DT  H72    A 1  DT  H72    . 5MBR 1 
+202 1 1 1  1  DT  H73    H 1  1.306   0.002 ? 1 ? 347 . A 1  DT  H73    A 1  DT  H73    . 5MBR 1 
+203 1 1 19 19 DT  H71    H 1  1.523   0.003 ? 1 ? 348 . A 19 DT  H71    A 19 DT  H71    . 5MBR 1 
+204 1 1 19 19 DT  H72    H 1  1.523   0.003 ? 1 ? 348 . A 19 DT  H72    A 19 DT  H72    . 5MBR 1 
+205 1 1 19 19 DT  H73    H 1  1.523   0.003 ? 1 ? 348 . A 19 DT  H73    A 19 DT  H73    . 5MBR 1 
+206 1 1 12 12 DT  H71    H 1  1.856   0.002 ? 1 ? 349 . A 12 DT  H71    A 12 DT  H71    . 5MBR 1 
+207 1 1 12 12 DT  H72    H 1  1.856   0.002 ? 1 ? 349 . A 12 DT  H72    A 12 DT  H72    . 5MBR 1 
+208 1 1 12 12 DT  H73    H 1  1.856   0.002 ? 1 ? 349 . A 12 DT  H73    A 12 DT  H73    . 5MBR 1 
+209 1 1 1  1  DT  "H1'"  H 1  5.471   0.004 ? 1 ? 350 . A 1  DT  "H1'"  A 1  DT  "H1'"  . 5MBR 1 
+210 1 1 1  1  DT  H6     H 1  7.109   0.002 ? 1 ? 351 . A 1  DT  H6     A 1  DT  H6     . 5MBR 1 
+211 1 1 1  1  DT  "H2'"  H 1  1.753   0.004 ? 1 ? 352 . A 1  DT  "H2'"  A 1  DT  "H2'"  . 5MBR 1 
+212 1 1 1  1  DT  "H2''" H 1  2.267   0.004 ? 1 ? 353 . A 1  DT  "H2''" A 1  DT  "H2''" . 5MBR 1 
+213 1 1 20 20 DA  H2     H 1  7.763   0.003 ? 1 ? 354 . A 20 DA  H2     A 20 DA  H2     . 5MBR 1 
+214 1 1 9  9  GF2 H8     H 1  8.111   0.003 ? 1 ? 355 . A 9  GF2 H8     A 9  GF2 H8     . 5MBR 1 
+215 1 1 9  9  GF2 "H2'"  H 1  5.573   0.004 ? 1 ? 356 . A 9  GF2 "H2'"  A 9  GF2 "H2'"  . 5MBR 1 
+216 1 1 21 21 GF2 "H1'"  H 1  5.991   0.003 ? 1 ? 357 . A 21 GF2 "H1'"  A 21 GF2 "H1'"  . 5MBR 1 
+217 1 1 21 21 GF2 "H2'"  H 1  5.483   0.003 ? 1 ? 358 . A 21 GF2 "H2'"  A 21 GF2 "H2'"  . 5MBR 1 
+218 1 1 22 22 DG  H8     H 1  7.537   0.003 ? 1 ? 359 . A 22 DG  H8     A 22 DG  H8     . 5MBR 1 
+219 1 1 21 21 GF2 H8     H 1  7.804   0.003 ? 1 ? 360 . A 21 GF2 H8     A 21 GF2 H8     . 5MBR 1 
+220 1 1 10 10 DG  H8     H 1  7.739   0.003 ? 1 ? 361 . A 10 DG  H8     A 10 DG  H8     . 5MBR 1 
+221 1 1 3  3  GF2 "H1'"  H 1  5.883   0.003 ? 1 ? 362 . A 3  GF2 "H1'"  A 3  GF2 "H1'"  . 5MBR 1 
+222 1 1 3  3  GF2 "H2'"  H 1  5.640   0.005 ? 1 ? 363 . A 3  GF2 "H2'"  A 3  GF2 "H2'"  . 5MBR 1 
+223 1 1 20 20 DA  "H1'"  H 1  5.749   0.003 ? 1 ? 364 . A 20 DA  "H1'"  A 20 DA  "H1'"  . 5MBR 1 
+224 1 1 20 20 DA  "H2''" H 1  2.855   0.003 ? 1 ? 365 . A 20 DA  "H2''" A 20 DA  "H2''" . 5MBR 1 
+225 1 1 20 20 DA  "H2'"  H 1  2.779   0.002 ? 1 ? 366 . A 20 DA  "H2'"  A 20 DA  "H2'"  . 5MBR 1 
+226 1 1 20 20 DA  H8     H 1  8.252   0.002 ? 1 ? 367 . A 20 DA  H8     A 20 DA  H8     . 5MBR 1 
+227 1 1 3  3  GF2 HN1    H 1  11.898  0.002 ? 1 ? 368 . A 3  GF2 HN1    A 3  GF2 H1     . 5MBR 1 
+228 1 1 4  4  DG  H1     H 1  11.527  0.004 ? 1 ? 369 . A 4  DG  H1     A 4  DG  H1     . 5MBR 1 
+229 1 1 5  5  DG  H1     H 1  11.098  0.004 ? 1 ? 370 . A 5  DG  H1     A 5  DG  H1     . 5MBR 1 
+230 1 1 11 11 DG  H8     H 1  7.967   0.003 ? 1 ? 371 . A 11 DG  H8     A 11 DG  H8     . 5MBR 1 
+231 1 1 3  3  GF2 H8     H 1  8.088   0.003 ? 1 ? 372 . A 3  GF2 H8     A 3  GF2 H8     . 5MBR 1 
+232 1 1 21 21 GF2 HN1    H 1  11.556  0.003 ? 1 ? 373 . A 21 GF2 HN1    A 21 GF2 H1     . 5MBR 1 
+233 1 1 22 22 DG  H1     H 1  11.144  0.003 ? 1 ? 374 . A 22 DG  H1     A 22 DG  H1     . 5MBR 1 
+234 1 1 4  4  DG  H8     H 1  7.554   0.003 ? 1 ? 375 . A 4  DG  H8     A 4  DG  H8     . 5MBR 1 
+235 1 1 23 23 DG  H1     H 1  10.774  0.003 ? 1 ? 376 . A 23 DG  H1     A 23 DG  H1     . 5MBR 1 
+236 1 1 5  5  DG  H8     H 1  7.916   0.003 ? 1 ? 377 . A 5  DG  H8     A 5  DG  H8     . 5MBR 1 
+237 1 1 16 16 DG  H1     H 1  11.251  0.003 ? 1 ? 378 . A 16 DG  H1     A 16 DG  H1     . 5MBR 1 
+238 1 1 10 10 DG  H1     H 1  11.637  0.003 ? 1 ? 379 . A 10 DG  H1     A 10 DG  H1     . 5MBR 1 
+239 1 1 15 15 DG  H1     H 1  11.429  0.004 ? 1 ? 380 . A 15 DG  H1     A 15 DG  H1     . 5MBR 1 
+240 1 1 11 11 DG  "H1'"  H 1  6.317   0.004 ? 1 ? 381 . A 11 DG  "H1'"  A 11 DG  "H1'"  . 5MBR 1 
+241 1 1 11 11 DG  "H2''" H 1  2.622   0.003 ? 1 ? 382 . A 11 DG  "H2''" A 11 DG  "H2''" . 5MBR 1 
+242 1 1 11 11 DG  "H2'"  H 1  2.712   0.004 ? 1 ? 383 . A 11 DG  "H2'"  A 11 DG  "H2'"  . 5MBR 1 
+243 1 1 10 10 DG  "H1'"  H 1  5.984   0.004 ? 1 ? 384 . A 10 DG  "H1'"  A 10 DG  "H1'"  . 5MBR 1 
+stop_
+save_

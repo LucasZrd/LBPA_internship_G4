@@ -1,0 +1,167 @@
+data_2n9q
+
+save_entry_information
+# 
+_Entry.ID                 2N9Q 
+_Entry.Assigned_BMRB_ID   25915 
+# 
+loop_
+_Audit.Revision_ID 
+_Audit.Creation_date 
+_Audit.Update_record 
+_Audit.Creation_method 
+_Audit.Entry_ID 
+1 2016-02-09 'Nomenclature checked and updated' . 2N9Q 
+2 2016-02-09 'Preliminary version'              . 2N9Q 
+3 2016-02-17 'Initial release'                  . 2N9Q 
+stop_
+save_
+save_chemical_shift_reference
+# 
+_Chem_shift_reference.Sf_category    chem_shift_reference 
+_Chem_shift_reference.Sf_framecode   chemical_shift_reference 
+_Chem_shift_reference.Entry_ID       2N9Q 
+_Chem_shift_reference.ID             1 
+# 
+loop_
+_Chem_shift_ref.Atom_type 
+_Chem_shift_ref.Atom_isotope_number 
+_Chem_shift_ref.Mol_common_name 
+_Chem_shift_ref.Atom_group 
+_Chem_shift_ref.Concentration_val 
+_Chem_shift_ref.Concentration_units 
+_Chem_shift_ref.Solvent 
+_Chem_shift_ref.Rank 
+_Chem_shift_ref.Chem_shift_units 
+_Chem_shift_ref.Chem_shift_val 
+_Chem_shift_ref.Ref_method 
+_Chem_shift_ref.Ref_type 
+_Chem_shift_ref.Indirect_shift_ratio 
+_Chem_shift_ref.Entry_ID 
+_Chem_shift_ref.Chem_shift_reference_ID 
+H 1  DSS 'methyl protons' ? ? ? ? ppm 0.00 internal direct   1.000000000 2N9Q 1 
+C 13 DSS 'methyl protons' ? ? ? ? ppm 0.00 n/a      indirect 0.251449530 2N9Q 1 
+stop_
+save_
+save_assigned_chem_shift_list
+# 
+_Assigned_chem_shift_list.Sf_category                assigned_chemical_shifts 
+_Assigned_chem_shift_list.Sf_framecode               assigned_chem_shift_list 
+_Assigned_chem_shift_list.Entry_ID                   2N9Q 
+_Assigned_chem_shift_list.ID                         1 
+_Assigned_chem_shift_list.Data_file_name             bmrb.tbl 
+_Assigned_chem_shift_list.Sample_condition_list_ID   1 
+_Assigned_chem_shift_list.Chem_shift_reference_ID    1 
+# 
+loop_
+_Atom_chem_shift.ID 
+_Atom_chem_shift.Entity_assembly_ID 
+_Atom_chem_shift.Entity_ID 
+_Atom_chem_shift.Comp_index_ID 
+_Atom_chem_shift.Seq_ID 
+_Atom_chem_shift.Comp_ID 
+_Atom_chem_shift.Atom_ID 
+_Atom_chem_shift.Atom_type 
+_Atom_chem_shift.Atom_isotope_number 
+_Atom_chem_shift.Val 
+_Atom_chem_shift.Val_err 
+_Atom_chem_shift.Assign_fig_of_merit 
+_Atom_chem_shift.Ambiguity_code 
+_Atom_chem_shift.Occupancy 
+_Atom_chem_shift.Resonance_ID 
+_Atom_chem_shift.Auth_entity_assembly_ID 
+_Atom_chem_shift.Auth_asym_ID 
+_Atom_chem_shift.Auth_seq_ID 
+_Atom_chem_shift.Auth_comp_ID 
+_Atom_chem_shift.Auth_atom_ID 
+_Atom_chem_shift.Original_PDB_strand_ID 
+_Atom_chem_shift.Original_PDB_residue_no 
+_Atom_chem_shift.Original_PDB_residue_name 
+_Atom_chem_shift.Original_PDB_atom_name 
+_Atom_chem_shift.Details 
+_Atom_chem_shift.Entry_ID 
+_Atom_chem_shift.Assigned_chem_shift_list_ID 
+1  ? . 1 ? DG  "H1'"  H ? 5.78   0.02 ? 1 ? ? . B 1 DG  "H1'"  B 1 DG  "H1'"  . 2N9Q ? 
+2  ? . 1 ? DG  "H2'"  H ? 3.12   0.02 ? 2 ? ? . B 1 DG  "H2'"  B 1 DG  "H2'"  . 2N9Q ? 
+3  ? . 1 ? DG  "H2''" H ? 2.78   0.02 ? 2 ? ? . B 1 DG  "H2''" B 1 DG  "H2''" . 2N9Q ? 
+4  ? . 1 ? DG  "H3'"  H ? 4.92   0.02 ? 1 ? ? . B 1 DG  "H3'"  B 1 DG  "H3'"  . 2N9Q ? 
+5  ? . 1 ? DG  "H4'"  H ? 4.48   0.02 ? 1 ? ? . B 1 DG  "H4'"  B 1 DG  "H4'"  . 2N9Q ? 
+6  ? . 1 ? DG  "H5'"  H ? 3.98   0.02 ? 2 ? ? . B 1 DG  "H5'"  B 1 DG  "H5'"  . 2N9Q ? 
+7  ? . 1 ? DG  "H5''" H ? 4.03   0.02 ? 2 ? ? . B 1 DG  "H5''" B 1 DG  "H5''" . 2N9Q ? 
+8  ? . 1 ? DG  H8     H ? 6.88   0.02 ? 1 ? ? . B 1 DG  H8     B 1 DG  H8     . 2N9Q ? 
+9  ? . 1 ? DG  H1     H ? 11.54  0.02 ? 1 ? ? . B 1 DG  H1     B 1 DG  H1     . 2N9Q ? 
+10 ? . 1 ? DG  "C1'"  C ? 86.53  0.05 ? 1 ? ? . B 1 DG  "C1'"  B 1 DG  "C1'"  . 2N9Q ? 
+11 ? . 1 ? DG  "C2'"  C ? 34.25  0.05 ? 1 ? ? . B 1 DG  "C2'"  B 1 DG  "C2'"  . 2N9Q ? 
+12 ? . 1 ? DG  "C3'"  C ? 78.50  0.05 ? 1 ? ? . B 1 DG  "C3'"  B 1 DG  "C3'"  . 2N9Q ? 
+13 ? . 1 ? DG  "C4'"  C ? 87.42  0.05 ? 1 ? ? . B 1 DG  "C4'"  B 1 DG  "C4'"  . 2N9Q ? 
+14 ? . 1 ? DG  "C5'"  C ? 62.72  0.05 ? 1 ? ? . B 1 DG  "C5'"  B 1 DG  "C5'"  . 2N9Q ? 
+15 ? . 1 ? DG  C8     C ? 138.01 0.05 ? 1 ? ? . B 1 DG  C8     B 1 DG  C8     . 2N9Q ? 
+16 ? . 2 ? DG  "H1'"  H ? 5.40   0.02 ? 1 ? ? . B 2 DG  "H1'"  B 2 DG  "H1'"  . 2N9Q ? 
+17 ? . 2 ? DG  "H2'"  H ? 2.67   0.02 ? 2 ? ? . B 2 DG  "H2'"  B 2 DG  "H2'"  . 2N9Q ? 
+18 ? . 2 ? DG  "H2''" H ? 2.80   0.02 ? 2 ? ? . B 2 DG  "H2''" B 2 DG  "H2''" . 2N9Q ? 
+19 ? . 2 ? DG  "H3'"  H ? 5.06   0.02 ? 1 ? ? . B 2 DG  "H3'"  B 2 DG  "H3'"  . 2N9Q ? 
+20 ? . 2 ? DG  "H4'"  H ? 4.47   0.02 ? 1 ? ? . B 2 DG  "H4'"  B 2 DG  "H4'"  . 2N9Q ? 
+21 ? . 2 ? DG  "H5'"  H ? 4.14   0.02 ? 2 ? ? . B 2 DG  "H5'"  B 2 DG  "H5'"  . 2N9Q ? 
+22 ? . 2 ? DG  "H5''" H ? 4.23   0.02 ? 2 ? ? . B 2 DG  "H5''" B 2 DG  "H5''" . 2N9Q ? 
+23 ? . 2 ? DG  H8     H ? 8.27   0.02 ? 1 ? ? . B 2 DG  H8     B 2 DG  H8     . 2N9Q ? 
+24 ? . 2 ? DG  H1     H ? 11.67  0.02 ? 1 ? ? . B 2 DG  H1     B 2 DG  H1     . 2N9Q ? 
+25 ? . 2 ? DG  "C1'"  C ? 80.96  0.05 ? 1 ? ? . B 2 DG  "C1'"  B 2 DG  "C1'"  . 2N9Q ? 
+26 ? . 2 ? DG  "C2'"  C ? 37.01  0.05 ? 1 ? ? . B 2 DG  "C2'"  B 2 DG  "C2'"  . 2N9Q ? 
+27 ? . 2 ? DG  "C3'"  C ? 77.36  0.05 ? 1 ? ? . B 2 DG  "C3'"  B 2 DG  "C3'"  . 2N9Q ? 
+28 ? . 2 ? DG  "C4'"  C ? 84.70  0.05 ? 1 ? ? . B 2 DG  "C4'"  B 2 DG  "C4'"  . 2N9Q ? 
+29 ? . 2 ? DG  "C5'"  C ? 65.69  0.05 ? 1 ? ? . B 2 DG  "C5'"  B 2 DG  "C5'"  . 2N9Q ? 
+30 ? . 2 ? DG  C8     C ? 136.08 0.05 ? 1 ? ? . B 2 DG  C8     B 2 DG  C8     . 2N9Q ? 
+31 ? . 3 ? AZW "H3'"  H ? 4.97   0.02 ? 2 ? ? . B 3 AZW "H3'"  B ? ?   ?      . 2N9Q ? 
+32 ? . 3 ? AZW "H3''" H ? 4.64   0.02 ? 2 ? ? . B 3 AZW "H3''" B ? ?   ?      . 2N9Q ? 
+33 ? . 3 ? AZW "H5'"  H ? 5.25   0.02 ? 2 ? ? . B 3 AZW "H5'"  B 3 AZW "H5'"  . 2N9Q ? 
+34 ? . 3 ? AZW "H5''" H ? 5.07   0.02 ? 2 ? ? . B 3 AZW "H5''" B 3 AZW "H5''" . 2N9Q ? 
+35 ? . 3 ? AZW H2A    H ? 7.46   0.02 ? 3 ? ? . B 3 AZW H2A    B 3 AZW H2A1   . 2N9Q ? 
+36 ? . 3 ? AZW H6A    H ? 7.46   0.02 ? 3 ? ? . B 3 AZW H6A    B 3 AZW H2A2   . 2N9Q ? 
+37 ? . 3 ? AZW H2B    H ? 7.06   0.02 ? 3 ? ? . B 3 AZW H2B    B 3 AZW H2B1   . 2N9Q ? 
+38 ? . 3 ? AZW H6B    H ? 7.06   0.02 ? 3 ? ? . B 3 AZW H6B    B 3 AZW H2B2   . 2N9Q ? 
+39 ? . 3 ? AZW H3A    H ? 7.57   0.02 ? 3 ? ? . B 3 AZW H3A    B 3 AZW H3A1   . 2N9Q ? 
+40 ? . 3 ? AZW H5A    H ? 7.57   0.02 ? 3 ? ? . B 3 AZW H5A    B 3 AZW H3A2   . 2N9Q ? 
+41 ? . 3 ? AZW H3B    H ? 7.24   0.02 ? 3 ? ? . B 3 AZW H3B    B 3 AZW H3B1   . 2N9Q ? 
+42 ? . 3 ? AZW H5B    H ? 7.24   0.02 ? 3 ? ? . B 3 AZW H5B    B 3 AZW H3B2   . 2N9Q ? 
+43 ? . 3 ? AZW "C3'"  C ? 66.19  0.05 ? 1 ? ? . B 3 AZW "C3'"  B 3 AZW "C3'"  . 2N9Q ? 
+44 ? . 3 ? AZW "C5'"  C ? 66.54  0.05 ? 1 ? ? . B 3 AZW "C5'"  B 3 AZW "C5'"  . 2N9Q ? 
+45 ? . 3 ? AZW C2A    C ? 126.50 0.05 ? 3 ? ? . B 3 AZW C2A    B 3 AZW C2A1   . 2N9Q ? 
+46 ? . 3 ? AZW C6A    C ? 126.50 0.05 ? 3 ? ? . B 3 AZW C6A    B 3 AZW C2A2   . 2N9Q ? 
+47 ? . 3 ? AZW C2B    C ? 126.98 0.05 ? 3 ? ? . B 3 AZW C2B    B 3 AZW C2B1   . 2N9Q ? 
+48 ? . 3 ? AZW C6B    C ? 126.98 0.05 ? 3 ? ? . B 3 AZW C6B    B 3 AZW C2B2   . 2N9Q ? 
+49 ? . 3 ? AZW C3A    C ? 122.64 0.05 ? 3 ? ? . B 3 AZW C3A    B 3 AZW C3A1   . 2N9Q ? 
+50 ? . 3 ? AZW C5A    C ? 122.64 0.05 ? 3 ? ? . B 3 AZW C5A    B 3 AZW C3A2   . 2N9Q ? 
+51 ? . 3 ? AZW C3B    C ? 121.67 0.05 ? 3 ? ? . B 3 AZW C3B    B 3 AZW C3B1   . 2N9Q ? 
+52 ? . 3 ? AZW C5B    C ? 121.67 0.05 ? 3 ? ? . B 3 AZW C5B    B 3 AZW C3B2   . 2N9Q ? 
+53 ? . 4 ? DG  "H1'"  H ? 6.00   0.02 ? 1 ? ? . B 4 DG  "H1'"  B 4 DG  "H1'"  . 2N9Q ? 
+54 ? . 4 ? DG  "H2'"  H ? 3.22   0.02 ? 2 ? ? . B 4 DG  "H2'"  B 4 DG  "H2'"  . 2N9Q ? 
+55 ? . 4 ? DG  "H2''" H ? 2.73   0.02 ? 2 ? ? . B 4 DG  "H2''" B 4 DG  "H2''" . 2N9Q ? 
+56 ? . 4 ? DG  "H3'"  H ? 4.80   0.02 ? 1 ? ? . B 4 DG  "H3'"  B 4 DG  "H3'"  . 2N9Q ? 
+57 ? . 4 ? DG  "H4'"  H ? 4.51   0.02 ? 1 ? ? . B 4 DG  "H4'"  B 4 DG  "H4'"  . 2N9Q ? 
+58 ? . 4 ? DG  "H5'"  H ? 4.18   0.02 ? 2 ? ? . B 4 DG  "H5'"  B 4 DG  "H5'"  . 2N9Q ? 
+59 ? . 4 ? DG  "H5''" H ? 4.73   0.02 ? 2 ? ? . B 4 DG  "H5''" B 4 DG  "H5''" . 2N9Q ? 
+60 ? . 4 ? DG  H8     H ? 7.24   0.02 ? 1 ? ? . B 4 DG  H8     B 4 DG  H8     . 2N9Q ? 
+61 ? . 4 ? DG  H1     H ? 11.39  0.02 ? 1 ? ? . B 4 DG  H1     B 4 DG  H1     . 2N9Q ? 
+62 ? . 4 ? DG  "C1'"  C ? 86.75  0.05 ? 1 ? ? . B 4 DG  "C1'"  B 4 DG  "C1'"  . 2N9Q ? 
+63 ? . 4 ? DG  "C2'"  C ? 32.64  0.05 ? 1 ? ? . B 4 DG  "C2'"  B 4 DG  "C2'"  . 2N9Q ? 
+64 ? . 4 ? DG  "C3'"  C ? 77.64  0.05 ? 1 ? ? . B 4 DG  "C3'"  B 4 DG  "C3'"  . 2N9Q ? 
+65 ? . 4 ? DG  "C4'"  C ? 86.20  0.05 ? 1 ? ? . B 4 DG  "C4'"  B 4 DG  "C4'"  . 2N9Q ? 
+66 ? . 4 ? DG  "C5'"  C ? 67.54  0.05 ? 1 ? ? . B 4 DG  "C5'"  B 4 DG  "C5'"  . 2N9Q ? 
+67 ? . 4 ? DG  C8     C ? 139.01 0.05 ? 1 ? ? . B 4 DG  C8     B 4 DG  C8     . 2N9Q ? 
+68 ? . 5 ? DG  "H1'"  H ? 5.99   0.02 ? 1 ? ? . B 5 DG  "H1'"  B 5 DG  "H1'"  . 2N9Q ? 
+69 ? . 5 ? DG  "H2'"  H ? 2.56   0.02 ? 2 ? ? . B 5 DG  "H2'"  B 5 DG  "H2'"  . 2N9Q ? 
+70 ? . 5 ? DG  "H2''" H ? 2.27   0.02 ? 2 ? ? . B 5 DG  "H2''" B 5 DG  "H2''" . 2N9Q ? 
+71 ? . 5 ? DG  "H3'"  H ? 4.78   0.02 ? 1 ? ? . B 5 DG  "H3'"  B 5 DG  "H3'"  . 2N9Q ? 
+72 ? . 5 ? DG  "H4'"  H ? 4.17   0.02 ? 1 ? ? . B 5 DG  "H4'"  B 5 DG  "H4'"  . 2N9Q ? 
+73 ? . 5 ? DG  "H5'"  H ? 4.17   0.02 ? 2 ? ? . B 5 DG  "H5'"  B 5 DG  "H5'"  . 2N9Q ? 
+74 ? . 5 ? DG  "H5''" H ? 4.29   0.02 ? 2 ? ? . B 5 DG  "H5''" B 5 DG  "H5''" . 2N9Q ? 
+75 ? . 5 ? DG  H8     H ? 7.44   0.02 ? 1 ? ? . B 5 DG  H8     B 5 DG  H8     . 2N9Q ? 
+76 ? . 5 ? DG  H1     H ? 11.43  0.02 ? 1 ? ? . B 5 DG  H1     B 5 DG  H1     . 2N9Q ? 
+77 ? . 5 ? DG  "C1'"  C ? 80.92  0.05 ? 1 ? ? . B 5 DG  "C1'"  B 5 DG  "C1'"  . 2N9Q ? 
+78 ? . 5 ? DG  "C2'"  C ? 38.98  0.05 ? 1 ? ? . B 5 DG  "C2'"  B 5 DG  "C2'"  . 2N9Q ? 
+79 ? . 5 ? DG  "C3'"  C ? 69.36  0.05 ? 1 ? ? . B 5 DG  "C3'"  B 5 DG  "C3'"  . 2N9Q ? 
+80 ? . 5 ? DG  "C4'"  C ? 84.53  0.05 ? 1 ? ? . B 5 DG  "C4'"  B 5 DG  "C4'"  . 2N9Q ? 
+81 ? . 5 ? DG  "C5'"  C ? 63.89  0.05 ? 1 ? ? . B 5 DG  "C5'"  B 5 DG  "C5'"  . 2N9Q ? 
+82 ? . 5 ? DG  C8     C ? 136.13 0.05 ? 1 ? ? . B 5 DG  C8     B 5 DG  C8     . 2N9Q ? 
+stop_
+save_

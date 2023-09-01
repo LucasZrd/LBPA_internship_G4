@@ -1,0 +1,286 @@
+data_7o1h
+
+save_entry_information
+# 
+_Entry.ID                 7O1H 
+_Entry.Assigned_BMRB_ID   1 
+# 
+loop_
+_Audit.Revision_ID 
+_Audit.Creation_date 
+_Audit.Update_record 
+_Audit.Creation_method 
+_Audit.Entry_ID 
+1 2021-03-29 'Nomenclature checked and updated' . 7O1H 
+2 2021-03-29 'Preliminary version'              . 7O1H 
+3 2021-05-19 'Initial release'                  . 7O1H 
+stop_
+save_
+save_chemical_shift_reference_1
+# 
+_Chem_shift_reference.Sf_category    chem_shift_reference 
+_Chem_shift_reference.Sf_framecode   chemical_shift_reference_1 
+_Chem_shift_reference.Entry_ID       7O1H 
+_Chem_shift_reference.ID             1 
+# 
+loop_
+_Chem_shift_ref.Atom_type 
+_Chem_shift_ref.Atom_isotope_number 
+_Chem_shift_ref.Mol_common_name 
+_Chem_shift_ref.Atom_group 
+_Chem_shift_ref.Concentration_val 
+_Chem_shift_ref.Concentration_units 
+_Chem_shift_ref.Solvent 
+_Chem_shift_ref.Rank 
+_Chem_shift_ref.Chem_shift_units 
+_Chem_shift_ref.Chem_shift_val 
+_Chem_shift_ref.Ref_method 
+_Chem_shift_ref.Ref_type 
+_Chem_shift_ref.Indirect_shift_ratio 
+_Chem_shift_ref.Entry_ID 
+_Chem_shift_ref.Chem_shift_reference_ID 
+H 1  water protons             ? ? ? ? ppm 4.73 internal direct   1          7O1H 1 
+C 13 DSS   'methylene carbons' ? ? ? ? ppm 4.73 internal indirect 0.25144953 7O1H 1 
+stop_
+save_
+save_experiment_list
+# 
+_Assigned_chem_shift_list.Sf_category      assigned_chemical_shifts 
+_Assigned_chem_shift_list.Sf_framecode     experiment_list 
+_Assigned_chem_shift_list.Entry_ID         7O1H 
+_Assigned_chem_shift_list.ID               2 
+_Assigned_chem_shift_list.Data_file_name   D_1292114972_cs_P1.cif.V1 
+# 
+loop_
+_Atom_chem_shift.ID 
+_Atom_chem_shift.Entity_assembly_ID 
+_Atom_chem_shift.Entity_ID 
+_Atom_chem_shift.Comp_index_ID 
+_Atom_chem_shift.Seq_ID 
+_Atom_chem_shift.Comp_ID 
+_Atom_chem_shift.Atom_ID 
+_Atom_chem_shift.Atom_type 
+_Atom_chem_shift.Atom_isotope_number 
+_Atom_chem_shift.Val 
+_Atom_chem_shift.Val_err 
+_Atom_chem_shift.Assign_fig_of_merit 
+_Atom_chem_shift.Ambiguity_code 
+_Atom_chem_shift.Occupancy 
+_Atom_chem_shift.Resonance_ID 
+_Atom_chem_shift.Auth_entity_assembly_ID 
+_Atom_chem_shift.Auth_asym_ID 
+_Atom_chem_shift.Auth_seq_ID 
+_Atom_chem_shift.Auth_comp_ID 
+_Atom_chem_shift.Auth_atom_ID 
+_Atom_chem_shift.Original_PDB_strand_ID 
+_Atom_chem_shift.Original_PDB_residue_no 
+_Atom_chem_shift.Original_PDB_residue_name 
+_Atom_chem_shift.Original_PDB_atom_name 
+_Atom_chem_shift.Details 
+_Atom_chem_shift.Entry_ID 
+_Atom_chem_shift.Assigned_chem_shift_list_ID 
+1   1 1 30 30 DA "H2'"  H 1  3.235   ?     ? 1 ? 305 . A 30 DA "H2'"  A 30 DA "H2'"  . 7O1H 2 
+2   1 1 30 30 DA "H2''" H 1  3.235   ?     ? 1 ? 306 . A 30 DA "H2''" A 30 DA "H2''" . 7O1H 2 
+3   1 1 21 21 DA "H1'"  H 1  5.348   0.003 ? 1 ? 307 . A 21 DA "H1'"  A 21 DA "H1'"  . 7O1H 2 
+4   1 1 21 21 DA "H2''" H 1  2.366   ?     ? 1 ? 308 . A 21 DA "H2''" A 21 DA "H2''" . 7O1H 2 
+5   1 1 21 21 DA "H2'"  H 1  2.448   ?     ? 1 ? 309 . A 21 DA "H2'"  A 21 DA "H2'"  . 7O1H 2 
+6   1 1 18 18 DC H41    H 1  6.620   0.0   ? 1 ? 311 . A 18 DC H41    A 18 DC H41    . 7O1H 2 
+7   1 1 18 18 DC H42    H 1  8.366   0.001 ? 1 ? 312 . A 18 DC H42    A 18 DC H42    . 7O1H 2 
+8   1 1 16 16 DC H41    H 1  7.920   0.0   ? 1 ? 313 . A 16 DC H41    A 16 DC H41    . 7O1H 2 
+9   1 1 16 16 DC H42    H 1  6.275   0.002 ? 1 ? 314 . A 16 DC H42    A 16 DC H42    . 7O1H 2 
+10  1 1 23 23 DC H5     H 1  5.157   0.002 ? 1 ? 315 . A 23 DC H5     A 23 DC H5     . 7O1H 2 
+11  1 1 23 23 DC H41    H 1  6.184   0.0   ? 1 ? 316 . A 23 DC H41    A 23 DC H41    . 7O1H 2 
+12  1 1 23 23 DC H42    H 1  8.079   0.0   ? 1 ? 317 . A 23 DC H42    A 23 DC H42    . 7O1H 2 
+13  1 1 1  1  DT "H3'"  H 1  4.387   0.0   ? 1 ? 318 . A 1  DT "H3'"  ? ?  ?  ?      . 7O1H 2 
+14  1 1 2  2  DG "H3'"  H 1  4.666   0.003 ? 1 ? 319 . A 2  DG "H3'"  A 2  DG "H3'"  . 7O1H 2 
+15  1 1 4  4  DG "H3'"  H 1  4.899   0.003 ? 1 ? 320 . A 4  DG "H3'"  A 4  DG "H3'"  . 7O1H 2 
+16  1 1 3  3  DA "H3'"  H 1  4.732   0.003 ? 1 ? 321 . A 3  DA "H3'"  A 3  DA "H3'"  . 7O1H 2 
+17  1 1 5  5  DG "H3'"  H 1  4.798   0.003 ? 1 ? 322 . A 5  DG "H3'"  A 5  DG "H3'"  . 7O1H 2 
+18  1 1 6  6  DG "H3'"  H 1  4.653   ?     ? 1 ? 323 . A 6  DG "H3'"  A 6  DG "H3'"  . 7O1H 2 
+19  1 1 8  8  DG "H3'"  H 1  5.173   0.0   ? 1 ? 324 . A 8  DG "H3'"  A 8  DG "H3'"  . 7O1H 2 
+20  1 1 9  9  DG "H3'"  H 1  5.061   0.002 ? 1 ? 325 . A 9  DG "H3'"  A 9  DG "H3'"  . 7O1H 2 
+21  1 1 10 10 DG "H3'"  H 1  4.653   0.002 ? 1 ? 327 . A 10 DG "H3'"  A 10 DG "H3'"  . 7O1H 2 
+22  1 1 12 12 DG "H3'"  H 1  5.119   ?     ? 1 ? 328 . A 12 DG "H3'"  A 12 DG "H3'"  . 7O1H 2 
+23  1 1 13 13 DG "H3'"  H 1  5.067   0.001 ? 1 ? 329 . A 13 DG "H3'"  A 13 DG "H3'"  . 7O1H 2 
+24  1 1 14 14 DG "H3'"  H 1  5.065   0.001 ? 1 ? 330 . A 14 DG "H3'"  A 14 DG "H3'"  . 7O1H 2 
+25  1 1 15 15 DA "H3'"  H 1  5.106   0.001 ? 1 ? 331 . A 15 DA "H3'"  A 15 DA "H3'"  . 7O1H 2 
+26  1 1 16 16 DC "H3'"  H 1  4.839   ?     ? 1 ? 332 . A 16 DC "H3'"  A 16 DC "H3'"  . 7O1H 2 
+27  1 1 17 17 DG "H3'"  H 1  4.895   0.0   ? 1 ? 333 . A 17 DG "H3'"  A 17 DG "H3'"  . 7O1H 2 
+28  1 1 18 18 DC "H3'"  H 1  4.745   ?     ? 1 ? 334 . A 18 DC "H3'"  A 18 DC "H3'"  . 7O1H 2 
+29  1 1 19 19 DG "H3'"  H 1  4.827   0.0   ? 1 ? 335 . A 19 DG "H3'"  A 19 DG "H3'"  . 7O1H 2 
+30  1 1 20 20 DC "H3'"  H 1  4.374   ?     ? 1 ? 336 . A 20 DC "H3'"  A 20 DC "H3'"  . 7O1H 2 
+31  1 1 22 22 DG "H3'"  H 1  4.771   0.005 ? 1 ? 337 . A 22 DG "H3'"  A 22 DG "H3'"  . 7O1H 2 
+32  1 1 23 23 DC "H3'"  H 1  4.687   0.002 ? 1 ? 338 . A 23 DC "H3'"  A 23 DC "H3'"  . 7O1H 2 
+33  1 1 24 24 DG "H3'"  H 1  4.801   0.001 ? 1 ? 339 . A 24 DG "H3'"  A 24 DG "H3'"  . 7O1H 2 
+34  1 1 25 25 DT "H3'"  H 1  4.734   ?     ? 1 ? 340 . A 25 DT "H3'"  A 25 DT "H3'"  . 7O1H 2 
+35  1 1 27 27 DG "H3'"  H 1  4.878   ?     ? 1 ? 341 . A 27 DG "H3'"  A 27 DG "H3'"  . 7O1H 2 
+36  1 1 29 29 DT "H3'"  H 1  4.692   0.007 ? 1 ? 342 . A 29 DT "H3'"  A 29 DT "H3'"  . 7O1H 2 
+37  1 1 28 28 DG "H3'"  H 1  4.887   ?     ? 1 ? 343 . A 28 DG "H3'"  A 28 DG "H3'"  . 7O1H 2 
+38  1 1 30 30 DA "H3'"  H 1  4.649   0.001 ? 1 ? 344 . A 30 DA "H3'"  A 30 DA "H3'"  . 7O1H 2 
+39  1 1 31 31 DA "H3'"  H 1  4.601   ?     ? 1 ? 345 . A 31 DA "H3'"  ? ?  ?  ?      . 7O1H 2 
+40  1 1 3  3  DA C2     C 13 154.914 ?     ? 1 ? 245 . A 3  DA C2     A 3  DA C2     . 7O1H 2 
+41  1 1 15 15 DA C2     C 13 155.060 ?     ? 1 ? 246 . A 15 DA C2     A 15 DA C2     . 7O1H 2 
+42  1 1 15 15 DA C8     C 13 141.247 ?     ? 1 ? 247 . A 15 DA C8     A 15 DA C8     . 7O1H 2 
+43  1 1 25 25 DT H72    H 1  0.996   0.003 ? 1 ? 248 . A 25 DT H72    A 25 DT H72    . 7O1H 2 
+44  1 1 25 25 DT H71    H 1  0.996   0.003 ? 1 ? 248 . A 25 DT H71    A 25 DT H71    . 7O1H 2 
+45  1 1 25 25 DT H73    H 1  0.996   0.003 ? 1 ? 248 . A 25 DT H73    A 25 DT H73    . 7O1H 2 
+46  1 1 20 20 DC "H1'"  H 1  5.756   0.001 ? 1 ? 249 . A 20 DC "H1'"  A 20 DC "H1'"  . 7O1H 2 
+47  1 1 20 20 DC "H2''" H 1  2.083   0.002 ? 1 ? 250 . A 20 DC "H2''" A 20 DC "H2''" . 7O1H 2 
+48  1 1 20 20 DC "H2'"  H 1  1.575   ?     ? 1 ? 251 . A 20 DC "H2'"  A 20 DC "H2'"  . 7O1H 2 
+49  1 1 26 26 DG "H2''" H 1  2.498   0.003 ? 1 ? 252 . A 26 DG "H2''" ? ?  ?  ?      . 7O1H 2 
+50  1 1 26 26 DG "H2'"  H 1  3.207   0.001 ? 1 ? 253 . A 26 DG "H2'"  ? ?  ?  ?      . 7O1H 2 
+51  1 1 26 26 DG "H1'"  H 1  5.910   ?     ? 1 ? 254 . A 26 DG "H1'"  A 26 DG "H1'"  . 7O1H 2 
+52  1 1 22 22 DG H1     H 1  12.811  0.001 ? 1 ? 255 . A 22 DG H1     A 22 DG H1     . 7O1H 2 
+53  1 1 17 17 DG H1     H 1  12.755  0.002 ? 1 ? 256 . A 17 DG H1     A 17 DG H1     . 7O1H 2 
+54  1 1 29 29 DT H6     H 1  7.105   0.001 ? 1 ? 257 . A 29 DT H6     A 29 DT H6     . 7O1H 2 
+55  1 1 28 28 DG "H1'"  H 1  5.793   0.002 ? 1 ? 258 . A 28 DG "H1'"  A 28 DG "H1'"  . 7O1H 2 
+56  1 1 29 29 DT "H1'"  H 1  6.036   0.001 ? 1 ? 259 . A 29 DT "H1'"  A 29 DT "H1'"  . 7O1H 2 
+57  1 1 29 29 DT "H2''" H 1  2.005   0.001 ? 1 ? 261 . A 29 DT "H2''" A 29 DT "H2''" . 7O1H 2 
+58  1 1 30 30 DA H8     H 1  7.770   0.001 ? 1 ? 262 . A 30 DA H8     A 30 DA H8     . 7O1H 2 
+59  1 1 28 28 DG "H2''" H 1  2.335   0.0   ? 1 ? 263 . A 28 DG "H2''" ? ?  ?  ?      . 7O1H 2 
+60  1 1 28 28 DG "H2'"  H 1  2.782   0.001 ? 1 ? 264 . A 28 DG "H2'"  ? ?  ?  ?      . 7O1H 2 
+61  1 1 29 29 DT H72    H 1  1.854   0.003 ? 1 ? 265 . A 29 DT H72    A 29 DT H72    . 7O1H 2 
+62  1 1 29 29 DT H71    H 1  1.854   0.003 ? 1 ? 265 . A 29 DT H71    A 29 DT H71    . 7O1H 2 
+63  1 1 29 29 DT H73    H 1  1.854   0.003 ? 1 ? 265 . A 29 DT H73    A 29 DT H73    . 7O1H 2 
+64  1 1 29 29 DT C6     C 13 139.780 ?     ? 1 ? 266 . A 29 DT C6     A 29 DT C6     . 7O1H 2 
+65  1 1 30 30 DA C8     C 13 141.630 ?     ? 1 ? 267 . A 30 DA C8     A 30 DA C8     . 7O1H 2 
+66  1 1 1  1  DT H72    H 1  1.737   0.001 ? 1 ? 268 . A 1  DT H72    ? ?  ?  ?      . 7O1H 2 
+67  1 1 1  1  DT H71    H 1  1.737   0.001 ? 1 ? 268 . A 1  DT H71    ? ?  ?  ?      . 7O1H 2 
+68  1 1 1  1  DT H73    H 1  1.737   0.001 ? 1 ? 268 . A 1  DT H73    ? ?  ?  ?      . 7O1H 2 
+69  1 1 31 31 DA H8     H 1  8.001   0.001 ? 1 ? 269 . A 31 DA H8     ? ?  ?  ?      . 7O1H 2 
+70  1 1 31 31 DA C8     C 13 141.059 ?     ? 1 ? 270 . A 31 DA C8     ? ?  ?  ?      . 7O1H 2 
+71  1 1 30 30 DA C2     C 13 154.462 ?     ? 1 ? 271 . A 30 DA C2     A 30 DA C2     . 7O1H 2 
+72  1 1 31 31 DA "H1'"  H 1  6.204   0.001 ? 1 ? 272 . A 31 DA "H1'"  ? ?  ?  ?      . 7O1H 2 
+73  1 1 31 31 DA "H2'"  H 1  2.597   0.002 ? 2 ? 273 . A 31 DA "H2'"  ? ?  ?  ?      . 7O1H 2 
+74  1 1 31 31 DA "H2''" H 1  2.888   0.0   ? 2 ? 274 . A 31 DA "H2''" ? ?  ?  ?      . 7O1H 2 
+75  1 1 6  6  DG "H2''" H 1  2.671   0.001 ? 1 ? 295 . A 6  DG "H2''" A 6  DG "H2''" . 7O1H 2 
+76  1 1 13 13 DG "H1'"  H 1  5.925   0.002 ? 1 ? 296 . A 13 DG "H1'"  A 13 DG "H1'"  . 7O1H 2 
+77  1 1 13 13 DG "H2'"  H 1  2.722   ?     ? 2 ? 297 . A 13 DG "H2'"  A 13 DG "H2'"  . 7O1H 2 
+78  1 1 16 16 DC H5     H 1  5.213   0.003 ? 1 ? 298 . A 16 DC H5     A 16 DC H5     . 7O1H 2 
+79  1 1 22 22 DG "H2''" H 1  2.791   0.001 ? 1 ? 299 . A 22 DG "H2''" A 22 DG "H2''" . 7O1H 2 
+80  1 1 22 22 DG "H2'"  H 1  2.719   0.002 ? 1 ? 300 . A 22 DG "H2'"  A 22 DG "H2'"  . 7O1H 2 
+81  1 1 30 30 DA "H1'"  H 1  5.660   0.001 ? 1 ? 301 . A 30 DA "H1'"  A 30 DA "H1'"  . 7O1H 2 
+82  1 1 6  6  DG "H2'"  H 1  2.670   ?     ? 1 ? 302 . A 6  DG "H2'"  A 6  DG "H2'"  . 7O1H 2 
+83  1 1 13 13 DG "H2''" H 1  2.664   ?     ? 2 ? 303 . A 13 DG "H2''" A 13 DG "H2''" . 7O1H 2 
+84  1 1 14 14 DG "H2'"  H 1  2.697   ?     ? 1 ? 304 . A 14 DG "H2'"  A 14 DG "H2'"  . 7O1H 2 
+85  1 1 27 27 DG "H1'"  H 1  5.767   0.003 ? 1 ? 185 . A 27 DG "H1'"  A 27 DG "H1'"  . 7O1H 2 
+86  1 1 27 27 DG "H2''" H 1  3.037   0.001 ? 1 ? 186 . A 27 DG "H2''" A 27 DG "H2''" . 7O1H 2 
+87  1 1 27 27 DG "H2'"  H 1  3.214   0.003 ? 1 ? 187 . A 27 DG "H2'"  A 27 DG "H2'"  . 7O1H 2 
+88  1 1 12 12 DG "H1'"  H 1  5.593   0.002 ? 1 ? 188 . A 12 DG "H1'"  A 12 DG "H1'"  . 7O1H 2 
+89  1 1 12 12 DG "H2'"  H 1  2.109   0.002 ? 1 ? 189 . A 12 DG "H2'"  A 12 DG "H2'"  . 7O1H 2 
+90  1 1 12 12 DG "H2''" H 1  2.710   0.001 ? 1 ? 190 . A 12 DG "H2''" A 12 DG "H2''" . 7O1H 2 
+91  1 1 16 16 DC "H2''" H 1  2.305   0.001 ? 1 ? 191 . A 16 DC "H2''" A 16 DC "H2''" . 7O1H 2 
+92  1 1 16 16 DC "H2'"  H 1  2.000   0.002 ? 1 ? 192 . A 16 DC "H2'"  A 16 DC "H2'"  . 7O1H 2 
+93  1 1 23 23 DC "H2'"  H 1  1.851   0.0   ? 1 ? 193 . A 23 DC "H2'"  A 23 DC "H2'"  . 7O1H 2 
+94  1 1 23 23 DC "H2''" H 1  2.234   0.005 ? 1 ? 194 . A 23 DC "H2''" A 23 DC "H2''" . 7O1H 2 
+95  1 1 25 25 DT "H2''" H 1  2.743   0.003 ? 1 ? 195 . A 25 DT "H2''" A 25 DT "H2''" . 7O1H 2 
+96  1 1 25 25 DT "H2'"  H 1  1.904   0.002 ? 1 ? 196 . A 25 DT "H2'"  A 25 DT "H2'"  . 7O1H 2 
+97  1 1 24 24 DG "H2''" H 1  2.518   0.001 ? 1 ? 197 . A 24 DG "H2''" A 24 DG "H2''" . 7O1H 2 
+98  1 1 24 24 DG "H2'"  H 1  2.252   0.002 ? 1 ? 198 . A 24 DG "H2'"  A 24 DG "H2'"  . 7O1H 2 
+99  1 1 20 20 DC H6     H 1  7.242   0.002 ? 1 ? 199 . A 20 DC H6     A 20 DC H6     . 7O1H 2 
+100 1 1 18 18 DC "H2'"  H 1  1.658   0.003 ? 1 ? 200 . A 18 DC "H2'"  A 18 DC "H2'"  . 7O1H 2 
+101 1 1 18 18 DC "H2''" H 1  2.281   0.004 ? 1 ? 201 . A 18 DC "H2''" A 18 DC "H2''" . 7O1H 2 
+102 1 1 19 19 DG "H2''" H 1  2.429   0.001 ? 1 ? 202 . A 19 DG "H2''" A 19 DG "H2''" . 7O1H 2 
+103 1 1 19 19 DG "H2'"  H 1  2.634   ?     ? 1 ? 203 . A 19 DG "H2'"  A 19 DG "H2'"  . 7O1H 2 
+104 1 1 19 19 DG "H1'"  H 1  5.685   0.002 ? 1 ? 204 . A 19 DG "H1'"  A 19 DG "H1'"  . 7O1H 2 
+105 1 1 27 27 DG C8     C 13 140.253 ?     ? 1 ? 205 . A 27 DG C8     A 27 DG C8     . 7O1H 2 
+106 1 1 25 25 DT C6     C 13 137.923 ?     ? 1 ? 206 . A 25 DT C6     A 25 DT C6     . 7O1H 2 
+107 1 1 16 16 DC C6     C 13 142.512 ?     ? 1 ? 207 . A 16 DC C6     A 16 DC C6     . 7O1H 2 
+108 1 1 23 23 DC C6     C 13 142.751 ?     ? 1 ? 208 . A 23 DC C6     A 23 DC C6     . 7O1H 2 
+109 1 1 18 18 DC C6     C 13 141.646 ?     ? 1 ? 209 . A 18 DC C6     A 18 DC C6     . 7O1H 2 
+110 1 1 29 29 DT "H2'"  H 1  1.409   0.001 ? 1 ? 260 . A 29 DT "H2'"  A 29 DT "H2'"  . 7O1H 2 
+111 1 1 19 19 DG C8     C 13 139.140 ?     ? 1 ? 210 . A 19 DG C8     A 19 DG C8     . 7O1H 2 
+112 1 1 9  9  DG C8     C 13 138.028 ?     ? 1 ? 211 . A 9  DG C8     A 9  DG C8     . 7O1H 2 
+113 1 1 12 12 DG C8     C 13 137.341 ?     ? 1 ? 212 . A 12 DG C8     A 12 DG C8     . 7O1H 2 
+114 1 1 5  5  DG C8     C 13 137.200 ?     ? 1 ? 213 . A 5  DG C8     A 5  DG C8     . 7O1H 2 
+115 1 1 6  6  DG C8     C 13 138.918 ?     ? 1 ? 214 . A 6  DG C8     A 6  DG C8     . 7O1H 2 
+116 1 1 10 10 DG C8     C 13 138.109 ?     ? 1 ? 215 . A 10 DG C8     A 10 DG C8     . 7O1H 2 
+117 1 1 24 24 DG C8     C 13 138.453 ?     ? 1 ? 216 . A 24 DG C8     A 24 DG C8     . 7O1H 2 
+118 1 1 17 17 DG C8     C 13 138.178 ?     ? 1 ? 217 . A 17 DG C8     A 17 DG C8     . 7O1H 2 
+119 1 1 8  8  DG C8     C 13 137.497 ?     ? 1 ? 218 . A 8  DG C8     A 8  DG C8     . 7O1H 2 
+120 1 1 4  4  DG C8     C 13 137.684 ?     ? 1 ? 219 . A 4  DG C8     A 4  DG C8     . 7O1H 2 
+121 1 1 20 20 DC C6     C 13 143.517 ?     ? 1 ? 220 . A 20 DC C6     A 20 DC C6     . 7O1H 2 
+122 1 1 14 14 DG H8     H 1  7.875   0.002 ? 1 ? 221 . A 14 DG H8     A 14 DG H8     . 7O1H 2 
+123 1 1 17 17 DG "H1'"  H 1  5.815   0.002 ? 1 ? 222 . A 17 DG "H1'"  A 17 DG "H1'"  . 7O1H 2 
+124 1 1 17 17 DG "H2'"  H 1  2.386   0.002 ? 1 ? 223 . A 17 DG "H2'"  A 17 DG "H2'"  . 7O1H 2 
+125 1 1 17 17 DG "H2''" H 1  2.581   0.002 ? 1 ? 224 . A 17 DG "H2''" A 17 DG "H2''" . 7O1H 2 
+126 1 1 15 15 DA "H2'"  H 1  2.652   0.003 ? 1 ? 225 . A 15 DA "H2'"  A 15 DA "H2'"  . 7O1H 2 
+127 1 1 15 15 DA "H2''" H 1  2.875   0.002 ? 1 ? 226 . A 15 DA "H2''" A 15 DA "H2''" . 7O1H 2 
+128 1 1 14 14 DG "H1'"  H 1  5.844   0.002 ? 1 ? 227 . A 14 DG "H1'"  A 14 DG "H1'"  . 7O1H 2 
+129 1 1 14 14 DG "H2''" H 1  2.699   0.002 ? 1 ? 228 . A 14 DG "H2''" A 14 DG "H2''" . 7O1H 2 
+130 1 1 30 30 DA H2     H 1  7.276   0.001 ? 1 ? 229 . A 30 DA H2     A 30 DA H2     . 7O1H 2 
+131 1 1 3  3  DA H2     H 1  7.742   0.001 ? 1 ? 230 . A 3  DA H2     A 3  DA H2     . 7O1H 2 
+132 1 1 1  1  DT H6     H 1  7.313   0.001 ? 1 ? 231 . A 1  DT H6     ? ?  ?  ?      . 7O1H 2 
+133 1 1 1  1  DT "H1'"  H 1  5.955   0.002 ? 1 ? 232 . A 1  DT "H1'"  ? ?  ?  ?      . 7O1H 2 
+134 1 1 1  1  DT "H2''" H 1  1.987   0.001 ? 1 ? 233 . A 1  DT "H2''" ? ?  ?  ?      . 7O1H 2 
+135 1 1 1  1  DT "H2'"  H 1  1.601   0.003 ? 1 ? 234 . A 1  DT "H2'"  ? ?  ?  ?      . 7O1H 2 
+136 1 1 2  2  DG H8     H 1  7.439   0.001 ? 1 ? 235 . A 2  DG H8     A 2  DG H8     . 7O1H 2 
+137 1 1 2  2  DG "H1'"  H 1  5.528   0.003 ? 1 ? 236 . A 2  DG "H1'"  A 2  DG "H1'"  . 7O1H 2 
+138 1 1 2  2  DG "H2'"  H 1  2.237   0.0   ? 2 ? 237 . A 2  DG "H2'"  A 2  DG "H2'"  . 7O1H 2 
+139 1 1 2  2  DG "H2''" H 1  2.299   0.0   ? 2 ? 238 . A 2  DG "H2''" A 2  DG "H2''" . 7O1H 2 
+140 1 1 3  3  DA "H1'"  H 1  5.873   0.002 ? 1 ? 239 . A 3  DA "H1'"  A 3  DA "H1'"  . 7O1H 2 
+141 1 1 3  3  DA "H2''" H 1  2.809   0.001 ? 1 ? 240 . A 3  DA "H2''" A 3  DA "H2''" . 7O1H 2 
+142 1 1 3  3  DA "H2'"  H 1  2.364   0.001 ? 1 ? 241 . A 3  DA "H2'"  A 3  DA "H2'"  . 7O1H 2 
+143 1 1 3  3  DA C8     C 13 141.466 ?     ? 1 ? 242 . A 3  DA C8     A 3  DA C8     . 7O1H 2 
+144 1 1 2  2  DG C8     C 13 139.073 ?     ? 1 ? 243 . A 2  DG C8     A 2  DG C8     . 7O1H 2 
+145 1 1 1  1  DT C6     C 13 139.340 ?     ? 1 ? 244 . A 1  DT C6     ? ?  ?  ?      . 7O1H 2 
+146 1 1 16 16 DC H6     H 1  7.230   0.002 ? 1 ? 132 . A 16 DC H6     A 16 DC H6     . 7O1H 2 
+147 1 1 16 16 DC "H1'"  H 1  5.549   0.003 ? 1 ? 133 . A 16 DC "H1'"  A 16 DC "H1'"  . 7O1H 2 
+148 1 1 17 17 DG H8     H 1  7.724   0.002 ? 1 ? 134 . A 17 DG H8     A 17 DG H8     . 7O1H 2 
+149 1 1 18 18 DC H6     H 1  6.921   0.001 ? 1 ? 135 . A 18 DC H6     A 18 DC H6     . 7O1H 2 
+150 1 1 19 19 DG H8     H 1  8.076   0.001 ? 1 ? 136 . A 19 DG H8     A 19 DG H8     . 7O1H 2 
+151 1 1 23 23 DC H6     H 1  7.193   0.002 ? 1 ? 137 . A 23 DC H6     A 23 DC H6     . 7O1H 2 
+152 1 1 22 22 DG H8     H 1  7.876   0.002 ? 1 ? 138 . A 22 DG H8     A 22 DG H8     . 7O1H 2 
+153 1 1 25 25 DT "H1'"  H 1  5.765   0.001 ? 1 ? 139 . A 25 DT "H1'"  A 25 DT "H1'"  . 7O1H 2 
+154 1 1 24 24 DG "H1'"  H 1  5.840   0.002 ? 1 ? 140 . A 24 DG "H1'"  A 24 DG "H1'"  . 7O1H 2 
+155 1 1 23 23 DC "H1'"  H 1  5.570   0.003 ? 1 ? 141 . A 23 DC "H1'"  A 23 DC "H1'"  . 7O1H 2 
+156 1 1 22 22 DG "H1'"  H 1  6.184   0.002 ? 1 ? 142 . A 22 DG "H1'"  A 22 DG "H1'"  . 7O1H 2 
+157 1 1 4  4  DG H8     H 1  7.883   0.001 ? 1 ? 143 . A 4  DG H8     A 4  DG H8     . 7O1H 2 
+158 1 1 25 25 DT H3     H 1  13.447  0.002 ? 1 ? 146 . A 25 DT H3     A 25 DT H3     . 7O1H 2 
+159 1 1 15 15 DA H2     H 1  7.764   0.002 ? 1 ? 147 . A 15 DA H2     A 15 DA H2     . 7O1H 2 
+160 1 1 24 24 DG H1     H 1  12.758  0.002 ? 1 ? 148 . A 24 DG H1     A 24 DG H1     . 7O1H 2 
+161 1 1 18 18 DC "H1'"  H 1  5.835   0.004 ? 1 ? 149 . A 18 DC "H1'"  A 18 DC "H1'"  . 7O1H 2 
+162 1 1 18 18 DC H5     H 1  5.029   0.003 ? 1 ? 150 . A 18 DC H5     A 18 DC H5     . 7O1H 2 
+163 1 1 5  5  DG H1     H 1  11.257  0.002 ? 1 ? 151 . A 5  DG H1     A 5  DG H1     . 7O1H 2 
+164 1 1 4  4  DG H1     H 1  11.012  0.001 ? 1 ? 152 . A 4  DG H1     A 4  DG H1     . 7O1H 2 
+165 1 1 6  6  DG H1     H 1  11.102  0.002 ? 1 ? 153 . A 6  DG H1     A 6  DG H1     . 7O1H 2 
+166 1 1 5  5  DG H8     H 1  7.588   0.001 ? 1 ? 154 . A 5  DG H8     A 5  DG H8     . 7O1H 2 
+167 1 1 3  3  DA H8     H 1  8.044   0.001 ? 1 ? 155 . A 3  DA H8     A 3  DA H8     . 7O1H 2 
+168 1 1 6  6  DG H8     H 1  7.774   0.002 ? 1 ? 156 . A 6  DG H8     A 6  DG H8     . 7O1H 2 
+169 1 1 6  6  DG "H1'"  H 1  6.418   0.0   ? 1 ? 157 . A 6  DG "H1'"  A 6  DG "H1'"  . 7O1H 2 
+170 1 1 5  5  DG "H1'"  H 1  6.177   0.002 ? 1 ? 158 . A 5  DG "H1'"  A 5  DG "H1'"  . 7O1H 2 
+171 1 1 4  4  DG "H1'"  H 1  5.990   0.004 ? 1 ? 159 . A 4  DG "H1'"  A 4  DG "H1'"  . 7O1H 2 
+172 1 1 13 13 DG H1     H 1  11.607  0.002 ? 1 ? 160 . A 13 DG H1     A 13 DG H1     . 7O1H 2 
+173 1 1 14 14 DG H1     H 1  10.675  0.002 ? 1 ? 161 . A 14 DG H1     A 14 DG H1     . 7O1H 2 
+174 1 1 12 12 DG H1     H 1  11.050  0.004 ? 1 ? 162 . A 12 DG H1     A 12 DG H1     . 7O1H 2 
+175 1 1 27 27 DG H8     H 1  7.053   0.001 ? 1 ? 163 . A 27 DG H8     A 27 DG H8     . 7O1H 2 
+176 1 1 10 10 DG H8     H 1  7.767   0.002 ? 1 ? 164 . A 10 DG H8     A 10 DG H8     . 7O1H 2 
+177 1 1 9  9  DG H8     H 1  7.813   0.001 ? 1 ? 165 . A 9  DG H8     A 9  DG H8     . 7O1H 2 
+178 1 1 8  8  DG H8     H 1  8.101   0.001 ? 1 ? 166 . A 8  DG H8     A 8  DG H8     . 7O1H 2 
+179 1 1 8  8  DG H1     H 1  11.525  0.001 ? 1 ? 167 . A 8  DG H1     A 8  DG H1     . 7O1H 2 
+180 1 1 9  9  DG H1     H 1  11.146  0.002 ? 1 ? 168 . A 9  DG H1     A 9  DG H1     . 7O1H 2 
+181 1 1 10 10 DG H1     H 1  11.085  0.001 ? 1 ? 169 . A 10 DG H1     A 10 DG H1     . 7O1H 2 
+182 1 1 12 12 DG H8     H 1  7.742   0.001 ? 1 ? 170 . A 12 DG H8     A 12 DG H8     . 7O1H 2 
+183 1 1 13 13 DG H8     H 1  7.888   0.002 ? 1 ? 171 . A 13 DG H8     A 13 DG H8     . 7O1H 2 
+184 1 1 10 10 DG "H1'"  H 1  5.660   0.001 ? 1 ? 172 . A 10 DG "H1'"  A 10 DG "H1'"  . 7O1H 2 
+185 1 1 9  9  DG "H1'"  H 1  6.083   0.002 ? 1 ? 173 . A 9  DG "H1'"  A 9  DG "H1'"  . 7O1H 2 
+186 1 1 8  8  DG "H1'"  H 1  6.229   0.002 ? 1 ? 174 . A 8  DG "H1'"  A 8  DG "H1'"  . 7O1H 2 
+187 1 1 8  8  DG "H2''" H 1  3.051   ?     ? 1 ? 175 . A 8  DG "H2''" A 8  DG "H2''" . 7O1H 2 
+188 1 1 8  8  DG "H2'"  H 1  2.528   0.003 ? 1 ? 176 . A 8  DG "H2'"  A 8  DG "H2'"  . 7O1H 2 
+189 1 1 9  9  DG "H2''" H 1  2.837   0.002 ? 1 ? 177 . A 9  DG "H2''" A 9  DG "H2''" . 7O1H 2 
+190 1 1 9  9  DG "H2'"  H 1  2.609   0.002 ? 1 ? 178 . A 9  DG "H2'"  A 9  DG "H2'"  . 7O1H 2 
+191 1 1 10 10 DG "H2''" H 1  2.325   ?     ? 1 ? 179 . A 10 DG "H2''" A 10 DG "H2''" . 7O1H 2 
+192 1 1 10 10 DG "H2'"  H 1  2.366   0.001 ? 1 ? 180 . A 10 DG "H2'"  A 10 DG "H2'"  . 7O1H 2 
+193 1 1 4  4  DG "H2'"  H 1  2.665   0.002 ? 1 ? 181 . A 4  DG "H2'"  A 4  DG "H2'"  . 7O1H 2 
+194 1 1 4  4  DG "H2''" H 1  2.997   ?     ? 1 ? 182 . A 4  DG "H2''" A 4  DG "H2''" . 7O1H 2 
+195 1 1 5  5  DG "H2''" H 1  2.905   0.002 ? 1 ? 183 . A 5  DG "H2''" A 5  DG "H2''" . 7O1H 2 
+196 1 1 5  5  DG "H2'"  H 1  2.542   ?     ? 1 ? 184 . A 5  DG "H2'"  A 5  DG "H2'"  . 7O1H 2 
+197 1 1 26 26 DG H1     H 1  11.207  0.002 ? 1 ? 125 . A 26 DG H1     A 26 DG H1     . 7O1H 2 
+198 1 1 27 27 DG H1     H 1  10.998  0.002 ? 1 ? 126 . A 27 DG H1     A 27 DG H1     . 7O1H 2 
+199 1 1 28 28 DG H1     H 1  11.418  0.003 ? 1 ? 127 . A 28 DG H1     A 28 DG H1     . 7O1H 2 
+200 1 1 24 24 DG H8     H 1  7.629   0.001 ? 1 ? 128 . A 24 DG H8     A 24 DG H8     . 7O1H 2 
+201 1 1 25 25 DT H6     H 1  6.851   0.002 ? 1 ? 129 . A 25 DT H6     A 25 DT H6     . 7O1H 2 
+202 1 1 15 15 DA H8     H 1  8.313   0.001 ? 1 ? 130 . A 15 DA H8     A 15 DA H8     . 7O1H 2 
+203 1 1 15 15 DA "H1'"  H 1  6.334   0.002 ? 1 ? 131 . A 15 DA "H1'"  A 15 DA "H1'"  . 7O1H 2 
+stop_
+save_
